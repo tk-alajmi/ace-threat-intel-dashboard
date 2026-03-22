@@ -398,14 +398,11 @@ function openModal(threat) {
                     <div class="modal-grid-value">${escapeHtml(Array.isArray(threat.business_impact) ? threat.business_impact.join(', ') : threat.business_impact)}</div>
                 </div>
             ` : ''}
-            ${threat.framework_mapping ? `
-                <div class="modal-grid-item">
-                    <div class="modal-grid-label">Framework Mapping</div>
-                    <div class="modal-grid-value">${escapeHtml(threat.framework_mapping)}</div>
-                </div>
-            ` : ''}
-        </div>
-        
+                            <div class="modal-grid-item">
+                <div class="modal-grid-label">Framework Mapping</div>
+                <div class="modal-grid-value">${threat.framework_mapping ? escapeHtml(threat.framework_mapping) : 'N/A'}</div>
+            </div>
+
         ${threat.iocs && Object.values(threat.iocs).some(arr => arr && arr.length > 0) ? `
             <div class="modal-section">
                 <h3 class="modal-section-title">🚨 Indicators of Compromise (IoCs)</h3>
