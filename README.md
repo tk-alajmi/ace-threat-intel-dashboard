@@ -58,7 +58,7 @@ The dashboard is automatically updated every 6 hours with the latest threat inte
 ## 📸 Screenshots
 
 ### Dashboard Overview
-<img width="834" height="1254" alt="image" src="https://github.com/user-attachments/assets/73e722c9-918d-447e-a042-dfc2b8e1561f" />
+<img width="2486" height="1313" alt="image" src="https://github.com/user-attachments/assets/44f3ad96-bc85-43a2-81a9-fb714da9be57" />
 
 *Main dashboard showing KPIs, threat feed, and filtering options*
 
