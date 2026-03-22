@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACE Threat Intelligence Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Header -->
+        <header class="dashboard-header">
+            <div class="header-left">
+                <div class="logo">
+                    <span class="logo-icon">🛡️</span>
+                    <h1>ACE Threat Intelligence</h1>
+                </div>
+                <span class="subtitle">AI-Powered Cyber Threat Analysis</span>
+            </div>
+            <div class="header-right">
+                <div class="last-updated">
+                    <span class="update-label">Last Updated:</span>
+                    <span id="lastUpdated" class="update-time">Loading...</span>
+                </div>
+                <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span>Live</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- KPI Section -->
+        <section class="kpi-section">
+            <div class="kpi-card">
+                <div class="kpi-icon threats">⚠️</div>
+                <div class="kpi-content">
+                    <span class="kpi-value" id="totalThreats">0</span>
+                    <span class="kpi-label">Total Threats Today</span>
+                </div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-icon high">🔴</div>
+                <div class="kpi-content">
+                    <span class="kpi-value" id="highSeverity">0</span>
+                    <span class="kpi-label">High Severity</span>
+                </div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-icon medium">🟠</div>
+                <div class="kpi-content">
+                    <span class="kpi-value" id="mediumSeverity">0</span>
+                    <span class="kpi-label">Medium Severity</span>
+                </div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-icon common">📊</div>
+                <div class="kpi-content">
+                    <span class="kpi-value" id="commonThreat">-</span>
+                    <span class="kpi-label">Most Common Type</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <!-- Filters -->
+                <div class="filter-section">
+                    <h3>🔍 Filters</h3>
+                    
+                    <div class="filter-group">
+                        <label>Search</label>
+                        <input type="text" id="searchInput" placeholder="Search threats..." class="search-input">
+                    </div>
+
+                    <div class="filter-group">
+                        <label>Severity</label>
+                        <select id="severityFilter" class="filter-select">
+                            <option value="all">All Severities</option>
+                            <option value="high">High</option>
+                            <option value="medium">Medium</option>
+                            <option value="low">Low</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label>Threat Type</label>
+                        <select id="typeFilter" class="filter-select">
+                            <option value="all">All Types</option>
+                            <option value="ransomware">Ransomware</option>
+                            <option value="phishing">Phishing</option>
+                            <option value="data-breach">Data Breach</option>
+                            <option value="zero-day">Zero-day</option>
+                            <option value="apt">APT</option>
+                            <option value="malware">Malware</option>
+                            <option value="vulnerability">Vulnerability</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label>Date Range</label>
+                        <select id="dateFilter" class="filter-select">
+                            <option value="all">All Time</option>
+                            <option value="today">Today</option>
+                            <option value="week">This Week</option>
+                            <option value="month">This Month</option>
+                        </select>
+                    </div>
+
+                    <button id="clearFilters" class="clear-filters-btn">Clear Filters</button>
+                </div>
+
+                <!-- Top Threats Panel -->
+                <div class="top-threats-panel">
+                    <h3>🔥 Top Threats Today</h3>
+                    <div id="topThreats" class="top-threats-list">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Threat Distribution -->
+                <div class="threat-distribution">
+                    <h3>📈 Threat Distribution</h3>
+                    <div id="threatDistribution" class="distribution-chart">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Threat Feed -->
+            <section class="threat-feed">
+                <div class="feed-header">
+                    <h2>📋 Threat Intelligence Feed</h2>
+                    <span id="resultCount" class="result-count">0 threats</span>
+                </div>
+                <div id="threatCards" class="threat-cards">
+                    <!-- Threat cards populated by JavaScript -->
+                    <div class="loading-state">
+                        <div class="spinner"></div>
+                        <p>Loading threat intelligence...</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="dashboard-footer">
+            <p>ACE Threat Intelligence Dashboard | Powered by AI | Data refreshed automatically via GitHub Actions</p>
+            <p class="disclaimer">⚠️ This dashboard aggregates publicly available threat intelligence for educational purposes.</p>
+        </footer>
+    </div>
+
+    <!-- Threat Detail Modal -->
+    <div id="threatModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modalBody">
+                <!-- Modal content populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

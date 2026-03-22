@@ -1,0 +1,337 @@
+{
+  "last_updated": "2026-03-22T23:00:00Z",
+  "source": "ACE Threat Intelligence Dashboard",
+  "version": "1.0.0",
+  "threats": [
+    {
+      "id": "threat-001",
+      "title": "Critical Zero-Day Vulnerability in Enterprise VPN Solutions",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/",
+      "published_date": "2026-03-22T18:30:00Z",
+      "severity": "High",
+      "threat_type": "Zero-day",
+      "tags": ["Zero-day", "VPN", "CVE-2026-1234", "Remote Code Execution"],
+      "ai_summary": {
+        "what_happened": "Security researchers discovered a critical zero-day vulnerability (CVE-2026-1234) affecting multiple enterprise VPN solutions. The flaw allows unauthenticated remote code execution and is being actively exploited in the wild.",
+        "why_it_matters": "VPN solutions are critical infrastructure for remote work. This vulnerability could allow attackers to gain initial access to corporate networks, potentially leading to data breaches, ransomware deployment, or espionage.",
+        "recommended_action": "Immediately apply vendor patches if available. If no patch exists, consider implementing network segmentation, enhanced monitoring of VPN logs, and temporary alternative access methods.",
+        "executive_summary": "A critical vulnerability in enterprise VPN products is being actively exploited. Organizations should prioritize patching and implement compensating controls immediately.",
+        "technical_analysis": "The vulnerability exists in the SSL/TLS handshake process, allowing attackers to send specially crafted packets that trigger a buffer overflow. Successful exploitation grants SYSTEM-level access on Windows or root on Linux appliances."
+      },
+      "iocs": {
+        "ips": ["185.220.101.45", "91.219.236.166", "45.155.205.233"],
+        "domains": ["malicious-vpn-update.com", "vpn-patch-server.net"],
+        "hashes": ["a1b2c3d4e5f6789012345678901234567890abcd", "b2c3d4e5f67890123456789012345678901abcde"]
+      },
+      "threat_actor": "APT-Unknown (Under Investigation)",
+      "mitre_attack": ["T1190 - Exploit Public-Facing Application", "T1059 - Command and Scripting Interpreter"],
+      "business_impact": ["Operational", "Financial", "Reputational"],
+      "risk_rating": "Critical",
+      "confidence": "High",
+      "framework_mapping": "NIST CSF: PR.IP-12, DE.CM-8",
+      "detection_suggestions": [
+        "Monitor for unusual outbound connections from VPN appliances",
+        "Check for unexpected process spawning on VPN servers",
+        "Review authentication logs for anomalies"
+      ]
+    },
+    {
+      "id": "threat-002",
+      "title": "LockBit 4.0 Ransomware Campaign Targeting Healthcare Sector",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/",
+      "published_date": "2026-03-22T15:45:00Z",
+      "severity": "High",
+      "threat_type": "Ransomware",
+      "tags": ["Ransomware", "LockBit", "Healthcare", "Data Exfiltration"],
+      "ai_summary": {
+        "what_happened": "The LockBit ransomware group has launched version 4.0 of their ransomware-as-a-service platform, with a focused campaign against healthcare organizations. Multiple hospitals have reported encryption of critical systems.",
+        "why_it_matters": "Healthcare organizations hold sensitive patient data and cannot afford downtime. Ransomware attacks on hospitals can directly impact patient care and safety, making them high-value targets for extortion.",
+        "recommended_action": "Ensure offline backups are current and tested. Implement network segmentation for medical devices. Deploy EDR solutions and conduct phishing awareness training for staff.",
+        "executive_summary": "LockBit ransomware group is actively targeting healthcare with an upgraded platform. Immediate defensive measures and backup verification are essential.",
+        "technical_analysis": "LockBit 4.0 features improved encryption speed, enhanced evasion techniques, and automated data exfiltration before encryption. Initial access is typically via phishing or exploiting exposed RDP services."
+      },
+      "iocs": {
+        "ips": ["194.26.192.77", "185.112.83.116"],
+        "domains": ["lockbit4-payment.onion", "lb4-data-leak.onion"],
+        "hashes": ["d4e5f6a7b8c9012345678901234567890abcdef1", "e5f6a7b8c90123456789012345678901abcdef12"]
+      },
+      "threat_actor": "LockBit Ransomware Group",
+      "mitre_attack": ["T1486 - Data Encrypted for Impact", "T1567 - Exfiltration Over Web Service", "T1078 - Valid Accounts"],
+      "business_impact": ["Operational", "Financial", "Reputational", "Regulatory"],
+      "risk_rating": "Critical",
+      "confidence": "High",
+      "framework_mapping": "NIST CSF: PR.DS-1, DE.AE-2; ISO 27001: A.12.3",
+      "detection_suggestions": [
+        "Monitor for mass file encryption activities",
+        "Detect unusual SMB traffic patterns",
+        "Alert on shadow copy deletion commands"
+      ]
+    },
+    {
+      "id": "threat-003",
+      "title": "Sophisticated Phishing Campaign Impersonating Major Cloud Providers",
+      "source": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/",
+      "published_date": "2026-03-22T12:00:00Z",
+      "severity": "Medium",
+      "threat_type": "Phishing",
+      "tags": ["Phishing", "Cloud", "Credential Theft", "Social Engineering"],
+      "ai_summary": {
+        "what_happened": "A sophisticated phishing campaign is targeting enterprise users with convincing emails impersonating AWS, Azure, and Google Cloud. The emails claim urgent security updates are needed and direct users to credential harvesting sites.",
+        "why_it_matters": "Cloud credentials provide access to critical infrastructure and data. Compromised cloud accounts can lead to data breaches, cryptomining, and lateral movement within organizations.",
+        "recommended_action": "Enable MFA on all cloud accounts. Train users to verify URLs before entering credentials. Implement email filtering rules to detect impersonation attempts.",
+        "executive_summary": "Phishing emails impersonating major cloud providers are targeting enterprise credentials. User awareness and MFA are critical defenses.",
+        "technical_analysis": "The phishing kit uses advanced techniques including real-time credential validation, MFA bypass attempts via adversary-in-the-middle proxies, and geofencing to avoid security researchers."
+      },
+      "iocs": {
+        "ips": ["104.21.45.123", "172.67.182.88"],
+        "domains": ["aws-security-update.com", "azure-verify-account.net", "gcloud-auth-required.com"],
+        "hashes": []
+      },
+      "threat_actor": "Unknown - Financially Motivated",
+      "mitre_attack": ["T1566 - Phishing", "T1078 - Valid Accounts", "T1539 - Steal Web Session Cookie"],
+      "business_impact": ["Financial", "Operational"],
+      "risk_rating": "High",
+      "confidence": "High",
+      "framework_mapping": "NIST CSF: PR.AT-1, DE.CM-1",
+      "detection_suggestions": [
+        "Monitor for logins from unusual locations",
+        "Implement DMARC/DKIM/SPF for email authentication",
+        "Use browser isolation for email links"
+      ]
+    },
+    {
+      "id": "threat-004",
+      "title": "Major Data Breach at Financial Services Firm Exposes 2M Records",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/",
+      "published_date": "2026-03-21T20:15:00Z",
+      "severity": "High",
+      "threat_type": "Data Breach",
+      "tags": ["Data Breach", "Financial", "PII", "Regulatory"],
+      "ai_summary": {
+        "what_happened": "A major financial services firm disclosed a data breach affecting approximately 2 million customers. Exposed data includes names, SSNs, account numbers, and transaction history. The breach was caused by a misconfigured cloud storage bucket.",
+        "why_it_matters": "Financial data breaches have severe regulatory implications (GLBA, PCI-DSS) and can lead to identity theft, fraud, and significant reputational damage. Affected customers face long-term risks.",
+        "recommended_action": "Organizations should audit cloud storage configurations immediately. Implement data loss prevention tools and conduct regular security assessments of cloud infrastructure.",
+        "executive_summary": "A cloud misconfiguration led to exposure of 2 million financial records. This highlights the critical need for cloud security posture management.",
+        "technical_analysis": "The S3 bucket was configured with public read access due to an IAM policy error during a migration project. The exposure lasted approximately 3 weeks before discovery."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "N/A - Configuration Error",
+      "mitre_attack": ["T1530 - Data from Cloud Storage Object"],
+      "business_impact": ["Financial", "Reputational", "Regulatory"],
+      "risk_rating": "High",
+      "confidence": "High",
+      "framework_mapping": "NIST CSF: PR.DS-5, ID.RA-1; ISO 27001: A.8.2.3",
+      "detection_suggestions": [
+        "Implement cloud security posture management (CSPM)",
+        "Enable logging for all cloud storage access",
+        "Use automated configuration compliance scanning"
+      ]
+    },
+    {
+      "id": "threat-005",
+      "title": "APT Group Lazarus Deploys New macOS Malware Variant",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/",
+      "published_date": "2026-03-21T16:30:00Z",
+      "severity": "High",
+      "threat_type": "APT",
+      "tags": ["APT", "Lazarus", "macOS", "Nation-State", "Cryptocurrency"],
+      "ai_summary": {
+        "what_happened": "North Korean APT group Lazarus has been observed deploying a new macOS malware variant targeting cryptocurrency exchanges and DeFi platforms. The malware is distributed via trojanized trading applications.",
+        "why_it_matters": "Lazarus group has stolen billions in cryptocurrency to fund North Korean operations. This new variant shows continued evolution of their capabilities and focus on financial targets.",
+        "recommended_action": "Cryptocurrency organizations should implement application whitelisting, code signing verification, and enhanced monitoring of macOS endpoints. Verify all trading software from official sources only.",
+        "executive_summary": "North Korean hackers are targeting crypto firms with new macOS malware. Financial sector organizations should heighten defenses.",
+        "technical_analysis": "The malware uses a multi-stage infection chain, starting with a signed but trojanized DMG file. It establishes persistence via LaunchAgents and communicates with C2 servers using encrypted HTTPS traffic."
+      },
+      "iocs": {
+        "ips": ["23.106.122.45", "198.252.108.77"],
+        "domains": ["crypto-trading-pro.com", "defi-wallet-update.net"],
+        "hashes": ["f6a7b8c9d0e1234567890123456789012abcdef3", "a7b8c9d0e12345678901234567890123abcdef34"]
+      },
+      "threat_actor": "Lazarus Group (APT38)",
+      "mitre_attack": ["T1195 - Supply Chain Compromise", "T1553 - Subvert Trust Controls", "T1071 - Application Layer Protocol"],
+      "business_impact": ["Financial", "Operational"],
+      "risk_rating": "Critical",
+      "confidence": "High",
+      "framework_mapping": "NIST CSF: PR.DS-6, DE.CM-4",
+      "detection_suggestions": [
+        "Monitor for unsigned or newly signed applications",
+        "Detect unusual LaunchAgent creation",
+        "Analyze outbound traffic for C2 patterns"
+      ]
+    },
+    {
+      "id": "threat-006",
+      "title": "Critical Vulnerability in Popular WordPress Plugin Affects 5M Sites",
+      "source": "Wordfence",
+      "url": "https://www.wordfence.com/blog/",
+      "published_date": "2026-03-21T10:00:00Z",
+      "severity": "Medium",
+      "threat_type": "Vulnerability",
+      "tags": ["WordPress", "Plugin", "SQL Injection", "Web Security"],
+      "ai_summary": {
+        "what_happened": "A critical SQL injection vulnerability was discovered in a popular WordPress plugin with over 5 million active installations. The flaw allows unauthenticated attackers to extract sensitive data from website databases.",
+        "why_it_matters": "WordPress powers over 40% of websites. Vulnerabilities in popular plugins can be quickly weaponized at scale, leading to mass compromises, defacements, and data theft.",
+        "recommended_action": "Update the affected plugin immediately. If updates are not possible, consider temporarily disabling the plugin. Implement a web application firewall (WAF) as an additional layer of protection.",
+        "executive_summary": "A widely-used WordPress plugin has a critical vulnerability. Website owners should update immediately to prevent data theft.",
+        "technical_analysis": "The SQL injection exists in the plugin's search functionality where user input is not properly sanitized before being used in database queries. Exploitation is trivial and automated tools are already available."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Multiple - Opportunistic",
+      "mitre_attack": ["T1190 - Exploit Public-Facing Application", "T1505 - Server Software Component"],
+      "business_impact": ["Operational", "Reputational"],
+      "risk_rating": "High",
+      "confidence": "High",
+      "framework_mapping": "NIST CSF: PR.IP-12, ID.RA-1",
+      "detection_suggestions": [
+        "Monitor web server logs for SQL injection patterns",
+        "Implement WAF rules for common SQLi payloads",
+        "Use database activity monitoring"
+      ]
+    },
+    {
+      "id": "threat-007",
+      "title": "New Infostealer Malware Targeting Browser Credentials and Crypto Wallets",
+      "source": "Malwarebytes Labs",
+      "url": "https://blog.malwarebytes.com/",
+      "published_date": "2026-03-20T14:20:00Z",
+      "severity": "Medium",
+      "threat_type": "Malware",
+      "tags": ["Infostealer", "Credentials", "Cryptocurrency", "Browser"],
+      "ai_summary": {
+        "what_happened": "A new infostealer malware dubbed 'CryptoGrab' is being distributed through fake software download sites. It targets browser-stored credentials, cryptocurrency wallet files, and 2FA authenticator data.",
+        "why_it_matters": "Infostealers are a primary vector for account compromise and financial theft. The targeting of 2FA data makes this variant particularly dangerous as it can bypass additional security measures.",
+        "recommended_action": "Use hardware security keys instead of software authenticators. Implement browser policies to prevent credential storage. Deploy endpoint detection and response (EDR) solutions.",
+        "executive_summary": "New malware steals browser credentials and crypto wallets. Organizations should review endpoint security and credential storage policies.",
+        "technical_analysis": "CryptoGrab is written in Rust for cross-platform compatibility. It uses process injection to evade detection and exfiltrates data via Telegram bot API to avoid traditional C2 detection."
+      },
+      "iocs": {
+        "ips": ["95.217.45.123"],
+        "domains": ["free-software-downloads.net", "crack-apps-2026.com"],
+        "hashes": ["b8c9d0e1f2345678901234567890123456abcdef", "c9d0e1f23456789012345678901234567abcdef0"]
+      },
+      "threat_actor": "Unknown - Cybercrime",
+      "mitre_attack": ["T1555 - Credentials from Password Stores", "T1539 - Steal Web Session Cookie", "T1005 - Data from Local System"],
+      "business_impact": ["Financial", "Operational"],
+      "risk_rating": "Medium",
+      "confidence": "Medium",
+      "framework_mapping": "NIST CSF: PR.DS-5, DE.CM-4",
+      "detection_suggestions": [
+        "Monitor for access to browser credential stores",
+        "Detect Telegram API communications from endpoints",
+        "Alert on cryptocurrency wallet file access"
+      ]
+    },
+    {
+      "id": "threat-008",
+      "title": "Supply Chain Attack Compromises Popular NPM Package",
+      "source": "Snyk Security",
+      "url": "https://snyk.io/blog/",
+      "published_date": "2026-03-20T09:45:00Z",
+      "severity": "High",
+      "threat_type": "Malware",
+      "tags": ["Supply Chain", "NPM", "JavaScript", "Developer Tools"],
+      "ai_summary": {
+        "what_happened": "A popular NPM package with 2 million weekly downloads was compromised after an attacker gained access to the maintainer's account. Malicious code was injected to steal environment variables and SSH keys from developer machines.",
+        "why_it_matters": "Supply chain attacks on developer tools can have cascading effects, compromising not just individual developers but all applications and infrastructure they have access to.",
+        "recommended_action": "Audit dependencies immediately. Use lockfiles and verify package integrity. Implement least-privilege access for CI/CD systems and rotate any potentially exposed credentials.",
+        "executive_summary": "A compromised NPM package is stealing developer credentials. Development teams should audit dependencies and rotate secrets.",
+        "technical_analysis": "The malicious code was added in a postinstall script, executing during npm install. It collected AWS credentials, SSH keys, and .env files, exfiltrating them to an attacker-controlled server."
+      },
+      "iocs": {
+        "ips": ["167.99.45.67"],
+        "domains": ["npm-analytics-cdn.com"],
+        "hashes": ["d0e1f2345678901234567890123456789abcdef01"]
+      },
+      "threat_actor": "Unknown - Financially Motivated",
+      "mitre_attack": ["T1195.002 - Compromise Software Supply Chain", "T1552 - Unsecured Credentials"],
+      "business_impact": ["Operational", "Financial", "Reputational"],
+      "risk_rating": "Critical",
+      "confidence": "High",
+      "framework_mapping": "NIST CSF: PR.DS-6, ID.SC-2",
+      "detection_suggestions": [
+        "Monitor for unexpected network connections during builds",
+        "Implement software composition analysis (SCA)",
+        "Use package signing and verification"
+      ]
+    },
+    {
+      "id": "threat-009",
+      "title": "Business Email Compromise Campaign Targets CFOs with Deepfake Audio",
+      "source": "FBI IC3",
+      "url": "https://www.ic3.gov/",
+      "published_date": "2026-03-19T17:00:00Z",
+      "severity": "Medium",
+      "threat_type": "Phishing",
+      "tags": ["BEC", "Deepfake", "Social Engineering", "Wire Fraud"],
+      "ai_summary": {
+        "what_happened": "The FBI has issued an alert about a sophisticated BEC campaign using AI-generated deepfake audio to impersonate CEOs and request urgent wire transfers. Several companies have reported losses exceeding $1 million each.",
+        "why_it_matters": "Deepfake technology makes traditional voice verification unreliable. This evolution in BEC tactics requires organizations to implement additional verification procedures for financial transactions.",
+        "recommended_action": "Implement multi-person authorization for large transfers. Establish out-of-band verification procedures. Train finance teams on deepfake awareness and verification protocols.",
+        "executive_summary": "Criminals are using AI voice cloning for wire fraud. Organizations need enhanced verification procedures for financial requests.",
+        "technical_analysis": "Attackers are using commercially available voice cloning tools trained on public audio samples (earnings calls, interviews). The deepfakes are combined with spoofed caller ID to appear legitimate."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Multiple BEC Groups",
+      "mitre_attack": ["T1566 - Phishing", "T1656 - Impersonation"],
+      "business_impact": ["Financial"],
+      "risk_rating": "High",
+      "confidence": "High",
+      "framework_mapping": "NIST CSF: PR.AT-1, DE.AE-2",
+      "detection_suggestions": [
+        "Implement callback verification for wire transfers",
+        "Use code words for sensitive financial requests",
+        "Train staff on deepfake detection techniques"
+      ]
+    },
+    {
+      "id": "threat-010",
+      "title": "IoT Botnet Mirai Variant Targets Industrial Control Systems",
+      "source": "ICS-CERT",
+      "url": "https://www.cisa.gov/uscert/ics",
+      "published_date": "2026-03-19T11:30:00Z",
+      "severity": "Low",
+      "threat_type": "Malware",
+      "tags": ["IoT", "Botnet", "ICS", "OT Security"],
+      "ai_summary": {
+        "what_happened": "A new variant of the Mirai botnet has been observed targeting industrial control systems and operational technology devices. The variant exploits default credentials and known vulnerabilities in PLCs and HMIs.",
+        "why_it_matters": "Compromise of ICS/OT systems can lead to physical damage, safety incidents, and disruption of critical infrastructure. The convergence of IT and OT increases attack surface.",
+        "recommended_action": "Segment OT networks from IT networks. Change all default credentials on industrial devices. Implement network monitoring for anomalous OT traffic patterns.",
+        "executive_summary": "Industrial systems are being targeted by botnet malware. Critical infrastructure operators should review OT security controls.",
+        "technical_analysis": "The Mirai variant includes new exploit modules for Siemens, Schneider Electric, and Rockwell Automation devices. It can be used for DDoS attacks or as initial access for more targeted operations."
+      },
+      "iocs": {
+        "ips": ["45.95.168.34", "185.224.128.99"],
+        "domains": ["iot-update-server.ru"],
+        "hashes": ["e1f234567890123456789012345678901abcdef02"]
+      },
+      "threat_actor": "Unknown - Botnet Operators",
+      "mitre_attack": ["T1110 - Brute Force", "T1498 - Network Denial of Service"],
+      "business_impact": ["Operational", "Safety"],
+      "risk_rating": "Medium",
+      "confidence": "Medium",
+      "framework_mapping": "NIST CSF: PR.AC-5, DE.CM-7; IEC 62443",
+      "detection_suggestions": [
+        "Monitor for scanning activity on OT protocols",
+        "Detect default credential usage attempts",
+        "Implement OT-specific intrusion detection"
+      ]
+    }
+  ]
+}
