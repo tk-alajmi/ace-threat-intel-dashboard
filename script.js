@@ -388,7 +388,7 @@ function openModal(threat) {
                     <div class="modal-grid-value">${escapeHtml(threat.threat_actor)}</div>
                 </div>
             ` : ''}
-                        ${(threat.mitre_attack && threat.mitre_attack.length > 0) ? ``}
+                        ${(threat.mitre_attack && threat.mitre_attack.length > 0) ? ```
                 <div class="modal-grid-item">
                     <div class="modal-grid-label">MITRE ATT&CK</div>
                     <div class="modal-grid-value">${escapeHtml(Array.isArray(threat.mitre_attack) ? threat.mitre_attack.join(', ') : threat.mitre_attack)}</div>
