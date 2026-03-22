@@ -388,12 +388,10 @@ function openModal(threat) {
                     <div class="modal-grid-value">${escapeHtml(threat.threat_actor)}</div>
                 </div>
             ` : ''}
-                        ${(threat.mitre_attack && threat.mitre_attack.length > 0) ? ```
-                <div class="modal-grid-item">
-                    <div class="modal-grid-label">MITRE ATT&CK</div>
-                    <div class="modal-grid-value">${escapeHtml(Array.isArray(threat.mitre_attack) ? threat.mitre_attack.join(', ') : threat.mitre_attack)}</div>
-                </div>
-            ` : ''}
+            <div class="modal-grid-item">
+                <div class="modal-grid-label">MITRE ATT&CK</div>
+                <div class="modal-grid-value">${(threat.mitre_attack && threat.mitre_attack.length > 0) ? escapeHtml(Array.isArray(threat.mitre_attack) ? threat.mitre_attack.join(', ') : threat.mitre_attack) : 'N/A'}</div>
+                        </div>
             ${threat.business_impact ? `
                 <div class="modal-grid-item">
                     <div class="modal-grid-label">Business Impact</div>
