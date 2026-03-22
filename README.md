@@ -59,14 +59,17 @@ The dashboard is automatically updated every 6 hours with the latest threat inte
 
 ### Dashboard Overview
 <img width="834" height="1254" alt="image" src="https://github.com/user-attachments/assets/73e722c9-918d-447e-a042-dfc2b8e1561f" />
+
 *Main dashboard showing KPIs, threat feed, and filtering options*
 
 ### Threat Detail Modal
 <img width="844" height="1271" alt="image" src="https://github.com/user-attachments/assets/037ec509-3d6c-40a9-bbec-df1a53a7f1a0" />
+
 *Detailed threat analysis with IoCs, MITRE ATT&CK mapping, and recommendations*
 
 ### Mobile Responsive
 <img width="943" height="2048" alt="image" src="https://github.com/user-attachments/assets/b23d5988-33ea-4b80-8534-6cb4218b4704" />
+
 *Fully responsive design for mobile devices*
 
 > **Note:** Replace placeholder images with actual screenshots after deployment.
