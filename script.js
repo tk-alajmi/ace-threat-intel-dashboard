@@ -12,6 +12,7 @@ const elements = {
     totalThreats: document.getElementById('totalThreats'),
     highSeverity: document.getElementById('highSeverity'),
     mediumSeverity: document.getElementById('mediumSeverity'),
+        lowSeverity: document.getElementById('lowSeverity'),
     commonThreat: document.getElementById('commonThreat'),
     lastUpdated: document.getElementById('lastUpdated'),
     threatCards: document.getElementById('threatCards'),
@@ -70,6 +71,7 @@ function updateKPIs() {
     const total = filteredData.length;
     const high = filteredData.filter(t => t.severity?.toLowerCase() === 'high').length;
     const medium = filteredData.filter(t => t.severity?.toLowerCase() === 'medium').length;
+        const low = filteredData.filter(t => t.severity?.toLowerCase() === 'low').length;
     
     // Find most common threat type
     const typeCounts = {};
@@ -85,6 +87,7 @@ function updateKPIs() {
     animateValue(elements.totalThreats, total);
     animateValue(elements.highSeverity, high);
     animateValue(elements.mediumSeverity, medium);
+        animateValue(elements.lowSeverity, low);
     elements.commonThreat.textContent = commonType ? commonType[0] : '-';
 }
 
