@@ -223,9 +223,9 @@ function renderThreatDistribution() {
         typeCounts[type] = (typeCounts[type] || 0) + 1;
     });
     
+    // Sort and get all categories (not just top 5)
     const sorted = Object.entries(typeCounts)
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, 5);
+        .sort((a, b) => b[1] - a[1]);
     
     const maxCount = sorted[0]?.[1] || 1;
     

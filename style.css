@@ -211,6 +211,7 @@ body {
     display: grid;
     grid-template-columns: 320px 1fr;
     gap: 20px;
+    align-items: start;
 }
 
 /* Sidebar */
@@ -391,6 +392,7 @@ body {
     border-radius: var(--radius-lg);
     border: 1px solid var(--border-color);
     padding: 20px;
+    min-height: auto;
 }
 
 .feed-header {
@@ -420,27 +422,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    max-height: calc(100vh - 400px);
-    overflow-y: auto;
-    padding-right: 10px;
-}
-
-.threat-cards::-webkit-scrollbar {
-    width: 6px;
-}
-
-.threat-cards::-webkit-scrollbar-track {
-    background: var(--bg-tertiary);
-    border-radius: 3px;
-}
-
-.threat-cards::-webkit-scrollbar-thumb {
-    background: var(--border-color);
-    border-radius: 3px;
-}
-
-.threat-cards::-webkit-scrollbar-thumb:hover {
-    background: var(--accent-blue);
 }
 
 .threat-card {
