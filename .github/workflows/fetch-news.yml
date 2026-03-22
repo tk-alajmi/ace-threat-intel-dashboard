@@ -46,7 +46,7 @@ jobs:
 
       - name: Run news fetcher
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           cd ${{ github.workspace }}
           python scripts/fetch_news.py

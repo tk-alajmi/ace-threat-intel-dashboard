@@ -3,7 +3,7 @@
 ACE Threat Intelligence Dashboard - News Fetcher
 
 This script fetches cybersecurity news from RSS feeds, processes them using
-OpenAI's API for threat analysis, and outputs structured JSON data.
+Google's Gemini API for threat analysis, and outputs structured JSON data.
 
 Designed to run as a GitHub Actions workflow.
 """
@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from typing import Optional
 import feedparser
 import requests
-from openai import OpenAI
+import google.generativeai as genai
 
 # Configuration
 MAX_ARTICLES = 10  # Limit API usage
@@ -50,16 +50,17 @@ RSS_FEEDS = [
     }
 ]
 
-# OpenAI client initialization
-client = None
+# Gemini model initialization
+model = None
 
-def init_openai():
-    """Initialize OpenAI client with API key from environment."""
-    global client
-    api_key = os.environ.get("OPENAI_API_KEY")
+def init_gemini():
+    """Initialize Gemini client with API key from environment."""
+    global model
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        raise ValueError("OPENAI_API_KEY environment variable is not set")
-    client = OpenAI(api_key=api_key)
+        raise ValueError("GEMINI_API_KEY environment variable is not set")
+    genai.configure(api_key=api_key)
+    model = genai.GenerativeModel('gemini-1.5-flash')
 
 def fetch_rss_feeds() -> list:
     """Fetch articles from all configured RSS feeds."""
@@ -168,24 +169,10 @@ Provide your analysis in the following JSON format (respond ONLY with valid JSON
 Analyze the article thoroughly and provide accurate, actionable intelligence."""
 
     try:
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {
-                    "role": "system",
-                    "content": "You are a senior cybersecurity threat intelligence analyst. Respond only with valid JSON, no markdown formatting."
-                },
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
-            temperature=0.3,
-            max_tokens=1500
-        )
+        response = model.generate_content(prompt)
         
         # Parse the response
-        content = response.choices[0].message.content.strip()
+        content = response.text.strip()
         
         # Remove markdown code blocks if present
         if content.startswith("```"):
@@ -275,13 +262,14 @@ def main():
     """Main execution function."""
     print("="*60)
     print("ACE Threat Intelligence Dashboard - News Fetcher")
+    print("Powered by Google Gemini AI")
     print("="*60)
     print(f"Started at: {datetime.now(timezone.utc).isoformat()}")
     print()
     
-    # Initialize OpenAI
-    print("Initializing OpenAI client...")
-    init_openai()
+    # Initialize Gemini
+    print("Initializing Gemini AI...")
+    init_gemini()
     
     # Fetch RSS feeds
     print("\nFetching RSS feeds...")
