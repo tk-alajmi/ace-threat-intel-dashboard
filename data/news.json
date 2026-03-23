@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-03-23T18:59:53.675342+00:00",
+  "last_updated": "2026-03-23T20:44:43.865941+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-a1ec6a9c42f1",
+      "title": "North Korean Hackers Abuse VS Code Auto-Run Tasks to Deploy StoatWaffle Malware",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/03/north-korean-hackers-abuse-vs-code-auto.html",
+      "published_date": "2026-03-23T23:39:00+05:30",
+      "summary": "The North Korean threat actors behind the Contagious Interview campaign, also tracked as WaterPlum, have been attributed to a malware family tracked as StoatWaffle that's distributed via malicious Microsoft Visual Studio Code (VS Code) projects. The use of VS Code \"tasks.json\" to distribute malware is a relatively new tactic adopted by the threat actor since December 2025, with the attacks",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The North Korean threat actors behind the Contagious Interview campaign, also tracked as WaterPlum, have been attributed to a malware family tracked as StoatWaffle that's distributed via malicious Mic",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-742441152082",
       "title": "⚡ Weekly Recap: CI/CD Backdoor, FBI Buys Location Data, WhatsApp Ditches Numbers & More",
@@ -116,6 +153,43 @@
       ]
     },
     {
+      "id": "threat-adbfdf71cf86",
+      "title": "TeamPCP deploys Iran-targeted wiper in Kubernetes attacks",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/teampcp-deploys-iran-targeted-wiper-in-kubernetes-attacks/",
+      "published_date": "2026-03-23T16:09:10-04:00",
+      "summary": "The TeamPCP hacking group is targeting Kubernetes clusters with a malicious script that wipes all machines when it detects systems configured for Iran. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The TeamPCP hacking group is targeting Kubernetes clusters with a malicious script that wipes all machines when it detects systems configured for Iran. [...]",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-19279d39ea53",
       "title": "RSAC 2026 Conference Announcements Summary (Pre-Event)",
       "source": "SecurityWeek",
@@ -190,6 +264,43 @@
       ]
     },
     {
+      "id": "threat-93123763bdaa",
+      "title": "Crunchyroll probes breach after hacker claims to steal 6.8M users' data",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/crunchyroll-probes-breach-after-hacker-claims-to-steal-68m-users-data/",
+      "published_date": "2026-03-23T15:21:04-04:00",
+      "summary": "Popular anime streaming platform Crunchyroll is investigating a breach after hackers claimed to have stolen personal information for approximately 6.8 million people. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Popular anime streaming platform Crunchyroll is investigating a breach after hackers claimed to have stolen personal information for approximately 6.8 million people. [...]",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-c787711407ed",
       "title": "Attackers Hide Infostealer in Copyright Infringement Notices",
       "source": "Dark Reading",
@@ -241,117 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "The latest M-Trends report is based on insights from over 500,000 hours of Mandiant incident response investigations in 2025. The post M-Trends 2026: Initial Access Handoff Shrinks From Hours to 22 Se",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-218794168c69",
-      "title": "Chip Services Firm Trio-Tech Says Subsidiary Hit by Ransomware",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/chip-services-firm-trio-tech-says-subsidiary-hit-by-ransomware/",
-      "published_date": "2026-03-23T14:38:42+00:00",
-      "summary": "The semiconductor company says hackers deployed file-encrypting ransomware on the network of a subsidiary in Singapore. The post Chip Services Firm Trio-Tech Says Subsidiary Hit by Ransomware appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The semiconductor company says hackers deployed file-encrypting ransomware on the network of a subsidiary in Singapore. The post Chip Services Firm Trio-Tech Says Subsidiary Hit by Ransomware appeared",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-7ef299654b9d",
-      "title": "Trivy Hack Spreads Infostealer via Docker, Triggers Worm and Kubernetes Wiper",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html",
-      "published_date": "2026-03-23T14:01:00+05:30",
-      "summary": "Cybersecurity researchers have uncovered malicious artifacts distributed via Docker Hub following the Trivy supply chain attack, highlighting the widening blast radius across developer environments. The last known clean release of Trivy on Docker Hub is 0.69.3. The malicious versions 0.69.4, 0.69.5, and 0.69.6 have since been removed from the container image library. \"New image tags 0.69.5 and",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Cybersecurity researchers have uncovered malicious artifacts distributed via Docker Hub following the Trivy supply chain attack, highlighting the widening blast radius across developer environments. T",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-f107565c271c",
-      "title": "Aqua’s Trivy Vulnerability Scanner Hit by Supply Chain Attack",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/aquas-trivy-vulnerability-scanner-hit-by-supply-chain-attack/",
-      "published_date": "2026-03-23T13:40:52+00:00",
-      "summary": "Hackers published a malicious scanner release and replaced tags to point to information-stealer malware. The post Aqua&#8217;s Trivy Vulnerability Scanner Hit by Supply Chain Attack appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Hackers published a malicious scanner release and replaced tags to point to information-stealer malware. The post Aqua&#8217;s Trivy Vulnerability Scanner Hit by Supply Chain Attack appeared first on ",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
