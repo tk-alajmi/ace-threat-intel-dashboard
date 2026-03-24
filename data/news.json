@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T02:26:43.795887+00:00",
+  "last_updated": "2026-03-24T05:24:27.927882+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
@@ -93,6 +93,43 @@
       ],
       "ai_summary": {
         "what_happened": "A threat actor used the open source security tool to deploy an infostealer into CI/CD workflows and steal cloud credentials, SSH keys, tokens, and other sensitive secrets.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-73f25007c4ef",
+      "title": "Ransomware's New Era: Moving at AI Speed",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/endpoint-security/ransomware-new-era-moving-ai-speed",
+      "published_date": "2026-03-23T21:40:37",
+      "summary": "Threat actors bypass security tools and use AI to launch faster ransomware attacks that exploit valid credentials and target data",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Threat actors bypass security tools and use AI to launch faster ransomware attacks that exploit valid credentials and target data",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "AWS Bedrock is Amazon's platform for building AI-powered applications. It gives developers access to foundation models and the tools to connect those models directly to enterprise data and systems. Th",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-3d297dd90d5a",
-      "title": "Microsoft Warns IRS Phishing Hits 29,000 Users, Deploys RMM Malware",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/03/microsoft-warns-irs-phishing-hits-29000.html",
-      "published_date": "2026-03-23T16:25:00+05:30",
-      "summary": "Microsoft has warned of fresh campaigns that are capitalizing on the upcoming tax season in the U.S. to harvest credentials and deliver malware. The email campaigns take advantage of the urgency and time-sensitive nature of emails to send phishing messages masquerading as refund notices, payroll forms, filing reminders, and requests from tax professionals to deceive recipients into opening",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Microsoft has warned of fresh campaigns that are capitalizing on the upcoming tax season in the U.S. to harvest credentials and deliver malware. The email campaigns take advantage of the urgency and t",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
