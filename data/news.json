@@ -1,9 +1,83 @@
 {
-  "last_updated": "2026-03-25T07:06:41.067270+00:00",
+  "last_updated": "2026-03-25T08:56:15.648958+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-abc0b7d0e07b",
+      "title": "FCC Bans New Foreign-Made Routers Over Supply Chain and Cyber Risk Concerns",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/03/fcc-bans-new-foreign-made-routers-over.html",
+      "published_date": "2026-03-25T12:41:00+05:30",
+      "summary": "The U.S. Federal Communications Commission (FCC) said on Monday that it was banning the import of new, foreign-made consumer routers, citing \"unacceptable\" risks to cyber and national security. The action was designed to safeguard Americans and the underlying communications networks the country relies on, FCC Chairman Brendan Carr said in a post on X. The development means that new models of",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The U.S. Federal Communications Commission (FCC) said on Monday that it was banning the import of new, foreign-made consumer routers, citing \"unacceptable\" risks to cyber and national security. The ac",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-51d8fed5d172",
+      "title": "HackerOne Employee Data Exposed in Massive Navia Breach",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/hackerone-employee-data-exposed-in-massive-navia-breach/",
+      "published_date": "2026-03-25T07:57:00+00:00",
+      "summary": "The cybersecurity firm said the personal information of hundreds of employees was stolen in the hacker attack targeting Navia. The post HackerOne Employee Data Exposed in Massive Navia Breach appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The cybersecurity firm said the personal information of hundreds of employees was stolen in the hacker attack targeting Navia. The post HackerOne Employee Data Exposed in Massive Navia Breach appeared",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-560de3f67d09",
       "title": "Iran Hacktivists Make Noise but Have Little Impact on War",
@@ -42,12 +116,49 @@
       ]
     },
     {
+      "id": "threat-a760a4ab9c7a",
+      "title": "Manager of botnet used in ransomware attacks gets 2 years in prison",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/russian-man-sentenced-for-operating-botnet-used-in-ransomware-attacks/",
+      "published_date": "2026-03-25T04:47:29-04:00",
+      "summary": "A Russian national has been sentenced to two years in prison after admitting that the phishing botnet he managed was used to launch BitPaymer ransomware attacks against 72 U.S. companies. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "A Russian national has been sentenced to two years in prison after admitting that the phishing botnet he managed was used to launch BitPaymer ransomware attacks against 72 U.S. companies. [...]",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-496c76371b26",
       "title": "TeamPCP Backdoors LiteLLM Versions 1.82.7–1.82.8 via Trivy CI/CD Compromise",
       "source": "The Hacker News",
       "url": "https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html",
       "published_date": "2026-03-24T23:51:00+05:30",
-      "summary": "TeamPCP, the threat actor behind the recent compromises of Trivy and KICS, has now compromised a popular Python package named litellm, pushing two malicious versions containing a credential harvester, a Kubernetes lateral movement toolkit, and a persistent backdoor. Multiple security vendors, including Endor Labs and JFrog, revealed that litellm versions 1.82.7 and 1.82.8 were published on",
+      "summary": "TeamPCP, the threat actor behind the recent compromises of Trivy and KICS, has now compromised a popular Python package named litellm, pushing two malicious versions containing a credential harvester, a Kubernetes lateral movement toolkit, and a persistent backdoor. Multiple security vendors, including Endor Labs and JFrog, revealed that litellm versions 1.82.7 and 1.82.8 were published on March",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -241,117 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Security vendors have spent years building up defenses around the endpoint, but one researcher says AI coding tools have brought the walls down.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-62b67e76c92e",
-      "title": "DoE Publishes 5-Year Energy Security Plan",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/doe-publishes-5-year-energy-security-plan/",
-      "published_date": "2026-03-24T19:42:07+00:00",
-      "summary": "CESER’s Project Armor is a five year initiative to harden the US critical energy infrastructure, including strengthening energy systems ‘to prevent and recover from wildfires and other hazards’. The post DoE Publishes 5-Year Energy Security Plan appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "CESER’s Project Armor is a five year initiative to harden the US critical energy infrastructure, including strengthening energy systems ‘to prevent and recover from wildfires and other hazards’. The p",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-97dd112c60c9",
-      "title": "PTC warns of imminent threat from critical Windchill, FlexPLM RCE bug",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/ptc-warns-of-imminent-threat-from-critical-windchill-flexplm-rce-bug/",
-      "published_date": "2026-03-24T19:04:36-04:00",
-      "summary": "PTC Inc. is warning of a critical vulnerability in Windchill and FlexPLM, widely used product lifecycle management (PLM) solutions, that could allow remote code execution. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "PTC Inc. is warning of a critical vulnerability in Windchill and FlexPLM, widely used product lifecycle management (PLM) solutions, that could allow remote code execution. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-4c82921ac015",
-      "title": "Popular LiteLLM PyPI package backdoored to steal credentials, auth tokens",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/popular-litellm-pypi-package-compromised-in-teampcp-supply-chain-attack/",
-      "published_date": "2026-03-24T18:29:01-04:00",
-      "summary": "The TeamPCP hacking group continues its supply-chain rampage, now compromising the massively popular \"LiteLLM\" Python package on PyPI and claiming to have stolen data from hundreds of thousands of devices during the attack. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The TeamPCP hacking group continues its supply-chain rampage, now compromising the massively popular \"LiteLLM\" Python package on PyPI and claiming to have stolen data from hundreds of thousands of dev",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
