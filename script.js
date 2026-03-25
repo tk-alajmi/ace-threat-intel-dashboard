@@ -1,4 +1,4 @@
-/**
+﻿/**
  * ACE Threat Intelligence Dashboard
  * Frontend JavaScript - Handles data loading, filtering, and UI interactions
  */
@@ -15,7 +15,7 @@ let filteredData = [];
 
 /**
  *  * Calculate dynamic risk score using weighted formula
- *  * Risk Score = (CVSS × 0.4) + (EPSS × 10 × 0.3) + (Exploit Availability × 0.2) + (Asset Criticality × 0.1)
+ *  * Risk Score = (CVSS Ã— 0.4) + (EPSS Ã— 10 Ã— 0.3) + (Exploit Availability Ã— 0.2) + (Asset Criticality Ã— 0.1)
  *  * 
  *  * @param {Object} threat - Threat object containing risk factors
  *  * @param {number} threat.cvss - CVSS score (0-10)
@@ -25,84 +25,228 @@ let filteredData = [];
  *  * @returns {number} Risk score (0-10)
  *  */
 function calculateRisk(threat) {
-    // Start with base score of 20 (prevents everything from being LOW)
-    let score = 20;
+    // Start with neutral base score of 50 (middle of range)
+    let score = 50;
+    let hasHighIndicator = false;
+    let hasMediumIndicator = false;
+    let hasLowIndicator = false;
     
     const title = (threat.title || '').toLowerCase();
     const description = (threat.description || '').toLowerCase();
-    const content = title + ' ' + description;
+    const summary = (threat.summary || '').toLowerCase();
+    const aiSummary = (threat.ai_summary?.what_happened || '').toLowerCase();
+    const content = title + ' ' + description + ' ' + summary + ' ' + aiSummary;
     
-    // CVE Detection (+30 to +40)
-    if (content.includes('cve-') || content.includes('vulnerability')) {
+    // ========================================================================
+    // HIGH SEVERITY SIGNALS (+25 to +35 each) - Push toward 70-100
+    // ========================================================================
+    
+    // Zero-day / 0-day detection (+35)
+    if (content.includes('zero-day') || content.includes('0-day') || content.includes('zero day')) {
         score += 35;
-        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - CVE detected: +35`);
+        hasHighIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Zero-day: +35`);
     }
     
-    // Critical CVSS Score (+20)
-    const cvss = threat.cvss || 0;
-    if (cvss >= 7.0) {
-        score += 20;
-        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Critical CVSS (${cvss}): +20`);
-    } else if (cvss >= 4.0) {
-        score += 10;
+    // Active exploitation / Exploit available (+30)
+    if (threat.exploitAvailable || content.includes('actively exploited') || 
+        content.includes('in the wild') || content.includes('exploit available') ||
+        content.includes('proof of concept') || content.includes('poc released')) {
+        score += 30;
+        hasHighIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Active exploitation: +30`);
     }
     
-    // Active Exploitation (+30 to +40)
-    if (threat.exploitAvailable || content.includes('exploit') || content.includes('poc') || 
-        content.includes('proof of concept') || content.includes('in the wild') || 
-        content.includes('actively exploited')) {
-        score += 35;
-        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Active exploitation: +35`);
+    // Data breach / Compromised (+28)
+    if (content.includes('breach') || content.includes('compromised') || 
+        content.includes('data leak') || content.includes('data stolen') ||
+        content.includes('leaked credentials') || content.includes('exposed data')) {
+        score += 28;
+        hasHighIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Breach/Compromised: +28`);
     }
     
-    // Ransomware or RCE (+25 to +35)
+    // Critical vulnerability (+25)
+    if (content.includes('critical vulnerability') || content.includes('critical flaw') ||
+        content.includes('critical security') || content.includes('severity critical')) {
+        score += 25;
+        hasHighIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Critical vulnerability: +25`);
+    }
+    
+    // Ransomware or RCE (+25)
     if (content.includes('ransomware') || content.includes('remote code execution') || 
         content.includes('rce') || content.includes('code execution')) {
+        score += 25;
+        hasHighIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Ransomware/RCE: +25`);
+    }
+    
+    // CVE with high CVSS (+20 to +30)
+    const cvss = threat.cvss || 0;
+    if (content.includes('cve-') && cvss >= 9.0) {
         score += 30;
-        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Ransomware/RCE: +30`);
-    }
-    
-    // Phishing / Social Engineering (+10 to +15)
-    if (content.includes('phishing') || content.includes('social engineering') || 
-        content.includes('credential') || content.includes('password')) {
-        score += 12;
-        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Phishing/Social Eng: +12`);
-    }
-    
-    // Enterprise/Cloud Systems (+15 to +25)
-    if (content.includes('enterprise') || content.includes('cloud') || 
-        content.includes('microsoft') || content.includes('aws') || 
-        content.includes('azure') || content.includes('corporate')) {
+        hasHighIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Critical CVE (CVSS ${cvss}): +30`);
+    } else if (content.includes('cve-') && cvss >= 7.0) {
         score += 20;
-        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Enterprise/Cloud: +20`);
+        hasHighIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - High CVE (CVSS ${cvss}): +20`);
     }
     
-    // Recent threat (+15)
-    const publishedDate = new Date(threat.published || Date.now());
-    const hoursSincePublished = (Date.now() - publishedDate.getTime()) / (1000 * 60 * 60);
-    if (hoursSincePublished <= 72) {
-        score += 15;
-        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Recent (${Math.round(hoursSincePublished)}h): +15`);
-    }
-    
-    // Old threat (-20)
-    const daysSincePublished = hoursSincePublished / 24;
-    if (daysSincePublished > 30) {
-        score -= 20;
-        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Old (${Math.round(daysSincePublished)} days): -20`);
-    }
-    
-    // EPSS probability boost
+    // EPSS high probability (+15)
     const epss = threat.epss || 0;
-    if (epss > 0.5) {
+    if (epss > 0.7) {
         score += 15;
+        hasHighIndicator = true;
         console.log(`[SCORE] ${threat.title?.substring(0, 50)} - High EPSS (${epss}): +15`);
     }
     
-    // Ensure score is within 0-100 range
-    score = Math.min(Math.max(score, 0), 100);
+    // ========================================================================
+    // MEDIUM SEVERITY SIGNALS (+10 to +18 each) - Keep in 40-69 range
+    // ========================================================================
     
-    console.log(`[FINAL SCORE] ${threat.title?.substring(0, 50)} = ${score}`);
+    // Phishing campaigns (+15)
+    if (content.includes('phishing') || content.includes('spear-phishing') ||
+        content.includes('credential theft') || content.includes('credential harvesting')) {
+        score += 15;
+        hasMediumIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Phishing: +15`);
+    }
+    
+    // Malware (+15)
+    if (content.includes('malware') || content.includes('trojan') || 
+        content.includes('backdoor') || content.includes('botnet')) {
+        score += 15;
+        hasMediumIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Malware: +15`);
+    }
+    
+    // Attack campaign (+12)
+    if (content.includes('attack campaign') || content.includes('threat campaign') ||
+        content.includes('cyber attack') || content.includes('targeted attack')) {
+        score += 12;
+        hasMediumIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Attack campaign: +12`);
+    }
+    
+    // General vulnerability mention (without critical) (+10)
+    if (!hasHighIndicator && (content.includes('vulnerability') || content.includes('cve-'))) {
+        score += 10;
+        hasMediumIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Vulnerability mention: +10`);
+    }
+    
+    // APT / Threat actor (+12)
+    if (content.includes('apt') || content.includes('threat actor') || 
+        content.includes('nation-state') || content.includes('advanced persistent')) {
+        score += 12;
+        hasMediumIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - APT/Threat actor: +12`);
+    }
+    
+    // Enterprise/Cloud impact (+8)
+    if (content.includes('enterprise') || content.includes('corporate') || 
+        content.includes('microsoft') || content.includes('aws') || content.includes('azure')) {
+        score += 8;
+        hasMediumIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Enterprise/Cloud: +8`);
+    }
+    
+    // ========================================================================
+    // LOW SEVERITY SIGNALS (-15 to -30 each) - Push toward 0-39
+    // ========================================================================
+    
+    // Research / Analysis / Report content (-20)
+    if (content.includes('report') || content.includes('analysis') || 
+        content.includes('research') || content.includes('study') ||
+        content.includes('survey') || content.includes('findings')) {
+        score -= 20;
+        hasLowIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Research/Report: -20`);
+    }
+    
+    // Trend / Statistics / Overview (-18)
+    if (content.includes('trend') || content.includes('statistics') || 
+        content.includes('overview') || content.includes('landscape') ||
+        content.includes('forecast') || content.includes('prediction')) {
+        score -= 18;
+        hasLowIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Trend/Statistics: -18`);
+    }
+    
+    // Best practices / Guidelines / Tips (-15)
+    if (content.includes('best practice') || content.includes('guideline') || 
+        content.includes('tips') || content.includes('how to') ||
+        content.includes('recommendation') || content.includes('advice')) {
+        score -= 15;
+        hasLowIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Best practices/Tips: -15`);
+    }
+    
+    // Awareness / Education content (-15)
+    if (content.includes('awareness') || content.includes('education') || 
+        content.includes('training') || content.includes('learn')) {
+        score -= 15;
+        hasLowIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Awareness/Education: -15`);
+    }
+    
+    // Patched / Fixed / Resolved (-12)
+    if (content.includes('patched') || content.includes('fixed') || 
+        content.includes('resolved') || content.includes('mitigated') ||
+        content.includes('update available') || content.includes('patch released')) {
+        score -= 12;
+        hasLowIndicator = true;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Patched/Fixed: -12`);
+    }
+    
+    // ========================================================================
+    // NEGATIVE SCORING: No real threat indicators -> Push toward LOW
+    // ========================================================================
+    
+    if (!hasHighIndicator && !hasMediumIndicator && !hasLowIndicator) {
+        // No threat indicators found - this is likely informational content
+        score -= 25;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - No threat indicators: -25`);
+    }
+    
+    // ========================================================================
+    // TIME-BASED MODIFIERS
+    // ========================================================================
+    
+    const publishedDate = new Date(threat.published || threat.published_date || Date.now());
+    const hoursSincePublished = (Date.now() - publishedDate.getTime()) / (1000 * 60 * 60);
+    const daysSincePublished = hoursSincePublished / 24;
+    
+    // Recent threat boost (+10)
+    if (hoursSincePublished <= 48) {
+        score += 10;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Recent (${Math.round(hoursSincePublished)}h): +10`);
+    }
+    
+    // Old threat penalty (-15)
+    if (daysSincePublished > 30) {
+        score -= 15;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Old (${Math.round(daysSincePublished)} days): -15`);
+    }
+    
+    // ========================================================================
+    // FINAL SCORE CALCULATION
+    // ========================================================================
+    
+    // Ensure score is within 0-100 range
+    score = Math.min(Math.max(Math.round(score), 0), 100);
+    
+    // Determine severity
+    const severity = score >= 70 ? 'High' : (score >= 40 ? 'Medium' : 'Low');
+    
+    // Debug logging
+    console.log(`[THREAT] Title: ${threat.title?.substring(0, 60)}`);
+    console.log(`[THREAT] Score: ${score} | Severity: ${severity}`);
+    console.log(`[THREAT] Indicators - HIGH: ${hasHighIndicator}, MEDIUM: ${hasMediumIndicator}, LOW: ${hasLowIndicator}`);
+    console.log('---');
+    
     return score;
 }
 
@@ -175,6 +319,26 @@ async function loadThreatData() {
         
         const data = await response.json();
         threatData = data.threats || [];
+
+                // Apply dynamic risk scoring to each threat
+        console.log('=== APPLYING DYNAMIC RISK SCORING ===');
+        threatData = threatData.map(threat => {
+            const score = calculateRisk(threat);
+            const severity = getSeverity(score);
+            return {
+                ...threat,
+                riskScore: score,
+                severity: severity
+            };
+        });
+        
+        // Log severity distribution
+        const highCount = threatData.filter(t => t.severity === 'High').length;
+        const mediumCount = threatData.filter(t => t.severity === 'Medium').length;
+        const lowCount = threatData.filter(t => t.severity === 'Low').length;
+        console.log('=== SEVERITY DISTRIBUTION ===');
+        console.log('HIGH: ' + highCount + ', MEDIUM: ' + mediumCount + ', LOW: ' + lowCount);
+        console.log('================================');
         filteredData = [...threatData];
         
         // Update last updated timestamp
@@ -249,7 +413,7 @@ function renderThreatCards() {
     if (filteredData.length === 0) {
         elements.threatCards.innerHTML = `
             <div class="no-results">
-                <div class="no-results-icon">🔍</div>
+                <div class="no-results-icon">ðŸ”</div>
                 <p>No threats found matching your criteria</p>
             </div>
         `;
@@ -279,8 +443,8 @@ function createThreatCard(threat) {
             </div>
             
             <div class="threat-card-meta">
-                <span class="threat-source">📰 ${escapeHtml(threat.source || 'Unknown')}</span>
-                <span class="threat-date">📅 ${formatDate(threat.published_date)}</span>
+                <span class="threat-source">ðŸ“° ${escapeHtml(threat.source || 'Unknown')}</span>
+                <span class="threat-date">ðŸ“… ${formatDate(threat.published_date)}</span>
             </div>
             
             <p class="threat-card-summary">${escapeHtml(threat.ai_summary?.what_happened || threat.summary || 'No summary available')}</p>
@@ -293,7 +457,7 @@ function createThreatCard(threat) {
             
             ${threat.ai_summary?.recommended_action ? `
                 <div class="threat-card-actions">
-                    <div class="action-header">✅ Recommended Action</div>
+                    <div class="action-header">âœ… Recommended Action</div>
                     <p class="action-text">${escapeHtml(threat.ai_summary.recommended_action)}</p>
                 </div>
             ` : ''}
@@ -306,20 +470,20 @@ function createIocSection(iocs) {
     const allIocs = [];
     
     if (iocs.ips && iocs.ips.length > 0) {
-        allIocs.push(...iocs.ips.slice(0, 3).map(ip => `<span class="ioc-item">🌐 ${escapeHtml(ip)}</span>`));
+        allIocs.push(...iocs.ips.slice(0, 3).map(ip => `<span class="ioc-item">ðŸŒ ${escapeHtml(ip)}</span>`));
     }
     if (iocs.domains && iocs.domains.length > 0) {
-        allIocs.push(...iocs.domains.slice(0, 3).map(d => `<span class="ioc-item">🔗 ${escapeHtml(d)}</span>`));
+        allIocs.push(...iocs.domains.slice(0, 3).map(d => `<span class="ioc-item">ðŸ”— ${escapeHtml(d)}</span>`));
     }
     if (iocs.hashes && iocs.hashes.length > 0) {
-        allIocs.push(...iocs.hashes.slice(0, 2).map(h => `<span class="ioc-item">#️⃣ ${escapeHtml(h.substring(0, 16))}...</span>`));
+        allIocs.push(...iocs.hashes.slice(0, 2).map(h => `<span class="ioc-item">#ï¸âƒ£ ${escapeHtml(h.substring(0, 16))}...</span>`));
     }
     
     if (allIocs.length === 0) return '';
     
     return `
         <div class="threat-card-iocs">
-            <div class="ioc-header">🚨 Indicators of Compromise</div>
+            <div class="ioc-header">ðŸš¨ Indicators of Compromise</div>
             <div class="ioc-list">${allIocs.join('')}</div>
         </div>
     `;
@@ -470,36 +634,36 @@ function openModal(threat) {
             <h2 class="modal-title">${escapeHtml(threat.title)}</h2>
             <div class="modal-meta">
                 <span class="severity-badge ${severityClass}">${threat.severity || 'Unknown'} Severity</span>
-                <span>📰 ${escapeHtml(threat.source || 'Unknown')}</span>
-                <span>📅 ${formatDate(threat.published_date)}</span>
-                ${threat.confidence ? `<span>🎯 Confidence: ${threat.confidence}</span>` : ''}
+                <span>ðŸ“° ${escapeHtml(threat.source || 'Unknown')}</span>
+                <span>ðŸ“… ${formatDate(threat.published_date)}</span>
+                ${threat.confidence ? `<span>ðŸŽ¯ Confidence: ${threat.confidence}</span>` : ''}
             </div>
         </div>
         
         ${threat.ai_summary ? `
             <div class="modal-section">
-                <h3 class="modal-section-title">📝 Executive Summary</h3>
+                <h3 class="modal-section-title">ðŸ“ Executive Summary</h3>
                 <div class="modal-section-content">${escapeHtml(threat.ai_summary.executive_summary || threat.ai_summary.what_happened || 'N/A')}</div>
             </div>
             
             <div class="modal-section">
-                <h3 class="modal-section-title">❓ What Happened</h3>
+                <h3 class="modal-section-title">â“ What Happened</h3>
                 <div class="modal-section-content">${escapeHtml(threat.ai_summary.what_happened || 'N/A')}</div>
             </div>
             
             <div class="modal-section">
-                <h3 class="modal-section-title">⚠️ Why It Matters</h3>
+                <h3 class="modal-section-title">âš ï¸ Why It Matters</h3>
                 <div class="modal-section-content">${escapeHtml(threat.ai_summary.why_it_matters || 'N/A')}</div>
             </div>
             
             <div class="modal-section">
-                <h3 class="modal-section-title">✅ Recommended Actions</h3>
+                <h3 class="modal-section-title">âœ… Recommended Actions</h3>
                 <div class="modal-section-content">${escapeHtml(threat.ai_summary.recommended_action || 'N/A')}</div>
             </div>
             
             ${threat.ai_summary.technical_analysis ? `
                 <div class="modal-section">
-                    <h3 class="modal-section-title">🔧 Technical Analysis (SOC View)</h3>
+                    <h3 class="modal-section-title">ðŸ”§ Technical Analysis (SOC View)</h3>
                     <div class="modal-section-content">${escapeHtml(threat.ai_summary.technical_analysis)}</div>
                 </div>
             ` : ''}
@@ -537,7 +701,7 @@ function openModal(threat) {
 
         ${threat.iocs && Object.values(threat.iocs).some(arr => arr && arr.length > 0) ? `
             <div class="modal-section">
-                <h3 class="modal-section-title">🚨 Indicators of Compromise (IoCs)</h3>
+                <h3 class="modal-section-title">ðŸš¨ Indicators of Compromise (IoCs)</h3>
                 <div class="modal-section-content">
                     ${threat.iocs.ips && threat.iocs.ips.length > 0 ? `
                         <p><strong>IP Addresses:</strong></p>
@@ -563,7 +727,7 @@ function openModal(threat) {
         
         ${threat.detection_suggestions ? `
             <div class="modal-section">
-                <h3 class="modal-section-title">🔍 Detection Suggestions</h3>
+                <h3 class="modal-section-title">ðŸ” Detection Suggestions</h3>
                 <div class="modal-section-content">
                     <ul style="margin-left: 20px;">
                         ${(Array.isArray(threat.detection_suggestions) ? threat.detection_suggestions : [threat.detection_suggestions])
@@ -575,7 +739,7 @@ function openModal(threat) {
         
         ${threat.url ? `
             <div class="modal-section">
-                <h3 class="modal-section-title">🔗 Source</h3>
+                <h3 class="modal-section-title">ðŸ”— Source</h3>
                 <div class="modal-section-content">
                     <a href="${escapeHtml(threat.url)}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan);">
                         ${escapeHtml(threat.url)}
@@ -667,8 +831,9 @@ function debounce(func, wait) {
 function showError() {
     elements.threatCards.innerHTML = `
         <div class="no-results">
-            <div class="no-results-icon">⚠️</div>
+            <div class="no-results-icon">âš ï¸</div>
             <p>Failed to load threat data. Please try again later.</p>
         </div>
     `;
 }
+
