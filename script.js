@@ -132,7 +132,8 @@ function getThreatSeverity(threat) {
             }
 
                 // Otherwise use existing severity or default to Medium
-                    return threat.severity || 'Medium';
+                            const riskScore = calculateRisk(threat);
+        return getSeverity(riskScore);
         }
 
         // ============================================================================
