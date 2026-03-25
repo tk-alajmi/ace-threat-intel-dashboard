@@ -170,12 +170,13 @@ Provide your analysis in the following JSON format (respond ONLY with valid JSON
     "detection_suggestions": ["Specific detection recommendations for SOC teams"]
 }}
 
-Analyze the article thoroughly and provide accurate, actionable intelligence."""
+Analyze the article thoroughly and provide accurate, actionable intelligence.
 IMPORTANT: For risk scoring:
 - CVSS: Estimate 0-10 based on impact and exploitability (Critical=9-10, High=7-8.9, Medium=4-6.9, Low=0-3.9)
 - EPSS: Estimate 0-1 probability of exploitation (Zero-days/RCE=0.7-0.9, Known vulns=0.3-0.6, Phishing=0.1-0.3)
 - exploitAvailable: true if article mentions public exploit/PoC, false otherwise
 - assetCriticality: Estimate 1-10 based on typical target value (Critical infrastructure=9-10, Enterprise=7-8, SMB=5-6)
+"""
 
 
     try:
