@@ -78,6 +78,29 @@ The dashboard is automatically updated every 6 hours with the latest threat inte
 
 ## ✨ Features
 
+### 🎯 Dynamic Risk Scoring System
+
+The dashboard implements a **production-grade risk scoring system** aligned with SOC and GRC best practices:
+
+**Risk Score Formula:**
+```
+Risk Score = (CVSS × 0.4) + (EPSS × 10 × 0.3) + (Exploit Availability × 0.2) + (Asset Criticality × 0.1)
+```
+
+**Severity Classification:**
+- **Critical** (9.0-10.0): Immediate action required
+- **High** (7.0-8.9): Urgent attention needed
+- **Medium** (4.0-6.9): Should be addressed
+- **Low** (0-3.9): Monitor and track
+
+**Risk Factors:**
+- **CVSS Score (0-10)**: Common Vulnerability Scoring System score
+- **EPSS Score (0-1)**: Exploit Prediction Scoring System (probability of exploitation)
+- **Exploit Availability**: Whether public exploits exist
+- **Asset Criticality (1-10)**: Business criticality of affected assets
+
+
+
 ### 🎯 Threat Intelligence
 
 | Feature | Description |
