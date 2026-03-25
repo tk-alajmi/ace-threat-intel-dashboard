@@ -76,14 +76,7 @@ function getThreatSeverity(threat) {
         // ============================================================================
         // END RISK SCORING SYSTEM
         // ============================================================================
-        
-            }
-}
- */
-}
- */
-}
- */
+
 const elements = {
     totalThreats: document.getElementById('totalThreats'),
     highSeverity: document.getElementById('highSeverity'),
