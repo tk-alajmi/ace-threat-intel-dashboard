@@ -8,6 +8,82 @@ let threatData = [];
 let filteredData = [];
 
 // DOM Elements
+
+// ============================================================================
+// RISK SCORING SYSTEM
+// ============================================================================
+
+/**
+ *  * Calculate dynamic risk score using weighted formula
+ *  * Risk Score = (CVSS × 0.4) + (EPSS × 10 × 0.3) + (Exploit Availability × 0.2) + (Asset Criticality × 0.1)
+ *  * 
+ *  * @param {Object} threat - Threat object containing risk factors
+ *  * @param {number} threat.cvss - CVSS score (0-10)
+ *  * @param {number} threat.epss - EPSS score (0-1)
+ *  * @param {boolean} threat.exploitAvailable - Whether exploit is publicly available
+ *  * @param {number} threat.assetCriticality - Asset criticality score (1-10)
+ *  * @returns {number} Risk score (0-10)
+ *  */
+function calculateRisk(threat) {
+        // Extract risk factors with defaults
+            const cvss = threat.cvss || 0;
+                const epss = threat.epss || 0;
+                    const exploitAvailable = threat.exploitAvailable || false;
+                        const assetCriticality = threat.assetCriticality || 5;
+
+                            // Apply weighted formula
+                                const cvssWeight = cvss * 0.4;
+                                    const epssWeight = (epss * 10) * 0.3;  // Scale EPSS from 0-1 to 0-10
+                                        const exploitWeight = (exploitAvailable ? 10 : 0) * 0.2;
+                                            const assetWeight = assetCriticality * 0.1;
+
+                                                const riskScore = cvssWeight + epssWeight + exploitWeight + assetWeight;
+
+                                                    // Ensure score is within 0-10 range
+                                                        return Math.min(Math.max(riskScore, 0), 10);
+}
+
+/**
+ *  * Convert risk score to severity level
+ *  * 
+ *  * @param {number} riskScore - Risk score (0-10)
+ *  * @returns {string} Severity level: 'Low', 'Medium', 'High', or 'Critical'
+ *  */
+function getSeverity(riskScore) {
+        if (riskScore >= 9.0) return 'Critical';
+            if (riskScore >= 7.0) return 'High';
+                if (riskScore >= 4.0) return 'Medium';
+                    return 'Low';
+}
+
+/**
+ *  * Get severity from threat object (calculates if needed)
+ *  * 
+ *  * @param {Object} threat - Threat object
+ *  * @returns {string} Severity level
+ *  */
+function getThreatSeverity(threat) {
+        // If threat has risk scoring data, calculate severity
+            if (threat.cvss !== undefined || threat.epss !== undefined) {
+                        const riskScore = calculateRisk(threat);
+                                return getSeverity(riskScore);
+            }
+
+                // Otherwise use existing severity or default to Medium
+                    return threat.severity || 'Medium';
+        }
+
+        // ============================================================================
+        // END RISK SCORING SYSTEM
+        // ============================================================================
+        
+            }
+}
+ */
+}
+ */
+}
+ */
 const elements = {
     totalThreats: document.getElementById('totalThreats'),
     highSeverity: document.getElementById('highSeverity'),

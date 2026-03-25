@@ -144,6 +144,10 @@ Provide your analysis in the following JSON format (respond ONLY with valid JSON
 {{
     "severity": "High|Medium|Low",
     "threat_type": "Ransomware|Phishing|Data Breach|Zero-day|APT|Malware|Vulnerability|Other",
+        "cvss": 0.0,  // CVSS score 0-10 (estimate based on severity and exploitability)
+            "epss": 0.0,  // EPSS score 0-1 (probability of exploitation in next 30 days)
+                "exploitAvailable": false,  // true if public exploit exists, false otherwise
+                    "assetCriticality": 5,  // Asset criticality 1-10 (5=medium, 7-8=high, 9-10=critical)
     "tags": ["tag1", "tag2", "tag3"],
     "ai_summary": {{
         "what_happened": "Brief description of the incident/threat (2-3 sentences)",
@@ -167,6 +171,12 @@ Provide your analysis in the following JSON format (respond ONLY with valid JSON
 }}
 
 Analyze the article thoroughly and provide accurate, actionable intelligence."""
+IMPORTANT: For risk scoring:
+- CVSS: Estimate 0-10 based on impact and exploitability (Critical=9-10, High=7-8.9, Medium=4-6.9, Low=0-3.9)
+- EPSS: Estimate 0-1 probability of exploitation (Zero-days/RCE=0.7-0.9, Known vulns=0.3-0.6, Phishing=0.1-0.3)
+- exploitAvailable: true if article mentions public exploit/PoC, false otherwise
+- assetCriticality: Estimate 1-10 based on typical target value (Critical infrastructure=9-10, Enterprise=7-8, SMB=5-6)
+
 
     try:
         response = model.generate_content(prompt)
