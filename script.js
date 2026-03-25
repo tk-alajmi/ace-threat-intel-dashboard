@@ -25,35 +25,97 @@ let filteredData = [];
  *  * @returns {number} Risk score (0-10)
  *  */
 function calculateRisk(threat) {
-        // Extract risk factors with defaults
-            const cvss = threat.cvss || 0;
-                const epss = threat.epss || 0;
-                    const exploitAvailable = threat.exploitAvailable || false;
-                        const assetCriticality = threat.assetCriticality || 5;
-
-                            // Apply weighted formula
-                                const cvssWeight = cvss * 0.4;
-                                    const epssWeight = (epss * 10) * 0.3;  // Scale EPSS from 0-1 to 0-10
-                                        const exploitWeight = (exploitAvailable ? 10 : 0) * 0.2;
-                                            const assetWeight = assetCriticality * 0.1;
-
-                                                const riskScore = cvssWeight + epssWeight + exploitWeight + assetWeight;
-
-                                                    // Ensure score is within 0-10 range
-                                                        return Math.min(Math.max(riskScore, 0), 10);
+    // Start with base score of 20 (prevents everything from being LOW)
+    let score = 20;
+    
+    const title = (threat.title || '').toLowerCase();
+    const description = (threat.description || '').toLowerCase();
+    const content = title + ' ' + description;
+    
+    // CVE Detection (+30 to +40)
+    if (content.includes('cve-') || content.includes('vulnerability')) {
+        score += 35;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - CVE detected: +35`);
+    }
+    
+    // Critical CVSS Score (+20)
+    const cvss = threat.cvss || 0;
+    if (cvss >= 7.0) {
+        score += 20;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Critical CVSS (${cvss}): +20`);
+    } else if (cvss >= 4.0) {
+        score += 10;
+    }
+    
+    // Active Exploitation (+30 to +40)
+    if (threat.exploitAvailable || content.includes('exploit') || content.includes('poc') || 
+        content.includes('proof of concept') || content.includes('in the wild') || 
+        content.includes('actively exploited')) {
+        score += 35;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Active exploitation: +35`);
+    }
+    
+    // Ransomware or RCE (+25 to +35)
+    if (content.includes('ransomware') || content.includes('remote code execution') || 
+        content.includes('rce') || content.includes('code execution')) {
+        score += 30;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Ransomware/RCE: +30`);
+    }
+    
+    // Phishing / Social Engineering (+10 to +15)
+    if (content.includes('phishing') || content.includes('social engineering') || 
+        content.includes('credential') || content.includes('password')) {
+        score += 12;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Phishing/Social Eng: +12`);
+    }
+    
+    // Enterprise/Cloud Systems (+15 to +25)
+    if (content.includes('enterprise') || content.includes('cloud') || 
+        content.includes('microsoft') || content.includes('aws') || 
+        content.includes('azure') || content.includes('corporate')) {
+        score += 20;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Enterprise/Cloud: +20`);
+    }
+    
+    // Recent threat (+15)
+    const publishedDate = new Date(threat.published || Date.now());
+    const hoursSincePublished = (Date.now() - publishedDate.getTime()) / (1000 * 60 * 60);
+    if (hoursSincePublished <= 72) {
+        score += 15;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Recent (${Math.round(hoursSincePublished)}h): +15`);
+    }
+    
+    // Old threat (-20)
+    const daysSincePublished = hoursSincePublished / 24;
+    if (daysSincePublished > 30) {
+        score -= 20;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - Old (${Math.round(daysSincePublished)} days): -20`);
+    }
+    
+    // EPSS probability boost
+    const epss = threat.epss || 0;
+    if (epss > 0.5) {
+        score += 15;
+        console.log(`[SCORE] ${threat.title?.substring(0, 50)} - High EPSS (${epss}): +15`);
+    }
+    
+    // Ensure score is within 0-100 range
+    score = Math.min(Math.max(score, 0), 100);
+    
+    console.log(`[FINAL SCORE] ${threat.title?.substring(0, 50)} = ${score}`);
+    return score;
 }
 
 /**
- *  * Convert risk score to severity level
- *  * 
- *  * @param {number} riskScore - Risk score (0-10)
- *  * @returns {string} Severity level: 'Low', 'Medium', 'High', or 'Critical'
- *  */
+ * Convert risk score to severity level
+ * 
+ * @param {number} riskScore - Risk score (0-100)
+ * @returns {string} Severity level: 'Low', 'Medium', or 'High'
+ */
 function getSeverity(riskScore) {
-        if (riskScore >= 9.0) return 'Critical';
-            if (riskScore >= 7.0) return 'High';
-                if (riskScore >= 4.0) return 'Medium';
-                    return 'Low';
+    if (riskScore >= 70) return 'High';
+    if (riskScore >= 40) return 'Medium';
+    return 'Low';
 }
 
 /**
