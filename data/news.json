@@ -1,9 +1,83 @@
 {
-  "last_updated": "2026-03-28T08:43:15.975661+00:00",
+  "last_updated": "2026-03-28T10:36:18.161550+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-686db5928690",
+      "title": "Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html",
+      "published_date": "2026-03-28T14:41:00+05:30",
+      "summary": "A recently disclosed critical security flaw impacting Citrix NetScaler ADC and NetScaler Gateway is witnessing active reconnaissance activity, according to Defused Cyber and watchTowr. The vulnerability, CVE-2026-3055 (CVSS score: 9.3), refers to a case of insufficient input validation leading to memory overread, which an attacker could exploit to leak potentially sensitive information. Per",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "A recently disclosed critical security flaw impacting Citrix NetScaler ADC and NetScaler Gateway is witnessing active reconnaissance activity, according to Defused Cyber and watchTowr. The vulnerabili",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-d97a3090c5ca",
+      "title": "CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html",
+      "published_date": "2026-03-28T12:37:00+05:30",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical security flaw impacting F5 BIG-IP Access Policy Manager (APM) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability in question is CVE-2025-53521 (CVSS v4 score: 9.3), which could allow a threat actor to achieve remote code execution. \"When a",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical security flaw impacting F5 BIG-IP Access Policy Manager (APM) to its Known Exploited Vulnerabilities (KEV) c",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-111496802972",
       "title": "TA446 Deploys DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign",
@@ -42,12 +116,12 @@
       ]
     },
     {
-      "id": "threat-d97a3090c5ca",
-      "title": "CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html",
-      "published_date": "2026-03-28T12:37:00+05:30",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical security flaw impacting F5 BIG-IP Access Policy Manager (APM) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability in question is CVE-2025-53521 (CVSS v4 score: 9.3), which could allow a threat actor to achieve remote code execution. \"When a",
+      "id": "threat-3ba1946ef7d4",
+      "title": "Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/cloudflare-themed-clickfix-attack-drops-infiniti-stealer-on-macs/",
+      "published_date": "2026-03-28T10:30:00+00:00",
+      "summary": "The infection chain includes a fake CAPTCHA page, a Bash script, a Nuitka loader, and the Python-based infostealer. The post Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -55,7 +129,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical security flaw impacting F5 BIG-IP Access Policy Manager (APM) to its Known Exploited Vulnerabilities (KEV) c",
+        "what_happened": "The infection chain includes a fake CAPTCHA page, a Bash script, a Nuitka loader, and the Python-based infostealer. The post Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs appeared f",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -130,43 +204,6 @@
       ],
       "ai_summary": {
         "what_happened": "TeamPCP, the threat actor behind the supply chain attack targeting Trivy, KICS, and litellm, has now compromised the telnyx Python package by pushing two malicious versions to steal sensitive data. Th",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-38b447c06517",
-      "title": "Open VSX Bug Let Malicious VS Code Extensions Bypass Pre-Publish Security Checks",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html",
-      "published_date": "2026-03-27T19:27:00+05:30",
-      "summary": "Cybersecurity researchers have disclosed details of a now-patched bug impacting Open VSX's pre-publish scanning pipeline to cause the tool to allow a malicious Microsoft Visual Studio Code (VS Code) extension to pass the vetting process and go live in the registry. \"The pipeline had a single boolean return value that meant both 'no scanners are configured' and 'all scanners failed to run,'\" Koi",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Cybersecurity researchers have disclosed details of a now-patched bug impacting Open VSX's pre-publish scanning pipeline to cause the tool to allow a malicious Microsoft Visual Studio Code (VS Code) e",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "The list of countries exploiting Internet-connected cameras to give them eyes inside their adversaries' borders continues to expand. What should companies look out for?",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-180f8500bad3",
-      "title": "In Other News: Palo Alto Recruiter Scam, Anti-Deepfake Chip, Google Sets 2029 Quantum Deadline",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/in-other-news-palo-alto-recruiter-scam-anti-deepfake-chip-google-sets-2029-quantum-deadline/",
-      "published_date": "2026-03-27T14:25:52+00:00",
-      "summary": "Other noteworthy stories that might have slipped under the radar: Heritage Bank data breach, new State Department unit tackles cyber threats, LA Metro disruptions. The post In Other News: Palo Alto Recruiter Scam, Anti-Deepfake Chip, Google Sets 2029 Quantum Deadline appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Other noteworthy stories that might have slipped under the radar: Heritage Bank data breach, new State Department unit tackles cyber threats, LA Metro disruptions. The post In Other News: Palo Alto Re",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
