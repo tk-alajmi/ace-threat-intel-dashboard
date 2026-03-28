@@ -1,9 +1,83 @@
 {
-  "last_updated": "2026-03-28T07:03:02.560608+00:00",
+  "last_updated": "2026-03-28T08:43:15.975661+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-111496802972",
+      "title": "TA446 Deploys DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html",
+      "published_date": "2026-03-28T12:37:00+05:30",
+      "summary": "Proofpoint has disclosed details of a targeted email campaign in which threat actors with ties to Russia are leveraging the recently disclosed DarkSword exploit kit to target iOS devices. The activity has been attributed with high confidence to the Russian state-sponsored threat group known as TA446, which is also tracked by the broader cybersecurity community under the monikers Callisto,",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Proofpoint has disclosed details of a targeted email campaign in which threat actors with ties to Russia are leveraging the recently disclosed DarkSword exploit kit to target iOS devices. The activity",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-d97a3090c5ca",
+      "title": "CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html",
+      "published_date": "2026-03-28T12:37:00+05:30",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical security flaw impacting F5 BIG-IP Access Policy Manager (APM) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability in question is CVE-2025-53521 (CVSS v4 score: 9.3), which could allow a threat actor to achieve remote code execution. \"When a",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical security flaw impacting F5 BIG-IP Access Policy Manager (APM) to its Known Exploited Vulnerabilities (KEV) c",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-846032d90d40",
       "title": "Apple Sends Lock Screen Alerts to Outdated iPhones Over Active Web-Based Exploits",
@@ -116,43 +190,6 @@
       ]
     },
     {
-      "id": "threat-d26b3b9c609f",
-      "title": "AitM Phishing Targets TikTok Business Accounts Using Cloudflare Turnstile Evasion",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/03/aitm-phishing-targets-tiktok-business.html",
-      "published_date": "2026-03-27T17:33:00+05:30",
-      "summary": "Threat actors are using adversary-in-the-middle (AitM) phishing pages to seize control of TikTok for Business accounts in a new campaign, according to a report from Push Security. Business accounts associated with social media platforms are a lucrative target, as they can be weaponized by bad actors for malvertising and distributing malware. \"TikTok has been historically abused to distribute",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Threat actors are using adversary-in-the-middle (AitM) phishing pages to seize control of TikTok for Business accounts in a new campaign, according to a report from Push Security. Business accounts as",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
       "id": "threat-cac583fc8104",
       "title": "Backdoored Telnyx PyPI package pushes malware hidden in WAV audio",
       "source": "BleepingComputer",
@@ -241,43 +278,6 @@
       ],
       "ai_summary": {
         "what_happened": "The group that it was making available for download emails and other documents from Patel’s account. The post Pro-Iranian Hacking Group Claims Credit for Hack of FBI Director Kash Patel’s Personal Acc",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-3b428d51398e",
-      "title": "We Are At War",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/03/we-are-at-war.html",
-      "published_date": "2026-03-27T16:30:00+05:30",
-      "summary": "Rising geopolitical tensions are reflected (or in some cases preceded) by cyber operations, while technology itself has become politicized. Let’s admit it: we are in the middle of it.&nbsp; Introduction: One tech power to rule them all is a thing of the past&nbsp; The relative safety, peace and prosperity that much of the world has enjoyed since 1945 was not accidental. It emerged from the ashes",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Rising geopolitical tensions are reflected (or in some cases preceded) by cyber operations, while technology itself has become politicized. Let’s admit it: we are in the middle of it.&nbsp; Introducti",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
