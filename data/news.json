@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-03-30T15:06:53.558411+00:00",
+  "last_updated": "2026-03-30T17:00:05.994389+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-ee71d2a23a4e",
+      "title": "DeepLoad Malware Uses ClickFix and WMI Persistence to Steal Browser Credentials",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/03/deepload-malware-uses-clickfix-and-wmi.html",
+      "published_date": "2026-03-30T21:17:00+05:30",
+      "summary": "A new campaign has leveraged the ClickFix social engineering tactic as a way to distribute a previously undocumented malware loader referred to as DeepLoad. \"It likely uses AI-assisted obfuscation and process injection to evade static scanning, while credential theft starts immediately and captures passwords and sessions even if the primary loader is blocked,\" ReliaQuest researchers Thassanai",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "A new campaign has leveraged the ClickFix social engineering tactic as a way to distribute a previously undocumented malware loader referred to as DeepLoad. \"It likely uses AI-assisted obfuscation and",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-dac4fcdf79dc",
       "title": "⚡ Weekly Recap: Telecom Sleeper Cells, LLM Jailbreaks, Apple Forces U.K. Age Checks and More",
@@ -241,43 +278,6 @@
       ],
       "ai_summary": {
         "what_happened": "The startup has built an edge security management (ESM) platform, an AI engine atop the entire edge security stack. The post Huskeys Emerges From Stealth With $8 Million in Funding appeared first on S",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-cdaa7a7ab054",
-      "title": "Three China-Linked Clusters Target Southeast Asian Government in 2025 Cyber Campaign",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/03/three-china-linked-clusters-target.html",
-      "published_date": "2026-03-30T12:30:00+05:30",
-      "summary": "Three threat activity clusters aligned with China have targeted a government organization in Southeast Asia as part of what has been described as a \"complex and well-resourced operation.\" The campaigns have led to the deployment of various malware families, including HIUPAN (aka USBFect, MISTCLOAK, or U2DiskWatch), PUBLOAD, EggStremeFuel (aka RawCookie), EggStremeLoader (aka Gorem RAT), MASOL",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Three threat activity clusters aligned with China have targeted a government organization in Southeast Asia as part of what has been described as a \"complex and well-resourced operation.\" The campaign",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
