@@ -1,9 +1,120 @@
 {
-  "last_updated": "2026-03-31T05:45:35.890629+00:00",
+  "last_updated": "2026-03-31T07:20:40.204723+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-acc39dc5eb77",
+      "title": "Axios Supply Chain Attack Pushes Cross-Platform RAT via Compromised npm Account",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html",
+      "published_date": "2026-03-31T11:38:00+05:30",
+      "summary": "The popular HTTP client known as Axios has suffered a supply chain attack after two newly published versions of the npm package introduced a malicious dependency. Versions 1.14.1 and 0.30.4 of Axios have been found to inject \"plain-crypto-js\" version 4.2.1 as a fake dependency. According to StepSecurity, the two versions were published using the compromised npm credentials of the primary Axios",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The popular HTTP client known as Axios has suffered a supply chain attack after two newly published versions of the npm package introduced a malicious dependency. Versions 1.14.1 and 0.30.4 of Axios h",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-767f039d1f6e",
+      "title": "Critical Vulnerability in OpenAI Codex Allowed GitHub Token Compromise",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/critical-vulnerability-in-openai-codex-allowed-github-token-compromise/",
+      "published_date": "2026-03-31T06:35:48+00:00",
+      "summary": "Researchers found an OpenAI Codex vulnerability that could have been exploited to compromise GitHub tokens. The post Critical Vulnerability in OpenAI Codex Allowed GitHub Token Compromise appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Researchers found an OpenAI Codex vulnerability that could have been exploited to compromise GitHub tokens. The post Critical Vulnerability in OpenAI Codex Allowed GitHub Token Compromise appeared fir",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-1518333e70db",
+      "title": "CISA orders feds to patch actively exploited Citrix flaw by Thursday",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-citrix-flaw-by-thursday/",
+      "published_date": "2026-03-31T03:05:25-04:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch their Citrix NetScaler appliances against an actively exploited vulnerability by Thursday. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch their Citrix NetScaler appliances against an actively exploited vulnerability by Thursday. [...]",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-86b3661ab872",
       "title": "OpenAI Patches ChatGPT Data Exfiltration Flaw and Codex GitHub Token Vulnerability",
@@ -227,43 +338,6 @@
       ]
     },
     {
-      "id": "threat-40add96afa65",
-      "title": "Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html",
-      "published_date": "2026-03-30T17:48:00+05:30",
-      "summary": "Cybersecurity researchers have discovered a remote access toolkit of Russian-origin that's distributed via malicious Windows shortcut (LNK) files that are disguised as private key folders. The CTRL toolkit, according to Censys, is custom-built using .NET and includes various executables\" to facilitate credential phishing, keylogging, Remote Desktop Protocol (RDP) hijacking, and reverse tunneling",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Cybersecurity researchers have discovered a remote access toolkit of Russian-origin that's distributed via malicious Windows shortcut (LNK) files that are disguised as private key folders. The CTRL to",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
       "id": "threat-b7e57ed46820",
       "title": "Healthcare tech firm CareCloud says hackers stole patient data",
       "source": "BleepingComputer",
@@ -278,80 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Healthcare IT firm CareCloud has disclosed a data breach incident that exposed sensitive data and caused a network disruption lasting approximately eight hours. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-23a3369ddb7f",
-      "title": "New RoadK1ll WebSocket implant used to pivot on breached networks",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/new-roadk1ll-websocket-implant-used-to-pivot-on-breached-networks/",
-      "published_date": "2026-03-30T16:49:22-04:00",
-      "summary": "A newly identified malicious implant named RoadK1ll is enabling threat actors to quietly move from a compromised host to other systems on the network. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A newly identified malicious implant named RoadK1ll is enabling threat actors to quietly move from a compromised host to other systems on the network. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-ba832a2ba24e",
-      "title": "Manufacturing and Healthcare Share Struggles with Passwords",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cyber-risk/manufacturing-and-healthcare-share-struggles-with-passwords",
-      "published_date": "2026-03-30T16:25:19",
-      "summary": "The two key economic sectors struggle with security for a reason: Many insiders view access management as a roadblock, while attackers see it as a way in.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The two key economic sectors struggle with security for a reason: Many insiders view access management as a roadblock, while attackers see it as a way in.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
