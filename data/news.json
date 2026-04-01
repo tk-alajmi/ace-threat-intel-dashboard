@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-04-01T13:41:19.590001+00:00",
+  "last_updated": "2026-04-01T15:07:41.675716+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-58200f6428fd",
+      "title": "Microsoft Warns of WhatsApp-Delivered VBS Malware Hijacking Windows via UAC Bypass",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html",
+      "published_date": "2026-04-01T19:40:00+05:30",
+      "summary": "Microsoft is calling attention to a new campaign that has leveraged WhatsApp messages to distribute malicious Visual Basic Script (VBS) files. The activity, beginning in late February 2026, leverages these scripts to initiate a multi-stage infection chain for establishing persistence and enabling remote access. It's currently not known what lures the threat actors use to trick users into",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Microsoft is calling attention to a new campaign that has leveraged WhatsApp messages to distribute malicious Visual Basic Script (VBS) files. The activity, beginning in late February 2026, leverages ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-0653996a6ff0",
       "title": "Block the Prompt, Not the Work: The End of \"Doctor No\"",
@@ -56,43 +93,6 @@
       ],
       "ai_summary": {
         "what_happened": "A multi-pronged phishing campaign is targeting Spanish-speaking users in organizations across Latin America and Europe to deliver Windows banking trojans like Casbaneiro (aka Metamorfo) via another ma",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-58200f6428fd",
-      "title": "Microsoft Warns of WhatsApp-Delivered VBS Malware Hijacking Windows via UAC Bypass",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html",
-      "published_date": "2026-04-01T17:19:00+05:30",
-      "summary": "Microsoft is calling attention to a new campaign that has leveraged WhatsApp messages to distribute malicious Visual Basic Script (VBS) files. The activity, beginning in late February 2026, leverages these scripts to initiate a multi-stage infection chain for establishing persistence and enabling remote access. It's currently not known what lures the threat actors use to trick users into",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Microsoft is calling attention to a new campaign that has leveraged WhatsApp messages to distribute malicious Visual Basic Script (VBS) files. The activity, beginning in late February 2026, leverages ",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -190,6 +190,117 @@
       ]
     },
     {
+      "id": "threat-ce15d4e420ee",
+      "title": "New DeepLoad Malware Dropped in ClickFix Attacks",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/new-deepload-malware-dropped-in-clickfix-attacks/",
+      "published_date": "2026-04-01T15:04:43+00:00",
+      "summary": "The malware steals credentials, installs a malicious browser extension, and can spread via USB drives. The post New DeepLoad Malware Dropped in ClickFix Attacks appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The malware steals credentials, installs a malicious browser extension, and can spread via USB drives. The post New DeepLoad Malware Dropped in ClickFix Attacks appeared first on SecurityWeek.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-1be42513a348",
+      "title": "Exploited Zero-Day Among 21 Vulnerabilities Patched in Chrome",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/exploited-zero-day-among-21-vulnerabilities-patched-in-chrome/",
+      "published_date": "2026-04-01T14:36:39+00:00",
+      "summary": "Google has announced fixes for CVE-2026-5281, a zero-day affecting Chrome’s Dawn component. The post Exploited Zero-Day Among 21 Vulnerabilities Patched in Chrome appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Google has announced fixes for CVE-2026-5281, a zero-day affecting Chrome’s Dawn component. The post Exploited Zero-Day Among 21 Vulnerabilities Patched in Chrome appeared first on SecurityWeek.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-c2437389e170",
+      "title": "FBI Warns of Data Security Risks From China-Made Mobile Apps",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/fbi-warns-of-data-security-risks-from-china-made-mobile-apps/",
+      "published_date": "2026-04-01T13:54:24+00:00",
+      "summary": "The agency has not named the problematic foreign-made applications, but TikTok and Temu come to mind. The post FBI Warns of Data Security Risks From China-Made Mobile Apps appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The agency has not named the problematic foreign-made applications, but TikTok and Temu come to mind. The post FBI Warns of Data Security Risks From China-Made Mobile Apps appeared first on SecurityWe",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-32be25258aa1",
       "title": "US Charges Uranium Crypto Exchange Hacker",
       "source": "SecurityWeek",
@@ -241,117 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Join the webcast as we explore what Agentic AI can and cannot solve today, and real world breach scenarios linked to disconnected applications. The post Webinar Today: Agentic AI vs. Identity’s Last M",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-6254328ceedd",
-      "title": "Are We Training AI Too Late?",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cybersecurity-analytics/are-we-training-ai-too-late",
-      "published_date": "2026-04-01T10:40:13",
-      "summary": "Ask the Expert: Cybersecurity teams need to expand their field of view to include new, unique threat sources, rather than relying on past, proven threat actors.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Ask the Expert: Cybersecurity teams need to expand their field of view to include new, unique threat sources, rather than relying on past, proven threat actors.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-c57c4ad60f64",
-      "title": "Axios NPM Package Breached in North Korean Supply Chain Attack",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/axios-npm-package-breached-in-north-korean-supply-chain-attack/",
-      "published_date": "2026-04-01T08:45:47+00:00",
-      "summary": "A long-lived NPM access token was used to bypass the GitHub Actions OIDC-based CI/CD publishing workflow and push backdoored package versions. The post Axios NPM Package Breached in North Korean Supply Chain Attack appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A long-lived NPM access token was used to bypass the GitHub Actions OIDC-based CI/CD publishing workflow and push backdoored package versions. The post Axios NPM Package Breached in North Korean Suppl",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-f6b96579fa75",
-      "title": "Google Addresses Vertex Security Issues After Researchers Weaponize AI Agents",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/google-addresses-vertex-security-issues-after-researchers-weaponize-ai-agent/",
-      "published_date": "2026-04-01T07:43:16+00:00",
-      "summary": "Palo Alto Networks has disclosed the details of its analysis of Google Cloud Platform’s Vertex AI. The post Google Addresses Vertex Security Issues After Researchers Weaponize AI Agents appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Palo Alto Networks has disclosed the details of its analysis of Google Cloud Platform’s Vertex AI. The post Google Addresses Vertex Security Issues After Researchers Weaponize AI Agents appeared first",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
