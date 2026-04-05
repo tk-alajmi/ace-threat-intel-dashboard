@@ -1,9 +1,83 @@
 {
-  "last_updated": "2026-04-05T02:46:50.340739+00:00",
+  "last_updated": "2026-04-05T05:45:48.852710+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-9aba98975db8",
+      "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
+      "published_date": "2026-04-05T10:37:00+05:30",
+      "summary": "Cybersecurity researchers have discovered 36 malicious packages in the npm registry that are disguised as Strapi CMS plugins but come with different payloads to facilitate Redis and PostgreSQL exploitation, deploy reverse shells, harvest credentials, and drop a persistent&nbsp;implant. \"Every package contains three files (package.json, index.js, postinstall.js), has no description, repository,",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cybersecurity researchers have discovered 36 malicious packages in the npm registry that are disguised as Strapi CMS plugins but come with different payloads to facilitate Redis and PostgreSQL exploit",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-1b8b74a348c1",
+      "title": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
+      "published_date": "2026-04-05T10:02:00+05:30",
+      "summary": "Fortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the&nbsp;wild. The&nbsp;vulnerability, tracked&nbsp;as CVE-2026-35616 (CVSS score: 9.1), has been described as a pre-authentication API access bypass leading to privilege escalation. \"An improper access control vulnerability [CWE-284] in FortiClient EMS may allow an",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Fortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the&nbsp;wild. The&nbsp;vulnerability, tracked&nbsp;as CVE-2026-3561",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-055f850f42fb",
       "title": "Axios npm hack used fake Teams error fix to hijack maintainer account",
@@ -278,80 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "A new report dubbed \"BrowserGate\" warns that Microsoft's LinkedIn is using hidden JavaScript scripts on its website to scan visitors' browsers for installed extensions and collect device data. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-061ba8cbc195",
-      "title": "UNC1069 Social Engineering of Axios Maintainer Led to npm Supply Chain Attack",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
-      "published_date": "2026-04-03T16:34:00+05:30",
-      "summary": "The&nbsp;maintainer of the Axios npm package has confirmed that the supply chain compromise was the result of a highly-targeted social engineering campaign orchestrated by North Korean threat actors tracked&nbsp;as UNC1069. Maintainer Jason Saayman said the attackers tailored their social engineering efforts \"specifically to me\" by first approaching him under the guise of the founder of a",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The&nbsp;maintainer of the Axios npm package has confirmed that the supply chain compromise was the result of a highly-targeted social engineering campaign orchestrated by North Korean threat actors t",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-fefe619e5a73",
-      "title": "Why Third-Party Risk Is the Biggest Gap in Your Clients' Security Posture",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/why-third-party-risk-is-biggest-gap-in.html",
-      "published_date": "2026-04-03T16:30:00+05:30",
-      "summary": "The next major&nbsp;breach hitting your clients probably won't come&nbsp;from inside their&nbsp;walls. It'll come through a vendor they trust, a SaaS tool their finance team signed up for, or a subcontractor nobody in IT knows about. That's the new attack surface, and most organizations are underprepared for&nbsp;it. Cynomi's new&nbsp;guide, Securing the Modern Perimeter: The Rise of Third-Party",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The next major&nbsp;breach hitting your clients probably won't come&nbsp;from inside their&nbsp;walls. It'll come through a vendor they trust, a SaaS tool their finance team signed up for, or a subcon",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
