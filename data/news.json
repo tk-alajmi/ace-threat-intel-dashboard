@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-04-05T16:40:27.059275+00:00",
+  "last_updated": "2026-04-05T18:50:34.444523+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-05c4031bc6e7",
+      "title": "New FortiClient EMS flaw exploited in attacks, emergency patch released",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/",
+      "published_date": "2026-04-05T14:45:17-04:00",
+      "summary": "Fortinet has released an emergency weekend security update for a new critical FortiClient Enterprise Management Server (EMS) vulnerability that is actively exploited in attacks. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Fortinet has released an emergency weekend security update for a new critical FortiClient Enterprise Management Server (EMS) vulnerability that is actively exploited in attacks. [...]",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-9aba98975db8",
       "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Threat&nbsp;actors are increasingly using HTTP cookies as a control channel for PHP-based web shells on Linux servers and to achieve remote code execution, according to findings from the Microsoft Def",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-cfb6573a189b",
-      "title": "Apple Breaks Precedent, Patches DarkSword for iOS 18",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/endpoint-security/apple-patches-darksword-ios-18",
-      "published_date": "2026-04-03T17:08:57",
-      "summary": "Even organizations with users unwilling or unable to adopt iOS 26 can now protect themselves from a severe mobile OS-cracking tool.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Even organizations with users unwilling or unable to adopt iOS 26 can now protect themselves from a severe mobile OS-cracking tool.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
