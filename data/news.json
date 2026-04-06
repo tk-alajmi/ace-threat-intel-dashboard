@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-04-06T09:19:11.474360+00:00",
+  "last_updated": "2026-04-06T11:00:34.154993+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
     {
-      "id": "threat-597e46d62273",
-      "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
+      "id": "threat-1e213b719c99",
+      "title": "Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
-      "published_date": "2026-04-06T12:29:00+05:30",
-      "summary": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identity of the main threat actors associated with the now-defunct REvil (aka Sodinokibi) ransomware-as-a-service (RaaS) operation. The threat actor, who went by the alias UNKN, functioned as a representative of the group, advertising the ransomware in June 2019 on the XSS cybercrime forum. He&nbsp;",
+      "url": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
+      "published_date": "2026-04-06T15:37:00+05:30",
+      "summary": "Threat actors associated&nbsp;with Qilin&nbsp;and Warlock ransomware operations&nbsp;have been&nbsp;observed using the bring your own vulnerable driver&nbsp;(BYOVD) technique to silence security tools running on compromised hosts, according to findings from Cisco Talos and Trend&nbsp;Micro. Qilin attacks analyzed by Talos&nbsp;have been&nbsp;found to deploy a malicious DLL named \"msimg32.dll,\"",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -18,7 +18,81 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identity of the main threat actors associated with the now-defunct REvil (aka Sodinokibi) ransomware-a",
+        "what_happened": "Threat actors associated&nbsp;with Qilin&nbsp;and Warlock ransomware operations&nbsp;have been&nbsp;observed using the bring your own vulnerable driver&nbsp;(BYOVD) technique to silence security tools",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-597e46d62273",
+      "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
+      "published_date": "2026-04-06T12:29:00+05:30",
+      "summary": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identities of two of the key figures associated with the now-defunct REvil (aka Sodinokibi) ransomware-as-a-service (RaaS) operation. One of the threat actors, who went by the alias UNKN, functioned as a representative of the group, advertising the ransomware in June 2019 on the XSS cybercrime forum",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identities of two of the key figures associated with the now-defunct REvil (aka Sodinokibi) ransomware",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-26ec694b7932",
+      "title": "Fortinet Rushes Emergency Fixes for Exploited Zero-Day",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/fortinet-rushes-emergency-fixes-for-exploited-zero-day/",
+      "published_date": "2026-04-06T09:37:28+00:00",
+      "summary": "The improper access control bug in FortiClient EMS allows unauthenticated attackers to execute arbitrary code remotely. The post Fortinet Rushes Emergency Fixes for Exploited Zero-Day appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The improper access control bug in FortiClient EMS allows unauthenticated attackers to execute arbitrary code remotely. The post Fortinet Rushes Emergency Fixes for Exploited Zero-Day appeared first o",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -278,80 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Fortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the&nbsp;wild. The&nbsp;vulnerability, tracked&nbsp;as CVE-2026-3561",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-055f850f42fb",
-      "title": "Axios npm hack used fake Teams error fix to hijack maintainer account",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
-      "published_date": "2026-04-04T16:30:42-04:00",
-      "summary": "The maintainers of the popular Axios HTTP client have published a detailed post-mortem describing how one of its developers was targeted by a social engineering campaign believed to have been conducted by North Korean threat actors. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The maintainers of the popular Axios HTTP client have published a detailed post-mortem describing how one of its developers was targeted by a social engineering campaign believed to have been conducte",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-6cc6370c9576",
-      "title": "European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/",
-      "published_date": "2026-04-04T10:31:00+00:00",
-      "summary": "Hackers stole over 300GB of data from the Commission’s AWS environment, including personal information. The post European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Hackers stole over 300GB of data from the Commission’s AWS environment, including personal information. The post European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack appeared f",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
