@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T19:09:30.920793+00:00",
+  "last_updated": "2026-04-07T20:52:21.186032+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
@@ -93,6 +93,80 @@
       ],
       "ai_summary": {
         "what_happened": "A high-severity security vulnerability has been disclosed in Docker Engine that could permit an attacker to bypass authorization plugins&nbsp;(AuthZ) under specific circumstances. The vulnerability, t",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-f9d6d76a03a4",
+      "title": "Storm-1175 Deploys Medusa Ransomware at 'High Velocity'",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/threat-intelligence/storm-1175-medusa-ransomware-high-velocity",
+      "published_date": "2026-04-07T20:15:07",
+      "summary": "Microsoft says the financially motivated cybercrime group has exploited N-day and zero-day vulnerabilities in campaigns predicated on speed.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Microsoft says the financially motivated cybercrime group has exploited N-day and zero-day vulnerabilities in campaigns predicated on speed.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-2c3177223551",
+      "title": "Grafana Patches AI Bug That Could Have Leaked User Data",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/application-security/grafana-patches-ai-bug-leaked-user-data",
+      "published_date": "2026-04-07T19:52:26",
+      "summary": "By hiding malicious instructions on an attacker-controlled Web page, AI could ingest orders as benign and return sensitive data to the attacker's server.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "By hiding malicious instructions on an attacker-controlled Web page, AI could ingest orders as benign and return sensitive data to the attacker's server.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -264,12 +338,12 @@
       ]
     },
     {
-      "id": "threat-fed201c9755d",
-      "title": "The New Rules of Engagement: Matching Agentic Attack Speed",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/the-new-rules-of-engagement-matching-agentic-attack-speed/",
-      "published_date": "2026-04-07T16:40:52+00:00",
-      "summary": "The cybersecurity response to AI-enabled nation-state threats cannot be incremental. It must be architectural. The post The New Rules of Engagement: Matching Agentic Attack Speed appeared first on SecurityWeek.",
+      "id": "threat-fae13c2eecb4",
+      "title": "FBI: Americans lost a record $21 billion to cybercrime last year",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-a-record-21-billion-to-cybercrime-last-year/",
+      "published_date": "2026-04-07T16:41:52-04:00",
+      "summary": "U.S. victims lost nearly $21 billion to cyber-enabled crimes last year, driven primarily by investment scams, business email compromise, tech support fraud, and data breaches, the Federal Bureau of Investigation says. [...]",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -277,81 +351,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The cybersecurity response to AI-enabled nation-state threats cannot be incremental. It must be architectural. The post The New Rules of Engagement: Matching Agentic Attack Speed appeared first on Sec",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-3fb00f0792ca",
-      "title": "Trent AI Emerges From Stealth With $13 Million in Funding",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/trent-ai-emerges-from-stealth-with-13-million-in-funding/",
-      "published_date": "2026-04-07T16:34:26+00:00",
-      "summary": "The startup has created a layered security solution aiming to secure AI agents throughout their entire lifecycle. The post Trent AI Emerges From Stealth With $13 Million in Funding appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The startup has created a layered security solution aiming to secure AI agents throughout their entire lifecycle. The post Trent AI Emerges From Stealth With $13 Million in Funding appeared first on S",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-da7323e05f4d",
-      "title": "Critical Flowise Vulnerability in Attacker Crosshairs",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/critical-flowise-vulnerability-in-attacker-crosshairs/",
-      "published_date": "2026-04-07T15:34:51+00:00",
-      "summary": "The improper validation of user-supplied JavaScript code allows attackers to execute arbitrary code and access the file system. The post Critical Flowise Vulnerability in Attacker Crosshairs appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The improper validation of user-supplied JavaScript code allows attackers to execute arbitrary code and access the file system. The post Critical Flowise Vulnerability in Attacker Crosshairs appeared ",
+        "what_happened": "U.S. victims lost nearly $21 billion to cyber-enabled crimes last year, driven primarily by investment scams, business email compromise, tech support fraud, and data breaches, the Federal Bureau of In",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
