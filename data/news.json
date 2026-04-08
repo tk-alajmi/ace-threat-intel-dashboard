@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-04-08T09:05:47.501339+00:00",
+  "last_updated": "2026-04-08T11:00:38.574634+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-45cb4b85bc30",
+      "title": "Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major Systems",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html",
+      "published_date": "2026-04-08T14:46:00+05:30",
+      "summary": "Artificial Intelligence (AI) company Anthropic announced a new cybersecurity initiative&nbsp;called Project&nbsp;Glasswing&nbsp;that&nbsp;will use a preview version of its new frontier model, Claude Mythos,&nbsp;to find and address security vulnerabilities. The model will&nbsp;be used by&nbsp;a small&nbsp;set of organizations, including Amazon Web Services, Apple, Broadcom, Cisco, CrowdStrike,&",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Artificial Intelligence (AI) company Anthropic announced a new cybersecurity initiative&nbsp;called Project&nbsp;Glasswing&nbsp;that&nbsp;will use a preview version of its new frontier model, Claude M",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-41f312be3c9c",
       "title": "N. Korean Hackers Spread 1,700 Malicious Packages Across npm, PyPI, Go, Rust",
@@ -19,6 +56,43 @@
       ],
       "ai_summary": {
         "what_happened": "The North Korea-linked persistent campaign known&nbsp;as Contagious&nbsp;Interview has spread its tentacles by publishing malicious packages targeting the Go, Rust, and PHP ecosystems. \"The threat act",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-7bebf0eec5d1",
+      "title": "US Disrupts Russian Espionage Operation Involving Hacked Routers and DNS Hijacking",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/us-disrupts-russian-espionage-operation-involving-hacked-routers-and-dns-hijacking/",
+      "published_date": "2026-04-08T10:54:14+00:00",
+      "summary": "The APT28 threat group exploited vulnerable TP-Link and MikroTik routers to conduct adversary-in-the-middle (AitM) attacks. The post US Disrupts Russian Espionage Operation Involving Hacked Routers and DNS Hijacking appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The APT28 threat group exploited vulnerable TP-Link and MikroTik routers to conduct adversary-in-the-middle (AitM) attacks. The post US Disrupts Russian Espionage Operation Involving Hacked Routers an",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -227,43 +301,6 @@
       ]
     },
     {
-      "id": "threat-4faa53c05067",
-      "title": "Docker CVE-2026-34040 Lets Attackers Bypass Authorization and Gain Host Access",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html",
-      "published_date": "2026-04-07T20:45:00+05:30",
-      "summary": "A high-severity security vulnerability has been disclosed in Docker Engine that could permit an attacker to bypass authorization plugins&nbsp;(AuthZ) under specific circumstances. The vulnerability, tracked&nbsp;as CVE-2026-34040 (CVSS score: 8.8), stems from an incomplete fix&nbsp;for CVE-2024-41110, a maximum-severity vulnerability in the same component that came to light in July&nbsp;2024. \"",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A high-severity security vulnerability has been disclosed in Docker Engine that could permit an attacker to bypass authorization plugins&nbsp;(AuthZ) under specific circumstances. The vulnerability, t",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
       "id": "threat-f9d6d76a03a4",
       "title": "Storm-1175 Deploys Medusa Ransomware at 'High Velocity'",
       "source": "Dark Reading",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "By hiding malicious instructions on an attacker-controlled Web page, AI could ingest orders as benign and return sensitive data to the attacker's server.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-86cac0246a9c",
-      "title": "Anthropic Unveils ‘Claude Mythos’ – A Cybersecurity Breakthrough That Could Also Supercharge Attacks",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/anthropic-unveils-claude-mythos-a-cybersecurity-breakthrough-that-could-also-supercharge-attacks/",
-      "published_date": "2026-04-07T18:39:56+00:00",
-      "summary": "New AI model drives Project Glasswing, a effort to secure critical software before advanced capabilities fall into the wrong hands. The post Anthropic Unveils ‘Claude Mythos’ &#8211; A Cybersecurity Breakthrough That Could Also Supercharge Attacks appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "New AI model drives Project Glasswing, a effort to secure critical software before advanced capabilities fall into the wrong hands. The post Anthropic Unveils ‘Claude Mythos’ &#8211; A Cybersecurity B",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
