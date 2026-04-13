@@ -1,9 +1,120 @@
 {
-  "last_updated": "2026-04-13T06:17:49.904474+00:00",
+  "last_updated": "2026-04-13T09:58:23.898525+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-e37c11b514d1",
+      "title": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
+      "published_date": "2026-04-13T12:20:00+05:30",
+      "summary": "OpenAI&nbsp;revealed a GitHub Actions workflow used to sign its macOS apps, which downloaded the malicious Axios library on March 31, but noted that no user data or&nbsp;internal system&nbsp;was compromised. \"Out of an abundance of caution, we are taking steps to protect the process that certifies our macOS applications are legitimate OpenAI apps,\"&nbsp;OpenAI said in a post last week. \"We found",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "OpenAI&nbsp;revealed a GitHub Actions workflow used to sign its macOS apps, which downloaded the malicious Axios library on March 31, but noted that no user data or&nbsp;internal system&nbsp;was compr",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-b14c5448f129",
+      "title": "Fake Claude Website Distributes PlugX RAT",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/fake-claude-website-distributes-plugx-rat/",
+      "published_date": "2026-04-13T09:52:50+00:00",
+      "summary": "The malware mimics the legitimate Anthropic installation, relies on DLL sideloading, and cleans up after itself. The post Fake Claude Website Distributes PlugX RAT appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The malware mimics the legitimate Anthropic installation, relies on DLL sideloading, and cleans up after itself. The post Fake Claude Website Distributes PlugX RAT appeared first on SecurityWeek.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-dd2f40496f6a",
+      "title": "Gmail Brings End-to-End Encryption to Android and iOS for Enterprise Users",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/gmail-brings-end-to-end-encryption-to-android-and-ios-for-enterprise-users/",
+      "published_date": "2026-04-13T08:31:33+00:00",
+      "summary": "The feature allows enterprise users to compose and read end-to-end encrypted messages natively on their mobile devices. The post Gmail Brings End-to-End Encryption to Android and iOS for Enterprise Users appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The feature allows enterprise users to compose and read end-to-end encrypted messages natively on their mobile devices. The post Gmail Brings End-to-End Encryption to Android and iOS for Enterprise Us",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-ae5fa5cb9f1d",
       "title": "CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads",
@@ -241,117 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "OpenAI has rolled out a new Pro subscription that costs $100 and is in line with Claude's pricing, which also has a $100 subscription, in addition to the $200 Max monthly plan. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-0a36ad430988",
-      "title": "Hims Breach Exposes the Most Sensitive Kinds of PHI",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/hims-breach-exposes-sensitive-phi",
-      "published_date": "2026-04-10T20:02:30",
-      "summary": "Threat actors breached the telehealth brand, and now they may know who's bald, overweight, and impotent. What could they do with that information?",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Threat actors breached the telehealth brand, and now they may know who's bald, overweight, and impotent. What could they do with that information?",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-d796f5654eb6",
-      "title": "Your Next Breach Will Look Like Business as Usual",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/identity-access-management-security/your-next-breach-business-as-usual",
-      "published_date": "2026-04-10T19:21:55",
-      "summary": "These are the fundamental detection model shifts cybersecurity teams need to make to keep up with the rising number of credential-based attacks.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "These are the fundamental detection model shifts cybersecurity teams need to make to keep up with the rising number of credential-based attacks.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-92feee6153eb",
-      "title": "GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html",
-      "published_date": "2026-04-10T18:53:00+05:30",
-      "summary": "Cybersecurity researchers have flagged yet another evolution of the&nbsp;ongoing GlassWorm campaign, which employs a new Zig dropper that's designed to stealthily infect all integrated development environments (IDEs) on a developer's&nbsp;machine. The technique has been discovered in an Open VSX extension named&nbsp;\"specstudio.code-wakatime-activity-tracker,\" which masquerades as WakaTime, a",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Cybersecurity researchers have flagged yet another evolution of the&nbsp;ongoing GlassWorm campaign, which employs a new Zig dropper that's designed to stealthily infect all integrated development env",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
