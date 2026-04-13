@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-04-13T11:24:58.857887+00:00",
+  "last_updated": "2026-04-13T13:45:41.361665+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-fa96b3424429",
+      "title": "Your MTTD Looks Great. Your Post-Alert Gap Doesn't",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html",
+      "published_date": "2026-04-13T17:11:00+05:30",
+      "summary": "Anthropic restricted its Mythos Preview model last week after it autonomously found and exploited zero-day vulnerabilities in every major operating system and browser. Palo&nbsp;Alto Networks' Wendi&nbsp;Whitmorewarned that similar capabilities are weeks or months from proliferation. CrowdStrike's 2026 Global Threat Report puts average eCrime breakout time at 29 minutes. Mandiant's M-Trends 2026",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Anthropic restricted its Mythos Preview model last week after it autonomously found and exploited zero-day vulnerabilities in every major operating system and browser. Palo&nbsp;Alto Networks' Wendi&n",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-a7d8b85266b2",
       "title": "North Korea's APT37 Uses Facebook Social Engineering to Deliver RokRAT Malware",
@@ -42,6 +79,43 @@
       ]
     },
     {
+      "id": "threat-95ccec4462b2",
+      "title": "OpenAI Impacted by North Korea-Linked Axios Supply Chain Hack",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/openai-impacted-by-north-korea-linked-axios-supply-chain-hack/",
+      "published_date": "2026-04-13T12:34:06+00:00",
+      "summary": "The AI giant is taking action after determining that a macOS code signing certificate may have been compromised. The post OpenAI Impacted by North Korea-Linked Axios Supply Chain Hack appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The AI giant is taking action after determining that a macOS code signing certificate may have been compromised. The post OpenAI Impacted by North Korea-Linked Axios Supply Chain Hack appeared first o",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-e37c11b514d1",
       "title": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident",
       "source": "The Hacker News",
@@ -56,6 +130,43 @@
       ],
       "ai_summary": {
         "what_happened": "OpenAI revealed a GitHub Actions workflow used to sign its macOS apps led to the download of the malicious Axios library on March 31, but noted that no user data or internal system was compromised. \"O",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-71effd991eb9",
+      "title": "International Operation Targets Multimillion-Dollar Crypto Theft Schemes",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/international-operation-targets-multimillion-dollar-crypto-theft-schemes/",
+      "published_date": "2026-04-13T11:34:35+00:00",
+      "summary": "Law enforcement in the US, UK and Canada identified more than $45 million in cryptocurrency and froze $12 million. The post International Operation Targets Multimillion-Dollar Crypto Theft Schemes appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Law enforcement in the US, UK and Canada identified more than $45 million in cryptocurrency and froze $12 million. The post International Operation Targets Multimillion-Dollar Crypto Theft Schemes app",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -241,117 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "A critical pre-authentication remote code execution (RCE) vulnerability in Marimo is now under active exploitation, leveraged for credential theft. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-59eb26bbd8a1",
-      "title": "Adobe Patches Actively Exploited Acrobat Reader Flaw CVE-2026-34621",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html",
-      "published_date": "2026-04-12T09:55:00+05:30",
-      "summary": "Adobe has released emergency updates to fix a critical security flaw in Acrobat Reader that&nbsp;has come under active exploitation in the&nbsp;wild. The vulnerability, assigned the CVE identifier CVE-2026-34621, carries a CVSS score of 8.6 out of 10.0. Successful exploitation of the flaw could allow an attacker to run malicious code on affected installations. It&nbsp;has been&nbsp;described as",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Adobe has released emergency updates to fix a critical security flaw in Acrobat Reader that&nbsp;has come under active exploitation in the&nbsp;wild. The vulnerability, assigned the CVE identifier CVE",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-819bd32b38e7",
-      "title": "Adobe Patches Reader Zero-Day Exploited for Months",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/adobe-patches-reader-zero-day-exploited-for-months/",
-      "published_date": "2026-04-12T07:45:26+00:00",
-      "summary": "The vulnerability is tracked as CVE-2026-34621 and Adobe has confirmed that it can be exploited for arbitrary code execution. The post Adobe Patches Reader Zero-Day Exploited for Months appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The vulnerability is tracked as CVE-2026-34621 and Adobe has confirmed that it can be exploited for arbitrary code execution. The post Adobe Patches Reader Zero-Day Exploited for Months appeared first",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-44a1baaad5e1",
-      "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html",
-      "published_date": "2026-04-11T11:32:00+05:30",
-      "summary": "Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law&nbsp;enforcement and police departments have been attributed to the use of an advertising-based global geolocation surveillance system called&nbsp;Webloc. The tool was developed by Israeli company Cobwebs Technologies and is now sold by its successor Penlink after&nbsp;the two firms merged in July&nbsp;2023",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law&nbsp;enforcement and police departments have been attributed to the use of an advertising-based global geoloca",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
