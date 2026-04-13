@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-13T17:06:12.042273+00:00",
+  "last_updated": "2026-04-13T19:18:06.770888+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
@@ -153,6 +153,43 @@
       ]
     },
     {
+      "id": "threat-8d5038a77155",
+      "title": "FBI takedown of W3LL phishing service leads to developer arrest",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/",
+      "published_date": "2026-04-13T14:55:50-04:00",
+      "summary": "The FBI Atlanta Field Office and Indonesian authorities have dismantled the \"W3LL\" global phishing platform, seizing infrastructure and arresting the alleged developer in what is described as the first coordinated enforcement action between the United States and Indonesia targeting a phishing kit developer. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The FBI Atlanta Field Office and Indonesian authorities have dismantled the \"W3LL\" global phishing platform, seizing infrastructure and arresting the alleged developer in what is described as the firs",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-a7d8b85266b2",
       "title": "North Korea's APT37 Uses Facebook Social Engineering to Deliver RokRAT Malware",
       "source": "The Hacker News",
@@ -264,86 +301,12 @@
       ]
     },
     {
-      "id": "threat-95ccec4462b2",
-      "title": "OpenAI Impacted by North Korea-Linked Axios Supply Chain Hack",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/openai-impacted-by-north-korea-linked-axios-supply-chain-hack/",
-      "published_date": "2026-04-13T12:34:06+00:00",
-      "summary": "The AI giant is taking action after determining that a macOS code signing certificate may have been compromised. The post OpenAI Impacted by North Korea-Linked Axios Supply Chain Hack appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The AI giant is taking action after determining that a macOS code signing certificate may have been compromised. The post OpenAI Impacted by North Korea-Linked Axios Supply Chain Hack appeared first o",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-e37c11b514d1",
-      "title": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
-      "published_date": "2026-04-13T12:20:00+05:30",
-      "summary": "OpenAI revealed a GitHub Actions workflow used to sign its macOS apps led to the download of the malicious Axios library on March 31, but noted that no user data or internal system was compromised. \"Out of an abundance of caution, we are taking steps to protect the process that certifies our macOS applications are legitimate OpenAI apps,\"&nbsp;OpenAI said in a post last week. \"We found no",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "OpenAI revealed a GitHub Actions workflow used to sign its macOS apps led to the download of the malicious Axios library on March 31, but noted that no user data or internal system was compromised. \"O",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-c359043728cc",
-      "title": "Adobe rolls out emergency fix for Acrobat, Reader zero-day flaw",
+      "id": "threat-c0df465f9ce5",
+      "title": "OpenAI rotates macOS certs after Axios attack hit code-signing workflow",
       "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/adobe-rolls-out-emergency-fix-for-acrobat-reader-zero-day-flaw/",
-      "published_date": "2026-04-13T11:37:05-04:00",
-      "summary": "Adobe has released an emergency security update for Acrobat Reader to fix a vulnerability, tracked as CVE-2026-34621, that has been exploited in zero-day attacks since at least December. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/",
+      "published_date": "2026-04-13T13:39:10-04:00",
+      "summary": "OpenAI is rotating potentially exposed macOS code-signing certificates after a GitHub Actions workflow executed a malicious Axios package during a recent supply chain attack. [...]",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -351,7 +314,44 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Adobe has released an emergency security update for Acrobat Reader to fix a vulnerability, tracked as CVE-2026-34621, that has been exploited in zero-day attacks since at least December. [...]",
+        "what_happened": "OpenAI is rotating potentially exposed macOS code-signing certificates after a GitHub Actions workflow executed a malicious Axios package during a recent supply chain attack. [...]",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-a444ed2660eb",
+      "title": "New Booking.com data breach forces reservation PIN resets",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-bookingcom-data-breach-forces-reservation-pin-resets/",
+      "published_date": "2026-04-13T13:30:10-04:00",
+      "summary": "Booking.com has confirmed via a statement to BleepingComputer that it has detected unauthorized access to its systems that has exposed sensitive reservation and user data. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Booking.com has confirmed via a statement to BleepingComputer that it has detected unauthorized access to its systems that has exposed sensitive reservation and user data. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
