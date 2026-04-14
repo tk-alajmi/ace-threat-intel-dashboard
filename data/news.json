@@ -1,15 +1,52 @@
 {
-  "last_updated": "2026-04-14T15:16:22.336015+00:00",
+  "last_updated": "2026-04-14T17:14:05.042952+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
     {
+      "id": "threat-05de3dcbe3de",
+      "title": "New PHP Composer Flaws Enable Arbitrary Command Execution — Patches Released",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html",
+      "published_date": "2026-04-14T21:27:00+05:30",
+      "summary": "Two high-severity security vulnerabilities&nbsp;have been disclosed in Composer, a package&nbsp;manager for&nbsp;PHP, that, if successfully exploited, could result in arbitrary command execution. The vulnerabilities&nbsp;have been&nbsp;described as command injection flaws affecting the Perforce VCS (version control software) driver. Details of the two flaws are below&nbsp;- CVE-2026-40176 (CVSS",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Two high-severity security vulnerabilities&nbsp;have been disclosed in Composer, a package&nbsp;manager for&nbsp;PHP, that, if successfully exploited, could result in arbitrary command execution. The ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-5c251cc9da24",
       "title": "Google Adds Rust-Based DNS Parser into Pixel 10 Modem to Enhance Security",
       "source": "The Hacker News",
       "url": "https://thehackernews.com/2026/04/google-adds-rust-based-dns-parser-into.html",
-      "published_date": "2026-04-14T19:25:00+05:30",
+      "published_date": "2026-04-14T20:26:00+05:30",
       "summary": "Google has announced the integration of a Rust-based Domain Name System (DNS) parser into the modem firmware as part of its ongoing efforts to beef up the security of Pixel devices and push memory-safe code at a more foundational&nbsp;level. \"The new Rust-based DNS parser significantly reduces our security risk by mitigating an entire class of vulnerabilities in a risky area, while also laying",
       "severity": "Medium",
       "threat_type": "Other",
@@ -19,6 +56,80 @@
       ],
       "ai_summary": {
         "what_happened": "Google has announced the integration of a Rust-based Domain Name System (DNS) parser into the modem firmware as part of its ongoing efforts to beef up the security of Pixel devices and push memory-saf",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-aa8b62e76d6f",
+      "title": "AI-Driven Pushpaganda Scam Exploits Google Discover to Spread Scareware and Ad Fraud",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/04/ai-driven-pushpaganda-scam-exploits.html",
+      "published_date": "2026-04-14T20:00:00+05:30",
+      "summary": "Cybersecurity researchers have unmasked a novel ad fraud scheme that has been found to leverage search engine poisoning (SEO) techniques and artificial intelligence (AI)-generated content to push deceptive news stories into&nbsp;Google's Discover&nbsp;feed and trick users into enabling persistent browser notifications that lead to scareware and financial&nbsp;scams. The campaign, which has been",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cybersecurity researchers have unmasked a novel ad fraud scheme that has been found to leverage search engine poisoning (SEO) techniques and artificial intelligence (AI)-generated content to push dece",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-e919b44a053f",
+      "title": "Adobe Patches 55 Vulnerabilities Across 11 Products",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/adobe-patches-55-vulnerabilities-across-11-products/",
+      "published_date": "2026-04-14T16:48:03+00:00",
+      "summary": "Critical ColdFusion vulnerabilities are the most at risk of being exploited in attacks, according to the software giant. The post Adobe Patches 55 Vulnerabilities Across 11 Products appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Critical ColdFusion vulnerabilities are the most at risk of being exploited in attacks, according to the software giant. The post Adobe Patches 55 Vulnerabilities Across 11 Products appeared first on ",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -116,43 +227,6 @@
       ]
     },
     {
-      "id": "threat-067de70524dd",
-      "title": "108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html",
-      "published_date": "2026-04-14T14:05:00+05:30",
-      "summary": "Cybersecurity researchers have discovered a new campaign in which a cluster of 108 Google Chrome extensions has been found to communicate with the same command-and-control (C2) infrastructure with the goal of collecting user data and enabling browser-level abuse by injecting ads and arbitrary JavaScript code into every web page&nbsp;visited. According to Socket, the extensions (complete list",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Cybersecurity researchers have discovered a new campaign in which a cluster of 108 Google Chrome extensions has been found to communicate with the same command-and-control (C2) infrastructure with the",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
       "id": "threat-71f2f5b37c52",
       "title": "‘Mythos-Ready’ Security: CSA Urges CISOs to Prepare for Accelerated AI Threats",
       "source": "SecurityWeek",
@@ -227,12 +301,12 @@
       ]
     },
     {
-      "id": "threat-97e8879b789d",
-      "title": "SAP Patches Critical ABAP Vulnerability",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/sap-patches-critical-abap-vulnerability/",
-      "published_date": "2026-04-14T11:21:12+00:00",
-      "summary": "The company has released 19 new security notes addressing flaws in over a dozen enterprise products. The post SAP Patches Critical ABAP Vulnerability appeared first on SecurityWeek.",
+      "id": "threat-2646e13dc767",
+      "title": "Fake Ledger Live app on Apple’s App Store stole $9.5M in crypto",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-ledger-live-app-on-apples-app-store-stole-95m-in-crypto/",
+      "published_date": "2026-04-14T12:37:01-04:00",
+      "summary": "A malicious Ledger Live app for macOS available from Apple's App Store has drained approximately $9.5 million in cryptocurrency from 50 victims in just a few days this month. [...]",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -240,7 +314,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The company has released 19 new security notes addressing flaws in over a dozen enterprise products. The post SAP Patches Critical ABAP Vulnerability appeared first on SecurityWeek.",
+        "what_happened": "A malicious Ledger Live app for macOS available from Apple's App Store has drained approximately $9.5 million in cryptocurrency from 50 victims in just a few days this month. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -264,12 +338,12 @@
       ]
     },
     {
-      "id": "threat-0e8ca00f0b97",
-      "title": "ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html",
-      "published_date": "2026-04-14T11:20:00+05:30",
-      "summary": "A critical security vulnerability&nbsp;impacting ShowDoc, a document management and collaboration service popular in China, has come under active exploitation in the&nbsp;wild. The vulnerability in question&nbsp;is CVE-2025-0520 (aka CNVD-2020-26585), which carries a CVSS score of 9.4&nbsp;out of&nbsp;10.0. It relates to a case of unrestricted file upload that stems from improper validation of",
+      "id": "threat-c192ff13fcf6",
+      "title": "Microsoft rolls out fast-track to reinstate Windows hardware dev accounts",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fast-track-to-reinstate-windows-hardware-dev-accounts/",
+      "published_date": "2026-04-14T11:53:50-04:00",
+      "summary": "Microsoft has rolled out a fast-track process to help developers regain access to accounts recently suspended from its Windows Hardware Program, following widespread complaints that they were locked out without warning. [...]",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -277,81 +351,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "A critical security vulnerability&nbsp;impacting ShowDoc, a document management and collaboration service popular in China, has come under active exploitation in the&nbsp;wild. The vulnerability in qu",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-72527dbacc7e",
-      "title": "Triad Nexus Evades Sanctions to Fuel Cybercrime",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/triad-nexus-evades-sanctions-to-fuel-cybercrime/",
-      "published_date": "2026-04-14T10:53:32+00:00",
-      "summary": "The sprawling cybercrime operation abuses major providers to prevent takedowns and distance itself from sanctions. The post Triad Nexus Evades Sanctions to Fuel Cybercrime appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The sprawling cybercrime operation abuses major providers to prevent takedowns and distance itself from sanctions. The post Triad Nexus Evades Sanctions to Fuel Cybercrime appeared first on SecurityWe",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-091d33c8aefe",
-      "title": "Google Adds Rust DNS Parser to Pixel Phones for Better Security",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/google-adds-rust-dns-parser-to-pixel-phones-for-better-security/",
-      "published_date": "2026-04-14T10:21:33+00:00",
-      "summary": "The parser is meant to mitigate the entire class of memory safety bugs in the low-level environment. The post Google Adds Rust DNS Parser to Pixel Phones for Better Security appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The parser is meant to mitigate the entire class of memory safety bugs in the low-level environment. The post Google Adds Rust DNS Parser to Pixel Phones for Better Security appeared first on Security",
+        "what_happened": "Microsoft has rolled out a fast-track process to help developers regain access to accounts recently suspended from its Windows Hardware Program, following widespread complaints that they were locked o",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
