@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-04-14T13:50:08.995577+00:00",
+  "last_updated": "2026-04-14T15:16:22.336015+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-5c251cc9da24",
+      "title": "Google Adds Rust-Based DNS Parser into Pixel 10 Modem to Enhance Security",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/04/google-adds-rust-based-dns-parser-into.html",
+      "published_date": "2026-04-14T19:25:00+05:30",
+      "summary": "Google has announced the integration of a Rust-based Domain Name System (DNS) parser into the modem firmware as part of its ongoing efforts to beef up the security of Pixel devices and push memory-safe code at a more foundational&nbsp;level. \"The new Rust-based DNS parser significantly reduces our security risk by mitigating an entire class of vulnerabilities in a risky area, while also laying",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Google has announced the integration of a Rust-based Domain Name System (DNS) parser into the modem firmware as part of its ongoing efforts to beef up the security of Pixel devices and push memory-saf",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-79e00e9517ac",
       "title": "Mirax Android RAT Turns Devices into SOCKS5 Proxies, Reaching 220,000 via Meta Ads",
@@ -84,7 +121,7 @@
       "source": "The Hacker News",
       "url": "https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html",
       "published_date": "2026-04-14T14:05:00+05:30",
-      "summary": "Cybersecurity researchers have discovered a new campaign in which a cluster of 108 Google Chrome extensions has been found to communicate with the same command-and-control (C2) infrastructure with the goal of collecting user data and enabling browser-level abuse by injecting ads and arbitrary JavaScript code into every web page&nbsp;visited. According to Socket, the extensions are published",
+      "summary": "Cybersecurity researchers have discovered a new campaign in which a cluster of 108 Google Chrome extensions has been found to communicate with the same command-and-control (C2) infrastructure with the goal of collecting user data and enabling browser-level abuse by injecting ads and arbitrary JavaScript code into every web page&nbsp;visited. According to Socket, the extensions (complete list",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -241,43 +278,6 @@
       ],
       "ai_summary": {
         "what_happened": "A critical security vulnerability&nbsp;impacting ShowDoc, a document management and collaboration service popular in China, has come under active exploitation in the&nbsp;wild. The vulnerability in qu",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-6e58207c2f15",
-      "title": "CISA Adds 6 Known Exploited Flaws in Fortinet, Microsoft, and Adobe Software",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html",
-      "published_date": "2026-04-14T11:09:00+05:30",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added half a dozen security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The list of vulnerabilities is as follows - CVE-2026-21643 (CVSS score: 9.1) - An SQL injection vulnerability in Fortinet FortiClient EMS that could allow an unauthenticated attacker to",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added half a dozen security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitatio",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
