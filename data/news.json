@@ -1,9 +1,120 @@
 {
-  "last_updated": "2026-04-15T11:02:53.347476+00:00",
+  "last_updated": "2026-04-15T13:44:37.574132+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-7ab4f0c6ec6f",
+      "title": "Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html",
+      "published_date": "2026-04-15T18:26:00+05:30",
+      "summary": "A recently disclosed critical security flaw impacting nginx-ui, an open-source, web-based Nginx management tool, has come under active exploitation in the&nbsp;wild. The vulnerability in question is CVE-2026-33032 (CVSS score: 9.8), an authentication bypass vulnerability that enables threat actors to seize control of the Nginx service. It&nbsp;has been codenamed MCPwn by Pluto&nbsp;Security. \"",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "A recently disclosed critical security flaw impacting nginx-ui, an open-source, web-based Nginx management tool, has come under active exploitation in the&nbsp;wild. The vulnerability in question is C",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-ac03526e54c7",
+      "title": "April Patch Tuesday Fixes Critical Flaws Across SAP, Adobe, Microsoft, Fortinet, and More",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html",
+      "published_date": "2026-04-15T18:07:00+05:30",
+      "summary": "A number&nbsp;of critical vulnerabilities impacting products from Adobe, Fortinet, Microsoft, and SAP have taken center stage in April's Patch Tuesday&nbsp;releases. Topping the list is an SQL injection vulnerability impacting SAP Business Planning and Consolidation and SAP Business Warehouse&nbsp;(CVE-2026-27681, CVSS score: 9.9) that could result in the execution of arbitrary database&nbsp;",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "A number&nbsp;of critical vulnerabilities impacting products from Adobe, Fortinet, Microsoft, and SAP have taken center stage in April's Patch Tuesday&nbsp;releases. Topping the list is an SQL injecti",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-721583b5562d",
+      "title": "Deterministic + Agentic AI: The Architecture Exposure Validation Requires",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html",
+      "published_date": "2026-04-15T17:00:00+05:30",
+      "summary": "Few technologies have moved from experimentation to boardroom mandate as quickly as AI. Across&nbsp;industries, leadership teams have embraced its broader potential, and boards, investors, and executives are already pushing organizations to adopt it across operational and security functions.&nbsp;Pentera’s AI Security and Exposure Report&nbsp;2026 reflects that&nbsp;momentum: every CISO surveyed",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Few technologies have moved from experimentation to boardroom mandate as quickly as AI. Across&nbsp;industries, leadership teams have embraced its broader potential, and boards, investors, and executi",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-cc31a722065e",
       "title": "Microsoft Issues Patches for SharePoint Zero-Day and 168 Other New Vulnerabilities",
@@ -42,12 +153,12 @@
       ]
     },
     {
-      "id": "threat-6fe7f17ae784",
-      "title": "$10 Domain Could Have Handed Hackers 25k Endpoints, Including in OT and Gov Networks",
+      "id": "threat-4e9766a7652b",
+      "title": "‘By Design’ Flaw in MCP Could Enable Widespread AI Supply Chain Attacks",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/10-domain-could-have-handed-hackers-25k-endpoints-including-in-ot-and-gov-networks/",
-      "published_date": "2026-04-15T10:58:12+00:00",
-      "summary": "Researchers found adware capable of killing cybersecurity products and pushing more dangerous payloads to infected systems. The post $10 Domain Could Have Handed Hackers 25k Endpoints, Including in OT and Gov Networks appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/by-design-flaw-in-mcp-could-enable-widespread-ai-supply-chain-attacks/",
+      "published_date": "2026-04-15T13:34:48+00:00",
+      "summary": "Researchers warn that a flaw in Anthropic’s Model Context Protocol allows unsanitized commands to execute silently, enabling full system compromise across widely used AI environments. The post ‘By Design’ Flaw in MCP Could Enable Widespread AI Supply Chain Attacks appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -55,7 +166,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Researchers found adware capable of killing cybersecurity products and pushing more dangerous payloads to infected systems. The post $10 Domain Could Have Handed Hackers 25k Endpoints, Including in OT",
+        "what_happened": "Researchers warn that a flaw in Anthropic’s Model Context Protocol allows unsanitized commands to execute silently, enabling full system compromise across widely used AI environments. The post ‘By Des",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -79,12 +190,12 @@
       ]
     },
     {
-      "id": "threat-1a0574a9ea54",
-      "title": "Trump Urges Extending Foreign Surveillance Program as Some Lawmakers Push for US Privacy Protections",
+      "id": "threat-f597585e2c0e",
+      "title": "100 Chrome Extensions Steal User Data, Create Backdoor",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/trump-urges-extending-foreign-surveillance-program-as-some-lawmakers-push-for-us-privacy-protections/",
-      "published_date": "2026-04-15T10:25:56+00:00",
-      "summary": "Congress is set to take up the reauthorization of a divisive program that lets U.S. spy agencies pore over foreigners’ calls, texts and emails. The post Trump Urges Extending Foreign Surveillance Program as Some Lawmakers Push for US Privacy Protections appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/100-chrome-extensions-steal-user-data-open-backdoor/",
+      "published_date": "2026-04-15T13:24:13+00:00",
+      "summary": "Published through five accounts, the extensions appear part of a coordinated campaign based on shared C&#038;C infrastructure. The post 100 Chrome Extensions Steal User Data, Create Backdoor appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -92,7 +203,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Congress is set to take up the reauthorization of a divisive program that lets U.S. spy agencies pore over foreigners’ calls, texts and emails. The post Trump Urges Extending Foreign Surveillance Prog",
+        "what_happened": "Published through five accounts, the extensions appear part of a coordinated campaign based on shared C&#038;C infrastructure. The post 100 Chrome Extensions Steal User Data, Create Backdoor appeared ",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -116,49 +227,12 @@
       ]
     },
     {
-      "id": "threat-060e5fdeca72",
-      "title": "OpenAI Launches GPT-5.4-Cyber with Expanded Access for Security Teams",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html",
-      "published_date": "2026-04-15T10:00:00+05:30",
-      "summary": "OpenAI on Tuesday&nbsp;unveiled GPT-5.4-Cyber, a variant of its latest flagship&nbsp;model, GPT‑5.4, that's specifically optimized for defensive cybersecurity use cases, days after rival Anthropic unveiled its own frontier&nbsp;model, Mythos. \"The progressive use of AI accelerates defenders – those responsible for keeping systems, data, and users safe – enabling them to find and fix problems",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "OpenAI on Tuesday&nbsp;unveiled GPT-5.4-Cyber, a variant of its latest flagship&nbsp;model, GPT‑5.4, that's specifically optimized for defensive cybersecurity use cases, days after rival Anthropic unv",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-1cfa34110e4c",
-      "title": "Fortinet Patches Critical FortiSandbox Vulnerabilities",
+      "id": "threat-fcaa73bba6f4",
+      "title": "CISO Conversations: Ross McKerchar, CISO at Sophos",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/fortinet-patches-critical-fortisandbox-vulnerabilities/",
-      "published_date": "2026-04-15T09:37:24+00:00",
-      "summary": "The flaws could allow attackers to bypass authentication or execute arbitrary code or commands via HTTP requests. The post Fortinet Patches Critical FortiSandbox Vulnerabilities appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/ciso-conversations-ross-mckerchar-ciso-at-sophos/",
+      "published_date": "2026-04-15T13:00:00+00:00",
+      "summary": "Sophos’ Ross McKerchar discusses leadership at scale, retaining talent, defending against AI-enabled threats, and the industry’s growing trust problem. The post CISO Conversations: Ross McKerchar, CISO at Sophos appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -166,7 +240,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The flaws could allow attackers to bypass authentication or execute arbitrary code or commands via HTTP requests. The post Fortinet Patches Critical FortiSandbox Vulnerabilities appeared first on Secu",
+        "what_happened": "Sophos’ Ross McKerchar discusses leadership at scale, retaining talent, defending against AI-enabled threats, and the industry’s growing trust problem. The post CISO Conversations: Ross McKerchar, CIS",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -190,12 +264,12 @@
       ]
     },
     {
-      "id": "threat-78203f98286d",
-      "title": "ICS Patch Tuesday: 8 Industrial Giants Publish New Security Advisories",
+      "id": "threat-60ff4b878231",
+      "title": "Mirax RAT Targeting Android Users in Europe",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/ics-patch-tuesday-8-industrial-giants-publish-new-security-advisories/",
-      "published_date": "2026-04-15T07:14:08+00:00",
-      "summary": "Siemens, Schneider Electric, Aveva, Rockwell Automation, ABB, Phoenix Contact, Mitsubishi Electric, and Moxa patched vulnerabilities. The post ICS Patch Tuesday: 8 Industrial Giants Publish New Security Advisories appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/mirax-rat-targeting-android-users-in-europe/",
+      "published_date": "2026-04-15T12:10:08+00:00",
+      "summary": "Offered as a MaaS to a small number of affiliates, mainly Russian speakers, the RAT can turn devices into residential proxy nodes. The post Mirax RAT Targeting Android Users in Europe appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -203,7 +277,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Siemens, Schneider Electric, Aveva, Rockwell Automation, ABB, Phoenix Contact, Mitsubishi Electric, and Moxa patched vulnerabilities. The post ICS Patch Tuesday: 8 Industrial Giants Publish New Securi",
+        "what_happened": "Offered as a MaaS to a small number of affiliates, mainly Russian speakers, the RAT can turn devices into residential proxy nodes. The post Mirax RAT Targeting Android Users in Europe appeared first o",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -227,49 +301,12 @@
       ]
     },
     {
-      "id": "threat-24c6324be6d1",
-      "title": "Microsoft fixes bug behind Windows Server 2025 automatic upgrades",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-windows-server-2025-automatic-upgrades/",
-      "published_date": "2026-04-15T06:24:53-04:00",
-      "summary": "Microsoft has finally fixed a known issue that was causing systems running Windows Server 2019 and 2022 to \"unexpectedly\" upgrade to Windows Server 2025. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Microsoft has finally fixed a known issue that was causing systems running Windows Server 2019 and 2022 to \"unexpectedly\" upgrade to Windows Server 2025. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-edda4f7a513d",
-      "title": "Microsoft Bets $10 Billion to Boost Japan's AI, Cybersecurity",
+      "id": "threat-e909cafb953d",
+      "title": "Microsoft, Salesforce Patch AI Agent Data Leak Flaws",
       "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cloud-security/microsoft-bets-10-billion-to-boost-japan-s-ai-cybersecurity",
-      "published_date": "2026-04-15T00:00:08",
-      "summary": "The deal aims to accelerate AI adoption, train workers, and develop cybersecurity partnerships — the latest move by a hyperscaler to compete for sovereign AI and data centers.",
+      "url": "https://www.darkreading.com/cloud-security/microsoft-salesforce-patch-ai-agent-data-leak-flaws",
+      "published_date": "2026-04-15T12:00:00",
+      "summary": "Two recently fixed prompt injections in Salesforce Agentforce and Microsoft Copilot would have enabled an external attacker to leak sensitive data.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -277,7 +314,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The deal aims to accelerate AI adoption, train workers, and develop cybersecurity partnerships — the latest move by a hyperscaler to compete for sovereign AI and data centers.",
+        "what_happened": "Two recently fixed prompt injections in Salesforce Agentforce and Microsoft Copilot would have enabled an external attacker to leak sensitive data.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -301,12 +338,12 @@
       ]
     },
     {
-      "id": "threat-12af25557fa9",
-      "title": "Patch Tuesday, April 2026 Edition",
-      "source": "Krebs on Security",
-      "url": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
-      "published_date": "2026-04-14T21:47:59+00:00",
-      "summary": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly disclosed weakness in Windows Defender dubbed \"BlueHammer.\" Separately, Google Chrome fixed its fourth zero-day of 2026, and an emergency update for Adobe Reader nixes an actively exploited flaw that can lead to remote code execution.",
+      "id": "threat-44a84f664f1d",
+      "title": "Two Vulnerabilities Patched in Ivanti Neurons for ITSM",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/two-vulnerabilities-patched-in-ivanti-neurons-for-itsm/",
+      "published_date": "2026-04-15T11:38:21+00:00",
+      "summary": "The flaws could allow a remote attacker to maintain access after their account has been disabled and to access information from other user sessions. The post Two Vulnerabilities Patched in Ivanti Neurons for ITSM appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -314,44 +351,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly di",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-05de3dcbe3de",
-      "title": "New PHP Composer Flaws Enable Arbitrary Command Execution — Patches Released",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html",
-      "published_date": "2026-04-14T21:27:00+05:30",
-      "summary": "Two high-severity security vulnerabilities&nbsp;have been disclosed in Composer, a package&nbsp;manager for&nbsp;PHP, that, if successfully exploited, could result in arbitrary command execution. The vulnerabilities&nbsp;have been&nbsp;described as command injection flaws affecting the Perforce VCS (version control software) driver. Details of the two flaws are below&nbsp;- CVE-2026-40176 (CVSS",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Two high-severity security vulnerabilities&nbsp;have been disclosed in Composer, a package&nbsp;manager for&nbsp;PHP, that, if successfully exploited, could result in arbitrary command execution. The ",
+        "what_happened": "The flaws could allow a remote attacker to maintain access after their account has been disabled and to access information from other user sessions. The post Two Vulnerabilities Patched in Ivanti Neur",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
