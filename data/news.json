@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-21T17:06:35.954414+00:00",
+  "last_updated": "2026-04-21T19:17:36.469217+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
     {
-      "id": "threat-aca5bda5817d",
-      "title": "22 BRIDGE:BREAK Flaws Expose 20,000 Lantronix and Silex Serial-to-IP Converters",
+      "id": "threat-e84b7d064cda",
+      "title": "22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters",
       "source": "The Hacker News",
       "url": "https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html",
       "published_date": "2026-04-21T21:16:00+05:30",
@@ -190,6 +190,43 @@
       ]
     },
     {
+      "id": "threat-3a41577f5f27",
+      "title": "Surge in Bomgar RMM Exploitation Demonstrates Supply Chain Risk",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/surge-bomgar-rmm-exploitation-demonstrates-supply-chain-risk",
+      "published_date": "2026-04-21T15:29:17",
+      "summary": "The critical remote code execution flaw (CVE-2026-1731) in the remote monitoring and management tool can be exploited to spread ransomware and compromise supply chains.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The critical remote code execution flaw (CVE-2026-1731) in the remote monitoring and management tool can be exploited to spread ransomware and compromise supply chains.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-22454743e138",
       "title": "Google Fixes Critical RCE Flaw in AI-Based Antigravity Tool",
       "source": "Dark Reading",
@@ -301,12 +338,12 @@
       ]
     },
     {
-      "id": "threat-4b6231d429a4",
-      "title": "Dozens of Malicious Crypto Apps Land in Apple App Store",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/dozens-of-malicious-crypto-apps-land-in-apple-app-store/",
-      "published_date": "2026-04-21T14:05:01+00:00",
-      "summary": "Masquerading as popular cryptocurrency wallets, the apps can hijack recovery phrases and private keys. The post Dozens of Malicious Crypto Apps Land in Apple App Store appeared first on SecurityWeek.",
+      "id": "threat-2d35de0472f9",
+      "title": "New Lotus data wiper used against Venezuelan energy, utility firms",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms/",
+      "published_date": "2026-04-21T14:38:40-04:00",
+      "summary": "A previously undocumented data-wiping malware dubbed Lotus was used last year in targeted attacks against energy and utilities organizations in Venezuela. [...]",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -314,44 +351,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Masquerading as popular cryptocurrency wallets, the apps can hijack recovery phrases and private keys. The post Dozens of Malicious Crypto Apps Land in Apple App Store appeared first on SecurityWeek.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-0fd992c3f6cd",
-      "title": "Unsecured Perforce Servers Expose Sensitive Data From Major Orgs",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/unsecured-perforce-servers-expose-sensitive-data-from-major-orgs/",
-      "published_date": "2026-04-21T12:37:49+00:00",
-      "summary": "Things are improving, but a researcher has still identified over 1,500 Perforce P4 instances allowing attackers to read files on the server. The post Unsecured Perforce Servers Expose Sensitive Data From Major Orgs appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Things are improving, but a researcher has still identified over 1,500 Perforce P4 instances allowing attackers to read files on the server. The post Unsecured Perforce Servers Expose Sensitive Data F",
+        "what_happened": "A previously undocumented data-wiping malware dubbed Lotus was used last year in targeted attacks against energy and utilities organizations in Venezuela. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
