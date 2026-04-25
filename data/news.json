@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-04-25T05:49:56.016033+00:00",
+  "last_updated": "2026-04-25T07:22:19.805530+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-2338e6bc44a8",
+      "title": "CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html",
+      "published_date": "2026-04-25T10:38:00+05:30",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four vulnerabilities impacting SimpleHelp, Samsung MagicINFO 9 Server, and D-Link DIR-823X series routers to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The list of vulnerabilities is below - CVE-2024-57726 (CVSS score: 9.9) - A missing authorization vulnerability in",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four vulnerabilities impacting SimpleHelp, Samsung MagicINFO 9 Server, and D-Link DIR-823X series routers to its Known ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-1f3e6738f2fc",
       "title": "FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Forgotten integrations, shadow IT, SaaS, and now shadow AI and agents are everywhere, and attackers don't need sophisticated AI models to take advantage.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-335a0cc5c9f6",
-      "title": "Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/tropic-trooper-uses-trojanized.html",
-      "published_date": "2026-04-24T14:59:00+05:30",
-      "summary": "Chinese-speaking individuals are the target of a new campaign that uses a trojanized version of SumatraPDF reader to deploy the AdaptixC2 Beacon post-exploitation agent and ultimately facilitate the abuse of Microsoft Visual Studio Code (VS Code) tunnels for remote access. Zscaler ThreatLabz, which discovered the campaign last month, has attributed it with high confidence to Tropic Trooper (aka",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Chinese-speaking individuals are the target of a new campaign that uses a trojanized version of SumatraPDF reader to deploy the AdaptixC2 Beacon post-exploitation agent and ultimately facilitate the a",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
