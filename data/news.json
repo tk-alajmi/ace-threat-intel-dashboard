@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-04-28T17:48:35.194981+00:00",
+  "last_updated": "2026-04-28T19:45:17.225087+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-19c216f27a62",
+      "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
+      "published_date": "2026-04-28T23:49:00+05:30",
+      "summary": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code execution with a single \"git push\" command. The flaw, tracked as CVE-2026-3854 (CVSS score: 8.7), is a case of command injection that could allow an attacker with push access to a repository to achieve",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code exe",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-12681fe5f778",
       "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
@@ -56,6 +93,80 @@
       ],
       "ai_summary": {
         "what_happened": "Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux, an",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-6ce28026548c",
+      "title": "Vidar Rises to Top of Chaotic Infostealer Market",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/vidar-top-chaotic-infostealer-market",
+      "published_date": "2026-04-28T19:07:16",
+      "summary": "The malware has filled the gap created by last year's law enforcement takedowns of Lumma and Rhadamanthys.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The malware has filled the gap created by last year's law enforcement takedowns of Lumma and Rhadamanthys.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-5941d899552a",
+      "title": "Cyber Insurance Data Gives CISOs New Ammo for Budget Talks",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/cyber-insurance-data-gives-cisos-new-ammo-for-budget-talks/",
+      "published_date": "2026-04-28T18:32:11+00:00",
+      "summary": "Boards may ignore alerts, but they listen to losses: new data from Resilience links security gaps directly to financial impact. The post Cyber Insurance Data Gives CISOs New Ammo for Budget Talks appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Boards may ignore alerts, but they listen to losses: new data from Resilience links security gaps directly to financial impact. The post Cyber Insurance Data Gives CISOs New Ammo for Budget Talks appe",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -190,43 +301,6 @@
       ]
     },
     {
-      "id": "threat-123132408aa9",
-      "title": "After Mythos: New Playbooks For a Zero-Window Era",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
-      "published_date": "2026-04-28T16:00:00+05:30",
-      "summary": "When patching isn’t fast enough, NDR helps contain the next era of threats. If you’ve been tracking advancements in AI, you know the exploit window, the short buffer that organizations relied on to patch and protect after a vulnerability disclosure, is closing fast. Anthropic’s new model, Claude Mythos, and its Project Glasswing, showed that finding exploitable vulnerabilities and subtle cracks",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "When patching isn’t fast enough, NDR helps contain the next era of threats. If you’ve been tracking advancements in AI, you know the exploit window, the short buffer that organizations relied on to pa",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
       "id": "threat-36f91ecd6de9",
       "title": "The Mythos Moment: Enterprises Must Fight Agents with Agents",
       "source": "SecurityWeek",
@@ -278,80 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Join the webinar to explore a practical, multi-layered roadmap to transition from fragmented AI usage to a governed, scalable ecosystem. The post Webinar Today: A Step-by-Step Approach to AI Governanc",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-e4c6f81fe853",
-      "title": "Fresh Wave of GlassWorm VS Code Extensions Slices Through Supply Chain",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/application-security/fresh-glassworm-vs-code-extensions-supply-chain",
-      "published_date": "2026-04-28T14:59:24",
-      "summary": "Attackers continue to scale a campaign to seed Open VSX with seemingly benign VS Code extensions that spread self-propagating malware.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Attackers continue to scale a campaign to seed Open VSX with seemingly benign VS Code extensions that spread self-propagating malware.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-204b7a4daa7c",
-      "title": "Robinhood Vulnerability Exploited for Phishing Attacks",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/robinhood-vulnerability-exploited-for-phishing-attacks/",
-      "published_date": "2026-04-28T14:49:51+00:00",
-      "summary": "Legitimate-looking emails coming from Robinhood systems lured recipients to phishing websites. The post Robinhood Vulnerability Exploited for Phishing Attacks appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Legitimate-looking emails coming from Robinhood systems lured recipients to phishing websites. The post Robinhood Vulnerability Exploited for Phishing Attacks appeared first on SecurityWeek.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
