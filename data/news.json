@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-29T17:41:49.538046+00:00",
+  "last_updated": "2026-04-29T19:41:15.931579+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
@@ -227,6 +227,43 @@
       ]
     },
     {
+      "id": "threat-97d9d247563c",
+      "title": "Hackers arrested for hijacking and selling 610,000 Roblox accounts",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-for-hijacking-and-selling-610-000-roblox-accounts/",
+      "published_date": "2026-04-29T14:32:15-04:00",
+      "summary": "The Ukrainian police have arrested three individuals who hacked more than 610,000 Roblox gaming accounts and sold them for a profit of $225,000. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The Ukrainian police have arrested three individuals who hacked more than 610,000 Roblox gaming accounts and sold them for a profit of $225,000. [...]",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-47471ba66d85",
       "title": "Fresh LiteLLM Vulnerability Exploited Shortly After Disclosure",
       "source": "SecurityWeek",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Forescout has identified tens of thousands of exposed RDP and VNC servers that can be mapped to specific industries. The post Hundreds of Internet-Facing VNC Servers Expose ICS/OT appeared first on Se",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-486a6731362d",
-      "title": "cPanel, WHM emergency update fixes critical auth bypass bug",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/",
-      "published_date": "2026-04-29T11:51:44-04:00",
-      "summary": "A critical vulnerability affecting all but the latest versions of cPanel and the WebHost Manager (WHM) dashboard could be exploited to obtain access to the control panel without authentication. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A critical vulnerability affecting all but the latest versions of cPanel and the WebHost Manager (WHM) dashboard could be exploited to obtain access to the control panel without authentication. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
