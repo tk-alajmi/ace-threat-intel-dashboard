@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-05-03T20:49:28.262761+00:00",
+  "last_updated": "2026-05-03T22:48:25.664644+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-ef4ac505c7c3",
+      "title": "Instructure confirms data breach, ShinyHunters claims attack",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
+      "published_date": "2026-05-03T18:16:27-04:00",
+      "summary": "Educational tech giant Instructure has confirmed that data was stolen in a cyberattack, with the ShinyHunters extortion gang claiming responsibility. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Educational tech giant Instructure has confirmed that data was stolen in a cyberattack, with the ShinyHunters extortion gang claiming responsibility. [...]",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-f37fd27e23f1",
       "title": "US Military Reaches Deals With 7 Tech Companies to Use Their AI on Classified Systems",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "A newly discovered Vietnamese-linked operation has been observed using a Google AppSheet as a \"phishing relay\" to distribute phishing emails with an aim to compromise Facebook accounts. The activity h",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-f1a8f11ecf42",
-      "title": "76% of All Crypto Stolen in 2026 Is Now in North Korea",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cybersecurity-analytics/crypto-stolen-2026-north-korea",
-      "published_date": "2026-05-01T20:34:27",
-      "summary": "North Korean threat actors are pulling off historic cryptocurrency heists on a yearly, sometimes weekly basis now. AI might be helping them.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "North Korean threat actors are pulling off historic cryptocurrency heists on a yearly, sometimes weekly basis now. AI might be helping them.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
