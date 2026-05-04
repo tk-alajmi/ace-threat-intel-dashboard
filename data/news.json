@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T21:11:28.633273+00:00",
+  "last_updated": "2026-05-04T22:58:44.088915+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
@@ -56,6 +56,43 @@
       ],
       "ai_summary": {
         "what_happened": "Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass. MOVEit Automation (formerly Central) ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-37a9edfb28d3",
+      "title": "RMM Tools Fuel Stealthy Phishing Campaign",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/rmm-tools-stealthy-phishing-campaign",
+      "published_date": "2026-05-04T20:56:34",
+      "summary": "Attackers are abusing two remote monitoring and management (RMM) tools to evade detection in a campaign that has impacted over 80 organizations so far.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Attackers are abusing two remote monitoring and management (RMM) tools to evade detection in a campaign that has impacted over 80 organizations so far.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -190,6 +227,43 @@
       ]
     },
     {
+      "id": "threat-4cca758591e7",
+      "title": "Weaver E-cology critical bug exploited in attacks since March",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
+      "published_date": "2026-05-04T18:12:57-04:00",
+      "summary": "Hackers have been exploiting a critical vulnerability (CVE-2026-22679) in the Weaver E-cology office automation since mid-March to run discovery commands. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Hackers have been exploiting a critical vulnerability (CVE-2026-22679) in the Weaver E-cology office automation since mid-March to run discovery commands. [...]",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-afd7bbdc97ea",
       "title": "2026: The Year of AI-Assisted Attacks",
       "source": "The Hacker News",
@@ -278,80 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "The cybersecurity firm’s investigation has not found any impact on its source code release or distribution process. The post Trellix Source Code Repository Breached appeared first on SecurityWeek.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-258537d73efb",
-      "title": "Amazon SES increasingly abused in phishing to evade detection",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
-      "published_date": "2026-05-04T16:03:28-04:00",
-      "summary": "The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-1ff231ece297",
-      "title": "Silver Fox Springs Tax-Themed Attacks on Orgs in India, Russia",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/endpoint-security/silver-fox-tax-themed-attacks-india-russia",
-      "published_date": "2026-05-04T14:39:26",
-      "summary": "More than 1,600 socially engineered messages from the China-backed advanced persistent threat (APT) group target various sectors to deliver the previously undocumented ABCDoor backdoor, ValleyRAT, and other malware.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "More than 1,600 socially engineered messages from the China-backed advanced persistent threat (APT) group target various sectors to deliver the previously undocumented ABCDoor backdoor, ValleyRAT, and",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
