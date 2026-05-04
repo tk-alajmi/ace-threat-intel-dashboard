@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T19:44:38.132380+00:00",
+  "last_updated": "2026-05-04T21:11:28.633273+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
@@ -93,6 +93,43 @@
       ],
       "ai_summary": {
         "what_happened": "This week, the shadows moved faster than the patches. While most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open doors,",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-78a79eca38a3",
+      "title": "Exploit Cyber-Frenzy Threatens Millions via Critical cPanel Vulnerability",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/threat-intelligence/exploit-cyber-frenzy-critical-cpanel-vulnerability",
+      "published_date": "2026-05-04T19:14:14",
+      "summary": "Shortly after the authentication-bypass flaw was disclosed multiple proof-of-concept exploits appeared, and one researcher claims there's been zero-day activity for at least a month.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Shortly after the authentication-bypass flaw was disclosed multiple proof-of-concept exploits appeared, and one researcher claims there's been zero-day activity for at least a month.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -264,6 +301,43 @@
       ]
     },
     {
+      "id": "threat-258537d73efb",
+      "title": "Amazon SES increasingly abused in phishing to evade detection",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
+      "published_date": "2026-05-04T16:03:28-04:00",
+      "summary": "The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-1ff231ece297",
       "title": "Silver Fox Springs Tax-Themed Attacks on Orgs in India, Russia",
       "source": "Dark Reading",
@@ -278,80 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "More than 1,600 socially engineered messages from the China-backed advanced persistent threat (APT) group target various sectors to deliver the previously undocumented ABCDoor backdoor, ValleyRAT, and",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-e626b92873c8",
-      "title": "Backdoored PyTorch Lightning package drops credential stealer",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
-      "published_date": "2026-05-04T13:15:27-04:00",
-      "summary": "A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [...",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-6941d00b767c",
-      "title": "Cybersecurity M&A Roundup: 33 Deals Announced in April 2026",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-april-2026/",
-      "published_date": "2026-05-04T13:02:28+00:00",
-      "summary": "Significant cybersecurity M&#038;A deals announced by Airbus, Cyera, Fortra, Palo Alto Networks, Silverfort, and Socket. The post Cybersecurity M&#038;A Roundup: 33 Deals Announced in April 2026 appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Significant cybersecurity M&#038;A deals announced by Airbus, Cyera, Fortra, Palo Alto Networks, Silverfort, and Socket. The post Cybersecurity M&#038;A Roundup: 33 Deals Announced in April 2026 appea",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
