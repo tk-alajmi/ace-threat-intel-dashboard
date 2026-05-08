@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-05-08T17:21:44.574109+00:00",
+  "last_updated": "2026-05-08T19:22:58.844723+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-fd063353c14e",
+      "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
+      "published_date": "2026-05-08T23:42:00+05:30",
+      "summary": "Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that's capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being tracked by Elastic Security Labs under the moniker REF3076. The malware family is assessed to be a major update of the Maverick, which is known to leverage a worm called SORVEPOTEL to spread via",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that's capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being tra",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-b9f3ed8ec865",
       "title": "Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads",
@@ -167,43 +204,6 @@
       ],
       "ai_summary": {
         "what_happened": "Other noteworthy stories that might have slipped under the radar: US gov targets 72-hour patch cycles, malware uses Windows Phone Link to steal OTPs, spy operation targets Eurasian drone industry. The",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-157d9a349c6e",
-      "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
-      "published_date": "2026-05-08T14:11:00+05:30",
-      "summary": "Cybersecurity researchers have disclosed details of a new Linux backdoor named PamDOORa that's being advertised on the Rehub Russian cybercrime forum for $1,600 by a threat actor called \"darkworm.\" The backdoor is designed as a Pluggable Authentication Module (PAM)-based post-exploitation toolkit that enables persistent SSH access by means of a magic password and specific TCP port combination.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Cybersecurity researchers have disclosed details of a new Linux backdoor named PamDOORa that's being advertised on the Rehub Russian cybercrime forum for $1,600 by a threat actor called \"darkworm.\" Th",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
