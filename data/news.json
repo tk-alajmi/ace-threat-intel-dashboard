@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-05-11T17:56:56.709557+00:00",
+  "last_updated": "2026-05-11T19:57:14.180783+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-523464ed124b",
+      "title": "TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html",
+      "published_date": "2026-05-12T00:00:00+05:30",
+      "summary": "Checkmarx has confirmed that a modified version of the Jenkins AST plugin was published to the Jenkins Marketplace. \"If you are using Checkmarx Jenkins AST plugin, you need to ensure that you are using the version 2.0.13-829.vc72453fa_1c16 that was published on December 17, 2025 or previously,\" the cybersecurity company said in a statement over the weekend. As of writing, Checkmarx has released",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Checkmarx has confirmed that a modified version of the Jenkins AST plugin was published to the Jenkins Marketplace. \"If you are using Checkmarx Jenkins AST plugin, you need to ensure that you are usin",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-124d038a4f5a",
       "title": "cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Cyber adversaries have long used AI, but now attackers are using large language models to develop exploits and orchestrate complex attacks.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-c8e44623a511",
-      "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
-      "published_date": "2026-05-11T12:35:00+05:30",
-      "summary": "A malicious Hugging Face repository managed to take a spot in the platform's trending list by impersonating OpenAI's Privacy Filter open-weight model to deliver a Rust-based information stealer to Windows users. The project, named Open-OSS/privacy-filter, masqueraded as its legitimate counterpart released by OpenAI late last month (openai/privacy-filter), including copying the entire description",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A malicious Hugging Face repository managed to take a spot in the platform's trending list by impersonating OpenAI's Privacy Filter open-weight model to deliver a Rust-based information stealer to Win",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
