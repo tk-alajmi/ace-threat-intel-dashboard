@@ -1,9 +1,83 @@
 {
-  "last_updated": "2026-05-14T06:47:57.990360+00:00",
+  "last_updated": "2026-05-14T10:21:37.328925+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-174e6f51a664",
+      "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
+      "published_date": "2026-05-14T14:55:50+05:30",
+      "summary": "An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Translation Framework (CTFMON). The security defects have been codenamed YellowKey and GreenPlasma, respectively, by the researcher, who goes by the online aliases Chaotic Eclipse",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Wind",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-789f0cd3e680",
+      "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
+      "published_date": "2026-05-14T12:36:15+05:30",
+      "summary": "Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to be identified in the kernel within a span of two weeks. Codenamed Fragnesia, the security vulnerability is tracked as CVE-2026-46300 (CVSS score: 7.8) and is rooted in the Linux kernel's XFRM",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-f6b42498f3b9",
       "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE",
@@ -42,6 +116,228 @@
       ]
     },
     {
+      "id": "threat-e8e880c1a1aa",
+      "title": "Hackers Targeted PraisonAI Vulnerability Hours After Disclosure",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/hackers-targeted-praisonai-vulnerability-hours-after-disclosure/",
+      "published_date": "2026-05-14T09:45:53+00:00",
+      "summary": "The first exploitation attempts were observed less than four hours after the authentication bypass was publicly disclosed. The post Hackers Targeted PraisonAI Vulnerability Hours After Disclosure appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The first exploitation attempts were observed less than four hours after the authentication bypass was publicly disclosed. The post Hackers Targeted PraisonAI Vulnerability Hours After Disclosure appe",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-1a556c41412c",
+      "title": "High-Severity Vulnerability Patched in VMware Fusion",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/high-severity-vulnerability-patched-in-vmware-fusion/",
+      "published_date": "2026-05-14T08:42:25+00:00",
+      "summary": "The patch was announced as Broadcom is attending the Pwn2Own hacking competition in Berlin this week. The post High-Severity Vulnerability Patched in VMware Fusion appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The patch was announced as Broadcom is attending the Pwn2Own hacking competition in Berlin this week. The post High-Severity Vulnerability Patched in VMware Fusion appeared first on SecurityWeek.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-49cd5be43a22",
+      "title": "Researcher Drops YellowKey, GreenPlasma Windows Zero-Days",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/researcher-drops-yellowkey-greenplasma-windows-zero-days/",
+      "published_date": "2026-05-14T07:27:42+00:00",
+      "summary": "YellowKey is a BitLocker bypass that requires physical access. GreenPlasma enables elevation of privileges to System. The post Researcher Drops YellowKey, GreenPlasma Windows Zero-Days appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "YellowKey is a BitLocker bypass that requires physical access. GreenPlasma enables elevation of privileges to System. The post Researcher Drops YellowKey, GreenPlasma Windows Zero-Days appeared first ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-a8bb9c8cc17e",
+      "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
+      "published_date": "2026-05-14T06:03:39-04:00",
+      "summary": "Dell confirmed that its SupportAssist software is causing blue-screen crashes on some Windows systems following a wave of user reports about random reboots affecting Dell devices since Friday. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Dell confirmed that its SupportAssist software is causing blue-screen crashes on some Windows systems following a wave of user reports about random reboots affecting Dell devices since Friday. [...]",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-4987388cf91d",
+      "title": "US charges suspected Dream Market admin arrested in Germany",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/us-charges-suspected-dream-market-admin-arrested-in-germany/",
+      "published_date": "2026-05-14T04:55:46-04:00",
+      "summary": "The alleged main administrator of Dream Market Incognito Market, one of the largest dark web marketplaces before its shutdown, has been indicted in the United States on money laundering charges. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The alleged main administrator of Dream Market Incognito Market, one of the largest dark web marketplaces before its shutdown, has been indicted in the United States on money laundering charges. [...]",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-a129648a5ace",
+      "title": "New Fragnesia Linux flaw lets attackers gain root privileges",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/",
+      "published_date": "2026-05-14T03:34:19-04:00",
+      "summary": "Linux distros are rolling out patches for a new high-severity kernel privilege escalation vulnerability (known as Fragnasia and tracked as CVE-2026-46300) that allows attackers to run malicious code as root. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Linux distros are rolling out patches for a new high-severity kernel privilege escalation vulnerability (known as Fragnasia and tracked as CVE-2026-46300) that allows attackers to run malicious code a",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-cddc095dfd30",
       "title": "Checkbox Assessments Aren't Fit to Measure to Risk",
       "source": "Dark Reading",
@@ -56,302 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Security governance needs to be more than an annual compliance exercise. New companies are emerging to address risk-management gaps in current audit tools.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-a00da0c3e60b",
-      "title": "Attackers Weaponize RubyGems for Data Dead Drops",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/application-security/attackers-weaponize-rubygems-data-dead-drops",
-      "published_date": "2026-05-13T21:09:20",
-      "summary": "Threat actors are publishing RubyGems packages that include scrapers targeting public-facing UK government servers, but with no clear objective.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Threat actors are publishing RubyGems packages that include scrapers targeting public-facing UK government servers, but with no clear objective.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-378e2e85c8c1",
-      "title": "Tables Turn on 'The Gentlemen' RaaS Gang With Data Leak",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/threat-intelligence/gentlemen-raas-gang-data-leak",
-      "published_date": "2026-05-13T20:47:46",
-      "summary": "An OPSEC failure provides a window into what helped the ransomware group rise: a generous affiliate model, opportunistic TTPs, and an effective organizational structure.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "An OPSEC failure provides a window into what helped the ransomware group rise: a generous affiliate model, opportunistic TTPs, and an effective organizational structure.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-88dcbae0b0d8",
-      "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
-      "published_date": "2026-05-13T19:16:02+05:30",
-      "summary": "Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's being tested by some customers as part of a limited private preview. MDASH, short for multi-model agentic scanning harness, is designed as a model-agnostic system that uses bespoke AI agents for different vulnerability",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's being tested by some c",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-ba72b66a0309",
-      "title": "Dark Reading Celebrates 20 Years as a Leading Authority on Cybersecurity, Highlighting the People, Events, Ideas, and Technologies Shaping the Modern Risk Landscape",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cybersecurity-operations/dark-reading-celebrates-20-years-as-a-leading-authority-on-cybersecurity-highlighting-the-people-events-ideas-and-technologies-shaping-the-modern-risk-landscape",
-      "published_date": "2026-05-13T18:52:50",
-      "summary": "Informa TechTarget's flagship cybersecurity media brand launches a special content series to mark two decades as a trusted source for cybersecurity professionals.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Informa TechTarget's flagship cybersecurity media brand launches a special content series to mark two decades as a trusted source for cybersecurity professionals.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-af740d2862ee",
-      "title": "Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html",
-      "published_date": "2026-05-13T18:30:00+05:30",
-      "summary": "A threat actor with affiliations to China has been linked to a \"multi-wave intrusion\" targeting an unnamed Azerbaijani oil and gas company between late December 2025 and late February 2026, marking an expansion of its targeting. The activity has been attributed by Bitdefender with moderate-to-high confidence to a hacking group known as FamousSparrow (aka UAT-9244), which shares some level of",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A threat actor with affiliations to China has been linked to a \"multi-wave intrusion\" targeting an unnamed Azerbaijani oil and gas company between late December 2025 and late February 2026, marking an",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-064c059d6cbd",
-      "title": "West Pharmaceutical says hackers stole data, encrypted systems",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
-      "published_date": "2026-05-13T18:23:31-04:00",
-      "summary": "West Pharmaceutical Services disclosed that it was the target of a cyberattack that resulted in data exfiltration and system encryption. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "West Pharmaceutical Services disclosed that it was the target of a cyberattack that resulted in data exfiltration and system encryption. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-385ae8149eda",
-      "title": "Iranian hackers targeted major South Korean electronics maker",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/",
-      "published_date": "2026-05-13T17:59:33-04:00",
-      "summary": "The Iran-linked hacking group MuddyWater (a.k.a. Seedworm, Static Kitten) launched a broad cyber-espionage campaign targeting at least nine high-profile organizations across multiple sectors and countries. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The Iran-linked hacking group MuddyWater (a.k.a. Seedworm, Static Kitten) launched a broad cyber-espionage campaign targeting at least nine high-profile organizations across multiple sectors and count",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-94e96dfa2b51",
-      "title": "[Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
-      "published_date": "2026-05-13T17:22:43+05:30",
-      "summary": "TL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register for the Strategic Briefing Here. Most security tools work like a smoke alarm that goes off every time you burn a piece of toast. You get so many alerts that you eventually start to ignore them. The real danger? While",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "TL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register for the Strategic Br",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
