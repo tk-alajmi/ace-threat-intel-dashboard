@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-05-18T16:48:22.943778+00:00",
+  "last_updated": "2026-05-18T19:47:44.693306+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-1c618a9ffbc5",
+      "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
+      "published_date": "2026-05-18T22:51:18+05:30",
+      "summary": "INTERPOL has coordinated a first-of-its-kind cybercrime crackdown across the Middle East and North Africa (MENA) that led to 201 arrests and the identification of an additional 382 suspects. The initiative involved the efforts of 13 countries from the region between October 2025 and February 2026, aiming to investigate and neutralize malicious infrastructure, arrest perpetrators behind these",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "INTERPOL has coordinated a first-of-its-kind cybercrime crackdown across the Middle East and North Africa (MENA) that led to 201 arrests and the identification of an additional 382 suspects. The initi",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-bf47d75c83b5",
       "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
@@ -190,12 +227,12 @@
       ]
     },
     {
-      "id": "threat-ab7d5bc5b96d",
-      "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
-      "published_date": "2026-05-18T14:27:34+05:30",
-      "summary": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day flaw that grants attackers SYSTEM privileges on fully patched Windows systems. Codenamed MiniPlasma, the vulnerability impacts \"cldflt.sys,\" which refers to the Windows Cloud Files Mini Filter Driver,",
+      "id": "threat-de1c3b140cd4",
+      "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
+      "published_date": "2026-05-18T14:45:35-04:00",
+      "summary": "Many employees already use shadow AI tools at work without security review. Adaptive Security breaks down how teams can build practical AI governance without adding friction for employees. [...]",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -203,7 +240,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day flaw ",
+        "what_happened": "Many employees already use shadow AI tools at work without security review. Adaptive Security breaks down how teams can build practical AI governance without adding friction for employees. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -227,8 +264,45 @@
       ]
     },
     {
-      "id": "threat-88d66873e1c0",
-      "title": "The Boring Stuff is Dangerous Now",
+      "id": "threat-ec356de5231d",
+      "title": "Leaked Shai-Hulud malware fuels new npm infostealer campaign",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/",
+      "published_date": "2026-05-18T13:28:02-04:00",
+      "summary": "The Shai-Hulud malware leaked last week is now used in new attacks on the Node Package Manager (npm) index, as infected packages emerged over the weekend. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The Shai-Hulud malware leaked last week is now used in new attacks on the Node Package Manager (npm) index, as infected packages emerged over the weekend. [...]",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-e84ce011f032",
+      "title": "The Boring Stuff Is Dangerous Now",
       "source": "Dark Reading",
       "url": "https://www.darkreading.com/cyber-risk/ai-code-and-agents-forces-defenders-adapt",
       "published_date": "2026-05-18T13:00:00",
@@ -278,80 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Several healthcare data breaches impacting hundreds of thousands and even millions were added to the HHS tracker. The post Millions Impacted Across Several US Healthcare Data Breaches appeared first o",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-4704d91ad8e2",
-      "title": "‘Claw Chain’ OpenClaw Flaws Allow Sandbox Escape, Backdoor Delivery",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/claw-chain-openclaw-flaws-allow-sandbox-escape-backdoor-delivery/",
-      "published_date": "2026-05-18T12:14:43+00:00",
-      "summary": "Four vulnerabilities in OpenClaw can be chained together to steal credentials, escape the sandbox, and plant persistent backdoors. The post &#8216;Claw Chain&#8217; OpenClaw Flaws Allow Sandbox Escape, Backdoor Delivery appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Four vulnerabilities in OpenClaw can be chained together to steal credentials, escape the sandbox, and plant persistent backdoors. The post &#8216;Claw Chain&#8217; OpenClaw Flaws Allow Sandbox Escape",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-fe3be10e93d5",
-      "title": "7-Eleven Data Breach Confirmed After ShinyHunters Ransom Demand",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/7-eleven-data-breach-confirmed-after-shinyhunters-ransom-demand/",
-      "published_date": "2026-05-18T11:25:54+00:00",
-      "summary": "The hackers claimed to have stolen more than 600,000 Salesforce records, including personal information and corporate data. The post 7-Eleven Data Breach Confirmed After ShinyHunters Ransom Demand appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The hackers claimed to have stolen more than 600,000 Salesforce records, including personal information and corporate data. The post 7-Eleven Data Breach Confirmed After ShinyHunters Ransom Demand app",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
