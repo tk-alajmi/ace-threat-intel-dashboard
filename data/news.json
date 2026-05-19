@@ -1,9 +1,120 @@
 {
-  "last_updated": "2026-05-19T03:51:47.656108+00:00",
+  "last_updated": "2026-05-19T07:50:27.654249+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-3d88f24190b6",
+      "title": "Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
+      "published_date": "2026-05-19T10:58:06+05:30",
+      "summary": "In yet another software supply chain attack, threat actors have compromised the popular GitHub Actions workflow, actions-cool/issues-helper, to run malicious code that harvests sensitive credentials and exfiltrates them to an attacker-controlled server. \"Every existing tag in the repository has been moved to point to an imposter commit that does not appear in the action's normal commit history,",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "In yet another software supply chain attack, threat actors have compromised the popular GitHub Actions workflow, actions-cool/issues-helper, to run malicious code that harvests sensitive credentials a",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-15f88fbb1922",
+      "title": "Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
+      "published_date": "2026-05-19T10:24:17+05:30",
+      "summary": "Cybersecurity researchers have discovered a fresh software supply chain attack campaign that has compromised various npm packages associated with the @antv ecosystem as part of the ongoing Mini Shai-Hulud attack wave. \"The attack affects packages tied to the npm maintainer account atool, including echarts-for-react, a widely used React wrapper for Apache ECharts with roughly 1.1 million weekly",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cybersecurity researchers have discovered a fresh software supply chain attack campaign that has compromised various npm packages associated with the @antv ecosystem as part of the ongoing Mini Shai-H",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-659770db29d8",
+      "title": "Critical Vulnerability Exposes Industrial Robot Fleets to Hacking",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/critical-vulnerability-exposes-industrial-robot-fleets-to-hacking/",
+      "published_date": "2026-05-19T06:18:51+00:00",
+      "summary": "The vulnerability, CVE-2026-8153, affects Universal Robots PolyScope 5 and it can be exploited for OS command injection. The post Critical Vulnerability Exposes Industrial Robot Fleets to Hacking appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The vulnerability, CVE-2026-8153, affects Universal Robots PolyScope 5 and it can be exploited for OS command injection. The post Critical Vulnerability Exposes Industrial Robot Fleets to Hacking appe",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-1c618a9ffbc5",
       "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests",
@@ -241,117 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks ",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-3eebd3c7a2bc",
-      "title": "INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
-      "published_date": "2026-05-18T18:15:30-04:00",
-      "summary": "More than 200 individuals were arrested for cybercrime activities during INTERPOL's Operation Ramz, which focused on the Middle East and North Africa. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "More than 200 individuals were arrested for cybercrime activities during INTERPOL's Operation Ramz, which focused on the Middle East and North Africa. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-eb4d7c8337c5",
-      "title": "SHub macOS infostealer variant spoofs Apple security updates",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/",
-      "published_date": "2026-05-18T17:42:20-04:00",
-      "summary": "A new variant of the 'SHub' macOS infostealer uses AppleScript to show a fake security update message and installs a backdoor. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A new variant of the 'SHub' macOS infostealer uses AppleScript to show a fake security update message and installs a backdoor. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-5d77fb27e067",
-      "title": "Developer Workstations Are Now Part of the Software Supply Chain",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
-      "published_date": "2026-05-18T16:53:41+05:30",
-      "summary": "Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hit npm, PyPI, and Docker Hub in a 48-hour window, and all three targeted secrets from developer environments and CI/CD pipelines, including API keys, cloud credentials, SSH keys, and tokens. This is",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hi",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
