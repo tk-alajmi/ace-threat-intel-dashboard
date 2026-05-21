@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T16:39:43.414365+00:00",
+  "last_updated": "2026-05-21T19:57:13.773492+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
@@ -190,6 +190,43 @@
       ]
     },
     {
+      "id": "threat-38acd426c6ed",
+      "title": "Google accidentally exposed details of unfixed Chromium flaw",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
+      "published_date": "2026-05-21T14:13:50-04:00",
+      "summary": "Google has accidentally leaked details about an unfixed issue in Chromium that keeps JavaScript running in the background even when the browser is closed, allowing remote code execution on the device. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Google has accidentally leaked details about an unfixed issue in Chromium that keeps JavaScript running in the background even when the browser is closed, allowing remote code execution on the device.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-fa51a77279e3",
       "title": "Chinese APTs Share Linux Backdoor in Central Asia Telco Attacks",
       "source": "Dark Reading",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Insufficient validation and authentication in the Secure Workload’s REST APIs provide remote attackers with Site Admin privileges. The post Cisco Patches Critical Vulnerability in Secure Workload appe",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-f9b8f0b2e8a9",
-      "title": "Ocean Emerges From Stealth With $28M for Agentic Email Security Platform",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/ocean-emerges-from-stealth-with-28m-for-agentic-email-security-platform/",
-      "published_date": "2026-05-21T11:45:51+00:00",
-      "summary": "The company has developed a platform that uses specialized AI agents to inspect every incoming message. The post Ocean Emerges From Stealth With $28M for Agentic Email Security Platform appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The company has developed a platform that uses specialized AI agents to inspect every incoming message. The post Ocean Emerges From Stealth With $28M for Agentic Email Security Platform appeared first",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
