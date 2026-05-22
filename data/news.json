@@ -1,9 +1,157 @@
 {
-  "last_updated": "2026-05-22T03:56:26.864387+00:00",
+  "last_updated": "2026-05-22T07:50:11.176847+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-f2296dceb573",
+      "title": "CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
+      "published_date": "2026-05-22T11:17:33+05:30",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Langflow and Trend Micro Apex One to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities in question are listed below - CVE-2025-34291 (CVSS score: 9.4) - An origin validation error vulnerability in Langflow that could",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Langflow and Trend Micro Apex One to its Known Exploited Vulnerabilities (KEV) catalog, ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-3c7ae9d29a99",
+      "title": "Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
+      "published_date": "2026-05-22T11:06:18+05:30",
+      "summary": "Cisco has rolled out updates for a maximum-severity security flaw impacting Secure Workload that could allow an unauthenticated, remote attacker to access sensitive data. Tracked as CVE-2026-20223 (CVSS score: 10.0), the vulnerability arises from insufficient validation and authentication when accessing REST API endpoints. \"An attacker could exploit this vulnerability if they are able to send",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cisco has rolled out updates for a maximum-severity security flaw impacting Secure Workload that could allow an unauthenticated, remote attacker to access sensitive data. Tracked as CVE-2026-20223 (CV",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-22a822cacb1b",
+      "title": "Grafana Says Codebase and Other Data Stolen via TanStack Supply Chain Attack",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/grafana-says-codebase-and-other-data-stolen-via-tanstack-supply-chain-attack/",
+      "published_date": "2026-05-22T07:49:38+00:00",
+      "summary": "Hackers accessed Grafana’s GitHub repositories after a token compromised in the TanStack attack was not rotated. The post Grafana Says Codebase and Other Data Stolen via TanStack Supply Chain Attack appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Hackers accessed Grafana’s GitHub repositories after a token compromised in the TanStack attack was not rotated. The post Grafana Says Codebase and Other Data Stolen via TanStack Supply Chain Attack a",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-1d07f7b50b9e",
+      "title": "China's Webworm Uses Discord, Microsoft Graphs to Hack EU Govts.",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/endpoint-security/chinas-webworm-discord-microsoft-graphs",
+      "published_date": "2026-05-22T07:01:00",
+      "summary": "The advanced persistent threat group also relied on SOCKS proxies like SoftEther VPN, tunneling tools that act as a middleman between victim and attacker.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The advanced persistent threat group also relied on SOCKS proxies like SoftEther VPN, tunneling tools that act as a middleman between victim and attacker.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-ffe9c8f3b705",
       "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
@@ -204,154 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild. The former, tracked as CVE-2026-41091, is rated 7.8 on the ",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-4a64408a83bf",
-      "title": "When Identity is the Attack Path",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
-      "published_date": "2026-05-21T16:00:00+05:30",
-      "summary": "Consider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS behavior. No one misconfigured anything or violated a policy. Yet that single key, which was easily accessible to a minor-league attacker, could have opened a path to some 98% of entities in the company's cloud",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Consider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS behavior. No one mis",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-8ae84512346e",
-      "title": "AI Agents Are Shifting Identity Security Budget Dynamics",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/identity-access-management-security/shifting-budget-dynamics-identity-security-ai-agents",
-      "published_date": "2026-05-21T15:43:37",
-      "summary": "AI agent projects are proliferating throughout the enterprise, and those AI agent identities require management, security, and governance. New Omdia research shows the AI agent identity budget dynamics are very different than traditional IAM projects.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "AI agent projects are proliferating throughout the enterprise, and those AI agent identities require management, security, and governance. New Omdia research shows the AI agent identity budget dynamic",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-38acd426c6ed",
-      "title": "Google accidentally exposed details of unfixed Chromium flaw",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
-      "published_date": "2026-05-21T14:13:50-04:00",
-      "summary": "Google has accidentally leaked details about an unfixed issue in Chromium that keeps JavaScript running in the background even when the browser is closed, allowing remote code execution on the device. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Google has accidentally leaked details about an unfixed issue in Chromium that keeps JavaScript running in the background even when the browser is closed, allowing remote code execution on the device.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-fa51a77279e3",
-      "title": "Chinese APTs Share Linux Backdoor in Central Asia Telco Attacks",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/threat-intelligence/chinese-apts-linux-backdoor-telco-attacks",
-      "published_date": "2026-05-21T14:00:00",
-      "summary": "&quot;Showboat&quot; doesn't show off, but clearly it doesn't need to, as it's long helped China spy on small market communications providers.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "&quot;Showboat&quot; doesn't show off, but clearly it doesn't need to, as it's long helped China spy on small market communications providers.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
