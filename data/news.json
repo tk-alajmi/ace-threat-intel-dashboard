@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-05-25T14:58:17.072251+00:00",
+  "last_updated": "2026-05-25T17:45:40.567524+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-2703d3af10d5",
+      "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
+      "published_date": "2026-05-25T19:43:27+05:30",
+      "summary": "Monday recap. Same mess, new week. A sketchy dev tool got people pwned, old bugs came back from the dead, and security products somehow needed protecting from themselves. A bunch of companies spent the week checking old boxes and forgotten servers they should've patched years ago. Good times. Phishing crews are getting smarter too - less obvious scam junk, more targeted stuff that actually",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Monday recap. Same mess, new week. A sketchy dev tool got people pwned, old bugs came back from the dead, and security products somehow needed protecting from themselves. A bunch of companies spent th",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-e8ecd4577137",
       "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
@@ -190,6 +227,43 @@
       ]
     },
     {
+      "id": "threat-96af4bdc30f9",
+      "title": "Anthropic’s restricted Claude Mythos model may be coming to Claude Code",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/",
+      "published_date": "2026-05-25T13:07:33-04:00",
+      "summary": "Anthropic appears to be preparing for the public rollout of the Mythos model, which was announced in April as a restricted model that poses major security risks to private and public software. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Anthropic appears to be preparing for the public rollout of the Mythos model, which was announced in April as a restricted model that poses major security risks to private and public software. [...]",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-e8d586d0b12c",
       "title": "Oncology Institute Discloses Data Breach",
       "source": "SecurityWeek",
@@ -278,80 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Threat actors stole files containing names and protected health information from the healthcare organization’s systems. The post 266,000 Affected by Data Breach at Radiology Associates of Richmond app",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-4225b8f3164b",
-      "title": "Anthropic: Mythos Detected 23,000 Potential Vulnerabilities Across 1,000 OSS Projects",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/anthropic-mythos-detected-23000-potential-vulnerabilities-across-1000-oss-projects/",
-      "published_date": "2026-05-25T10:58:07+00:00",
-      "summary": "Many findings have been confirmed to be critical or high-severity vulnerabilities and the number will continue to increase. The post Anthropic: Mythos Detected 23,000 Potential Vulnerabilities Across 1,000 OSS Projects appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Many findings have been confirmed to be critical or high-severity vulnerabilities and the number will continue to increase. The post Anthropic: Mythos Detected 23,000 Potential Vulnerabilities Across ",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-be79662da420",
-      "title": "Laravel-Lang Packages Poisoned for Malware Delivery",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/laravel-lang-packages-poisoned-for-malware-delivery/",
-      "published_date": "2026-05-25T10:41:07+00:00",
-      "summary": "Published within a 15-minute window, the malicious tags introduced backdoors to exfiltrate CI secrets. The post Laravel-Lang Packages Poisoned for Malware Delivery appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Published within a 15-minute window, the malicious tags introduced backdoors to exfiltrate CI secrets. The post Laravel-Lang Packages Poisoned for Malware Delivery appeared first on SecurityWeek.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
