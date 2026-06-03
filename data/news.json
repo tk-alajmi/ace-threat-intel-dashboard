@@ -1,9 +1,120 @@
 {
-  "last_updated": "2026-06-03T11:04:33.606682+00:00",
+  "last_updated": "2026-06-03T16:54:40.963125+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-15c3ff82f3cb",
+      "title": "One-Click GitHub Dev Attack Lets Attackers Steal Full GitHub OAuth Tokens",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
+      "published_date": "2026-06-03T18:28:22+05:30",
+      "summary": "Cybersecurity researchers have disclosed a one-click attack via Microsoft Visual Studio Code (VS Code) that makes it possible to steal a user's GitHub token. \"Just by clicking a link, it's possible for an attacker to steal a GitHub token that can read and write to your repos, including private ones,\" security researcher Ammar Askar said. GitHub supports a feature called GitHub.dev that runs as",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cybersecurity researchers have disclosed a one-click attack via Microsoft Visual Studio Code (VS Code) that makes it possible to steal a user's GitHub token. \"Just by clicking a link, it's possible fo",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-eced9bfa5170",
+      "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html",
+      "published_date": "2026-06-03T17:28:00+05:30",
+      "summary": "The Fragmented State of Modern Enterprise Identity Enterprise IAM is approaching a breaking point. As organizations scale, identity becomes increasingly fragmented across thousands of applications, decentralized teams, machine identities, and autonomous systems. The result is Identity Dark Matter: identity activity that sits outside the visibility of centralized IAM and beyond the reach of",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The Fragmented State of Modern Enterprise Identity Enterprise IAM is approaching a breaking point. As organizations scale, identity becomes increasingly fragmented across thousands of applications, de",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-4b38aded5b61",
+      "title": "Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html",
+      "published_date": "2026-06-03T16:58:59+05:30",
+      "summary": "Assume the breach. Zero-days keep shipping, AI is writing exploits faster than anyone patches, and \"patch everything in time\" stopped working years ago. Stop betting the org on winning that race. You don't control which bug lands. You control what it can reach once it does. That is a question about the shape of your network, and most teams have the shape wrong. HD Moore, creator of Metasploit",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Assume the breach. Zero-days keep shipping, AI is writing exploits faster than anyone patches, and \"patch everything in time\" stopped working years ago. Stop betting the org on winning that race. You ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-310418432d5e",
       "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
@@ -79,49 +190,12 @@
       ]
     },
     {
-      "id": "threat-154914280e75",
-      "title": "Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html",
-      "published_date": "2026-06-03T11:46:54+05:30",
-      "summary": "Cybersecurity researchers have flagged a new campaign targeting Minecraft players via YouTube to spread malware capable of gaining control of victims' systems. The Minecraft-focused malware-as-a-service (MaaS) campaign has been codenamed Weedhack by McAfee Labs, stating the activity has been active since January 2026 and impersonates Minecraft clients and mods to infect users. In all, 3820",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Cybersecurity researchers have flagged a new campaign targeting Minecraft players via YouTube to spread malware capable of gaining control of victims' systems. The Minecraft-focused malware-as-a-servi",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-d6c3eaba4cfd",
-      "title": "‘HTTP/2 Bomb’ Exploit Knocks Web Servers Offline in Seconds",
+      "id": "threat-7b5eb8eaa2a6",
+      "title": "Kirki, Burst Statistics WordPress Plugin Flaws in Attackers’ Crosshairs",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/http-2-bomb-exploit-knocks-web-servers-offline-in-seconds/",
-      "published_date": "2026-06-03T10:52:08+00:00",
-      "summary": "The default HTTP/2 configuration of major web servers is vulnerable to an attack chain combining a compression bomb and a Slowloris-style hold. The post &#8216;HTTP/2 Bomb&#8217; Exploit Knocks Web Servers Offline in Seconds appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/kirki-burst-statistics-wordpress-plugin-flaws-in-attackers-crosshairs/",
+      "published_date": "2026-06-03T13:00:04+00:00",
+      "summary": "Threat actors are exploiting vulnerable Kirki and Burst Statistics deployments to elevate privileges and take over websites. The post Kirki, Burst Statistics WordPress Plugin Flaws in Attackers&#8217; Crosshairs appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -129,7 +203,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The default HTTP/2 configuration of major web servers is vulnerable to an attack chain combining a compression bomb and a Slowloris-style hold. The post &#8216;HTTP/2 Bomb&#8217; Exploit Knocks Web Se",
+        "what_happened": "Threat actors are exploiting vulnerable Kirki and Burst Statistics deployments to elevate privileges and take over websites. The post Kirki, Burst Statistics WordPress Plugin Flaws in Attackers&#8217;",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -153,12 +227,12 @@
       ]
     },
     {
-      "id": "threat-103b5fd167cb",
-      "title": "Microsoft Tries to Calm Legal Threat Fears After Zero-Day Disclosure Backlash",
+      "id": "threat-15e0efa2dd74",
+      "title": "Security of 100 AI Agents Tested and Ranked – What You Need to Know",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/microsoft-tries-to-calm-legal-threat-fears-after-zero-day-disclosure-backlash/",
-      "published_date": "2026-06-03T09:57:40+00:00",
-      "summary": "Microsoft responds to backlash over its threats of legal action against researchers who publicly disclose zero-day vulnerabilities. The post Microsoft Tries to Calm Legal Threat Fears After Zero-Day Disclosure Backlash appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/security-of-100-ai-agents-tested-and-ranked-what-you-need-to-know/",
+      "published_date": "2026-06-03T13:00:00+00:00",
+      "summary": "The AI Risk Quadrant evaluates AI agents based on three factors: how vulnerable they are to compromise, the potential impact of a breach, and the strength of their security defenses. The post Security of 100 AI Agents Tested and Ranked – What You Need to Know appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -166,7 +240,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Microsoft responds to backlash over its threats of legal action against researchers who publicly disclose zero-day vulnerabilities. The post Microsoft Tries to Calm Legal Threat Fears After Zero-Day D",
+        "what_happened": "The AI Risk Quadrant evaluates AI agents based on three factors: how vulnerable they are to compromise, the potential impact of a breach, and the strength of their security defenses. The post Security",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -190,12 +264,12 @@
       ]
     },
     {
-      "id": "threat-2435f5fc3532",
-      "title": "Police dismantles 9 crime groups in illegal streaming crackdown",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/",
-      "published_date": "2026-06-03T06:12:24-04:00",
-      "summary": "European and international law enforcement agencies have dismantled nine organized crime groups and arrested 29 suspects in a major crackdown on illegal streaming operations. [...]",
+      "id": "threat-ff3b12a7d542",
+      "title": "Hackers Target Global Stock Exchange in Espionage Operation",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/hackers-target-global-stock-exchange-in-espionage-operation/",
+      "published_date": "2026-06-03T12:46:53+00:00",
+      "summary": "The attackers had access to a senior executive’s email account for 150 days and exfiltrated data for months. The post Hackers Target Global Stock Exchange in Espionage Operation appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -203,7 +277,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "European and international law enforcement agencies have dismantled nine organized crime groups and arrested 29 suspects in a major crackdown on illegal streaming operations. [...]",
+        "what_happened": "The attackers had access to a senior executive’s email account for 150 days and exfiltrated data for months. The post Hackers Target Global Stock Exchange in Espionage Operation appeared first on Secu",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -227,12 +301,12 @@
       ]
     },
     {
-      "id": "threat-fbc10420ac30",
-      "title": "Google adds Android protection against AI deepfake scam calls",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
-      "published_date": "2026-06-03T05:02:11-04:00",
-      "summary": "Google is introducing a new Android security feature that will detect and flag phone calls in which scammers use artificial intelligence to impersonate a user's personal contacts. [...]",
+      "id": "threat-05ed9875262d",
+      "title": "IMA Diligence Services Data Breach Impacts 525,000 People",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/ima-diligence-services-data-breach-impacts-525000-people/",
+      "published_date": "2026-06-03T12:08:25+00:00",
+      "summary": "The affected individuals’ personal information was stolen from a legacy server managed by a third party. The post IMA Diligence Services Data Breach Impacts 525,000 People appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -240,7 +314,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Google is introducing a new Android security feature that will detect and flag phone calls in which scammers use artificial intelligence to impersonate a user's personal contacts. [...]",
+        "what_happened": "The affected individuals’ personal information was stolen from a legacy server managed by a third party. The post IMA Diligence Services Data Breach Impacts 525,000 People appeared first on SecurityWe",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -264,12 +338,12 @@
       ]
     },
     {
-      "id": "threat-b0dcaf5f303f",
-      "title": "VS Code zero-day lets hackers steal GitHub tokens in one click",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/",
-      "published_date": "2026-06-03T02:50:30-04:00",
-      "summary": "A security researcher has released exploit code for a Visual Studio Code (VS Code) zero-day vulnerability that allows attackers to steal GitHub authentication tokens by tricking users into clicking a link. [...]",
+      "id": "threat-4cd36bdec935",
+      "title": "Malicious Notifications Could Trick Google Gemini Users",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/application-security/malicious-notifications-could-trick-google-gemini-users",
+      "published_date": "2026-06-03T12:01:00",
+      "summary": "A prompt injection flaw in Google Gemini's voice assistant let attackers hide malicious commands in notifications, enabling social engineering and more.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -277,81 +351,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "A security researcher has released exploit code for a Visual Studio Code (VS Code) zero-day vulnerability that allows attackers to steal GitHub authentication tokens by tricking users into clicking a ",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-8c27fb63f6fe",
-      "title": "Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
-      "published_date": "2026-06-03T00:16:00+05:30",
-      "summary": "Google on Monday released patches for 124 security vulnerabilities impacting its Android operating system for the month of June 2026, including one high-severity flaw in the Framework component that has come under active exploitation. Tracked as CVE-2025-48595 (CVSS score: 8.4), the security flaw has been described as a case of privilege escalation without requiring any user interaction. The",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Google on Monday released patches for 124 security vulnerabilities impacting its Android operating system for the month of June 2026, including one high-severity flaw in the Framework component that h",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-c67a8ed64982",
-      "title": "Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html",
-      "published_date": "2026-06-02T23:51:49+05:30",
-      "summary": "The Russian hacking group known as Gamaredon has been attributed to the continued exploitation of a WinRAR vulnerability to deliver multiple malware families aimed at data theft and propagation. Per Sekoia, the activity involves the weaponization of CVE-2025-8088, a path traversal flaw in WinRAR, to launch an HTML Application payload dubbed GammaPhish, which is then used to retrieve an",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The Russian hacking group known as Gamaredon has been attributed to the continued exploitation of a WinRAR vulnerability to deliver multiple malware families aimed at data theft and propagation. Per S",
+        "what_happened": "A prompt injection flaw in Google Gemini's voice assistant let attackers hide malicious commands in notifications, enabling social engineering and more.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
