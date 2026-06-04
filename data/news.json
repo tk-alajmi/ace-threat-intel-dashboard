@@ -1,9 +1,83 @@
 {
-  "last_updated": "2026-06-04T12:50:32.904964+00:00",
+  "last_updated": "2026-06-04T16:55:18.455945+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-af0d8db9de2e",
+      "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
+      "published_date": "2026-06-04T20:45:26+05:30",
+      "summary": "A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a single opened GitHub issue. Because Anthropic's own action repo used the same workflow, a working attack could have pushed malicious code into the action itself and onto the projects downstream that pull it. RyotaK of GMO",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a single opened GitHub issu",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-35d4c88b17ea",
+      "title": "ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors & 20+ New Stories",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html",
+      "published_date": "2026-06-04T19:30:49+05:30",
+      "summary": "It got stupid again. The internet still feels held together with tape. Bad plugins, old bugs, fake tools, trusted apps doing shady things. Same mess, new wrapper. And now the weird stuff is normal. Forums go down and come back worse. Cheap hackers get better toys. AI starts breaking real systems. Great. Read the whole thing before it ruins your week anyway. Unauthenticated",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "It got stupid again. The internet still feels held together with tape. Bad plugins, old bugs, fake tools, trusted apps doing shady things. Same mess, new wrapper. And now the weird stuff is normal. Fo",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-b014dbd9b6bf",
       "title": "China-Linked TA4922 Expands Phishing Attacks to UK, Germany, Italy, and South Africa",
@@ -116,49 +190,12 @@
       ]
     },
     {
-      "id": "threat-aac80edd9f76",
-      "title": "Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html",
-      "published_date": "2026-06-04T15:03:57+05:30",
-      "summary": "Unknown attackers spent at least five months inside the Outlook mailbox of a senior executive at a major global stock exchange, copying the inbox out in small, repeated batches and routing it through Dropbox and OneDrive so the traffic blended into normal cloud activity. Symantec and Carbon Black's Threat Hunter Team reported the campaign this week. This points to espionage, not a money grab:",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Unknown attackers spent at least five months inside the Outlook mailbox of a senior executive at a major global stock exchange, copying the inbox out in small, repeated batches and routing it through ",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-9c14242a54ef",
-      "title": "Mirasvit Vulnerability Exploited to Execute Code on Magento Servers",
+      "id": "threat-99dcf78dd00c",
+      "title": "Offroad Emerges From Stealth With $7 Million to Tackle Enterprise Identity Risk",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/mirasvit-vulnerability-exploited-to-execute-code-on-magento-servers/",
-      "published_date": "2026-06-04T12:10:02+00:00",
-      "summary": "A flaw in the Full Page Cache Warmer extension can be exploited without authentication via serialized PHP object payloads. The post Mirasvit Vulnerability Exploited to Execute Code on Magento Servers appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/offroad-emerges-from-stealth-with-7-million-to-tackle-enterprise-identity-risk/",
+      "published_date": "2026-06-04T15:05:45+00:00",
+      "summary": "As AI agents, machine identities, and third-party applications multiply across enterprises, Offroad is betting autonomous security agents can restore control over an increasingly unmanageable identity landscape. The post Offroad Emerges From Stealth With $7 Million to Tackle Enterprise Identity Risk appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -166,7 +203,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "A flaw in the Full Page Cache Warmer extension can be exploited without authentication via serialized PHP object payloads. The post Mirasvit Vulnerability Exploited to Execute Code on Magento Servers ",
+        "what_happened": "As AI agents, machine identities, and third-party applications multiply across enterprises, Offroad is betting autonomous security agents can restore control over an increasingly unmanageable identity",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -190,49 +227,12 @@
       ]
     },
     {
-      "id": "threat-cf6fee409907",
-      "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html",
-      "published_date": "2026-06-04T11:36:25+05:30",
-      "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced the results of a sweeping action undertaken by government authorities and private sector companies to combat cyber-enabled and cryptocurrency fraud targeting Americans. The \"Disruption Week\" operation began May 18, 2026, leading to the takedown of millions of social media, email, and internet access accounts used by transnational",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The U.S. Department of Justice (DoJ) on Wednesday announced the results of a sweeping action undertaken by government authorities and private sector companies to combat cyber-enabled and cryptocurrenc",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-a1a15f137f34",
-      "title": "Chinese Cybercrime Group in Spotlight for Record Campaign Pace",
+      "id": "threat-af4ebd0eb785",
+      "title": "Webinar Today: Third-Party Risk in Practice – Where Programs Break Down and How to Respond",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/chinese-cybercrime-group-ta4922-in-spotlight-for-record-campaign-pace/",
-      "published_date": "2026-06-04T11:29:28+00:00",
-      "summary": "Relying on social engineering, the hacking group engages in credential phishing, malware distribution, and fraud activities. The post Chinese Cybercrime Group in Spotlight for Record Campaign Pace appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/webinar-today-third-party-risk-in-practice-where-programs-break-down-and-to-respond/",
+      "published_date": "2026-06-04T14:40:44+00:00",
+      "summary": "Join this live webinar as we examine the gap between how organizations think their third-party risk programs are performing and what’s actually happening in practice. The post Webinar Today: Third-Party Risk in Practice &#8211; Where Programs Break Down and How to Respond appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -240,7 +240,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Relying on social engineering, the hacking group engages in credential phishing, malware distribution, and fraud activities. The post Chinese Cybercrime Group in Spotlight for Record Campaign Pace app",
+        "what_happened": "Join this live webinar as we examine the gap between how organizations think their third-party risk programs are performing and what’s actually happening in practice. The post Webinar Today: Third-Par",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -264,12 +264,12 @@
       ]
     },
     {
-      "id": "threat-c60977c44ac9",
-      "title": "Over 1.4 Million Accounts Disrupted in Cybercrime Crackdown",
+      "id": "threat-6f6a7cfa59ad",
+      "title": "Willow Raises $7 Million for Securing Autonomous AI Agents",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/over-1-4-million-accounts-disrupted-in-cybercrime-crackdown/",
-      "published_date": "2026-06-04T10:44:41+00:00",
-      "summary": "Law enforcement and tech companies disrupted infrastructure linked to scammers operating across Southeast Asia. The post Over 1.4 Million Accounts Disrupted in Cybercrime Crackdown appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/willow-raises-7-million-for-securing-autonomous-ai-agents/",
+      "published_date": "2026-06-04T14:22:43+00:00",
+      "summary": "Willow (formerly Webrix) emerged from stealth mode with an access platform designed to secure enterprise AI agents. The post Willow Raises $7 Million for Securing Autonomous AI Agents appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -277,7 +277,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Law enforcement and tech companies disrupted infrastructure linked to scammers operating across Southeast Asia. The post Over 1.4 Million Accounts Disrupted in Cybercrime Crackdown appeared first on S",
+        "what_happened": "Willow (formerly Webrix) emerged from stealth mode with an access platform designed to secure enterprise AI agents. The post Willow Raises $7 Million for Securing Autonomous AI Agents appeared first o",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -301,12 +301,12 @@
       ]
     },
     {
-      "id": "threat-b8a645c4299b",
-      "title": "Cisco Warns of Available PoC for Critical Unified CM Vulnerability",
+      "id": "threat-22c5989e9e50",
+      "title": "Gemini Voice Assistant Hijacked via Messaging Notifications",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/cisco-warns-of-available-poc-for-critical-unified-cm-vulnerability/",
-      "published_date": "2026-06-04T08:44:08+00:00",
-      "summary": "The high-severity flaw can be exploited remotely, without authentication, in server-side request forgery (SSRF) attacks. The post Cisco Warns of Available PoC for Critical Unified CM Vulnerability appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/gemini-voice-assistant-hijacked-via-messaging-notifications/",
+      "published_date": "2026-06-04T12:57:37+00:00",
+      "summary": "Attackers could have triggered dangerous actions, including controlling smart home devices via Google Home and starting Zoom video calls. The post Gemini Voice Assistant Hijacked via Messaging Notifications appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -314,7 +314,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The high-severity flaw can be exploited remotely, without authentication, in server-side request forgery (SSRF) attacks. The post Cisco Warns of Available PoC for Critical Unified CM Vulnerability app",
+        "what_happened": "Attackers could have triggered dangerous actions, including controlling smart home devices via Google Home and starting Zoom video calls. The post Gemini Voice Assistant Hijacked via Messaging Notific",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -338,12 +338,12 @@
       ]
     },
     {
-      "id": "threat-2adc55f4e8ba",
-      "title": "Police dismantles fake ID marketplace used by migrant smugglers",
+      "id": "threat-6187d501fead",
+      "title": "UN food agency discloses breach affecting 600,000 Gaza households",
       "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-fake-id-marketplace-used-by-migrant-smugglers/",
-      "published_date": "2026-06-04T08:29:12-04:00",
-      "summary": "French and Spanish authorities took down an online marketplace selling fake identity documents to migrant smuggling rings operating within the European Union. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/",
+      "published_date": "2026-06-04T12:38:49-04:00",
+      "summary": "The United Nations' World Food Programme (WFP), the world's largest humanitarian organization, revealed over the weekend that its self-registration application (SRA) for Palestine was breached. [...]",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -351,7 +351,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "French and Spanish authorities took down an online marketplace selling fake identity documents to migrant smuggling rings operating within the European Union. [...]",
+        "what_happened": "The United Nations' World Food Programme (WFP), the world's largest humanitarian organization, revealed over the weekend that its self-registration application (SRA) for Palestine was breached. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
