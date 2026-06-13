@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T19:40:35.198533+00:00",
+  "last_updated": "2026-06-13T21:19:21.365139+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
@@ -19,6 +19,43 @@
       ],
       "ai_summary": {
         "what_happened": "Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution. The vul",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-c73fa2789098",
+      "title": "Ex-school district employee jailed for hacks on former employer",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
+      "published_date": "2026-06-13T16:53:13-04:00",
+      "summary": "A former IT employee at an Iowa school district was sentenced to 21 months in prison after conducting a prolonged cyberattack against the former employer that disrupted classroom operations, deleted accounts, and caused tens of thousands of dollars in damages. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "A former IT employee at an Iowa school district was sentenced to 21 months in prison after conducting a prolonged cyberattack against the former employer that disrupted classroom operations, deleted a",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Instead of hiding on the laptops and servers defenders watch most closely, a China-nexus group spent close to a decade hidden inside the Linux login system itself. Sygnia, which tracks the group as Ve",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-81aa036a3506",
-      "title": "ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed",
-      "published_date": "2026-06-12T20:26:32",
-      "summary": "A major bug in Oracle's ERP software disproportionately affected American universities, and hackers have capitalized by stealing gobs of data.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A major bug in Oracle's ERP software disproportionately affected American universities, and hackers have capitalized by stealing gobs of data.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
