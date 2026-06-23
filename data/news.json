@@ -1,9 +1,83 @@
 {
-  "last_updated": "2026-06-23T11:19:39.670919+00:00",
+  "last_updated": "2026-06-23T14:54:34.297631+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-77cdf613bf03",
+      "title": "GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
+      "published_date": "2026-06-23T19:52:03+05:30",
+      "summary": "GitHub is moving to strengthen software supply chain security by updating \"actions/checkout\" to block pwn request attacks that exploit the risky use of the \"pull_request_target workflow\" trigger to run malicious code with the workflow's full privileges. Effective June 18, 2026, the latest version of \"actions/checkout,\" the official GitHub action for checking out a repository into the",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "GitHub is moving to strengthen software supply chain security by updating \"actions/checkout\" to block pwn request attacks that exploit the risky use of the \"pull_request_target workflow\" trigger to ru",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-25303e2f6088",
+      "title": "Agentic AI: The Weapon That No Longer Needs a Warrior",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
+      "published_date": "2026-06-23T17:00:00+05:30",
+      "summary": "Every weapon begins as an extension of the hand that holds it. The spear lengthened the reach of the arm. The bow sent the point flying without the throw. The rifle placed a man's death a quarter mile beyond his sight, and the aircraft carried that death across oceans. At each turn, the distance between the warrior and the wound grew wider, and yet one thing never moved: a human chose the target",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Every weapon begins as an extension of the hand that holds it. The spear lengthened the reach of the arm. The bow sent the point flying without the throw. The rifle placed a man's death a quarter mile",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-a0e3edfd1a2d",
       "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
@@ -42,6 +116,228 @@
       ]
     },
     {
+      "id": "threat-5b9f9c71316a",
+      "title": "SocGholish Takedown Highlights Malicious TDS Threats",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cyber-risk/socgholish-takedown-malicious-tds-threats",
+      "published_date": "2026-06-23T13:51:33",
+      "summary": "SocGholish uses traffic distribution systems (TDSs) to provide initial access into victims' networks for cybercrime groups such as the notorious Evil Corp.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "SocGholish uses traffic distribution systems (TDSs) to provide initial access into victims' networks for cybercrime groups such as the notorious Evil Corp.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-2b364ce8954e",
+      "title": "Eight-Year-Old Samsung KNOX Flaw Exposed Millions of Galaxy Devices to Kernel Attacks",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/eight-year-old-samsung-knox-flaw-exposed-millions-of-galaxy-devices-to-kernel-attacks/",
+      "published_date": "2026-06-23T13:00:00+00:00",
+      "summary": "The high-severity use-after-free vulnerability in Samsung's KNOX security framework affected Android-powered Galaxy devices from the S9 through S25. The post Eight-Year-Old Samsung KNOX Flaw Exposed Millions of Galaxy Devices to Kernel Attacks appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The high-severity use-after-free vulnerability in Samsung's KNOX security framework affected Android-powered Galaxy devices from the S9 through S25. The post Eight-Year-Old Samsung KNOX Flaw Exposed M",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-f7df4c0ace56",
+      "title": "CISO Conversations: Carl Froggett – Combining CISO and CIO at Deep Instinct",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/ciso-conversations-carl-froggett-combining-ciso-and-cio-at-deep-instinct/",
+      "published_date": "2026-06-23T12:50:00+00:00",
+      "summary": "Carl Froggett combines CISO and CIO. He currently occupies both positions at Deep Instinct. Before then, he was CISO at Citi for almost 17 years. The post CISO Conversations: Carl Froggett – Combining CISO and CIO at Deep Instinct appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Carl Froggett combines CISO and CIO. He currently occupies both positions at Deep Instinct. Before then, he was CISO at Citi for almost 17 years. The post CISO Conversations: Carl Froggett – Combining",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-f7788bfaadcd",
+      "title": "FortiBleed Attackers Turn Firewalls Into Credential Stealers as Heists Persist",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers",
+      "published_date": "2026-06-23T12:34:54",
+      "summary": "The threat actors engineered a Golang-based sniffer to target 430,000 FortiGate firewalls and identify 110 million credentials in the ongoing global campaign.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The threat actors engineered a Golang-based sniffer to target 430,000 FortiGate firewalls and identify 110 million credentials in the ongoing global campaign.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-86a60ce749e4",
+      "title": "Algerian Man Extradited to US for Running Cybercrime Marketplaces",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/algerian-man-extradited-to-us-for-running-cybercrime-marketplaces/",
+      "published_date": "2026-06-23T12:06:15+00:00",
+      "summary": "26-year-old Abdellah Belmili faces up to 30 years in prison for allegedly operating the marketplaces Market0Day and Spoxy. The post Algerian Man Extradited to US for Running Cybercrime Marketplaces appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "26-year-old Abdellah Belmili faces up to 30 years in prison for allegedly operating the marketplaces Market0Day and Spoxy. The post Algerian Man Extradited to US for Running Cybercrime Marketplaces ap",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-355cfe71f174",
+      "title": "FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/",
+      "published_date": "2026-06-23T11:48:06+00:00",
+      "summary": "Attackers can send crafted media files to execute code in any application that uses FFmpeg’s libavcodec library. The post FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Attackers can send crafted media files to execute code in any application that uses FFmpeg’s libavcodec library. The post FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Applian",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-eebfae92b116",
       "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
       "source": "The Hacker News",
@@ -56,302 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Direct messages sent via WhatsApp are being used to distribute malicious Visual Basic Script (VBScript) files that lead to the installation of legitimate Remote Monitoring and Management (RMM) softwar",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-707e93fb56e8",
-      "title": "OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/openai-refocuses-cybersecurity-efforts-on-patching-over-discovery/",
-      "published_date": "2026-06-23T11:07:02+00:00",
-      "summary": "OpenAI has expanded its Daybreak cybersecurity initiative with a new suite of tools and partnerships. The post OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "OpenAI has expanded its Daybreak cybersecurity initiative with a new suite of tools and partnerships. The post OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery appeared first on Secur",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-8ece9e33d1a8",
-      "title": "Russian Initial Access Broker Behind FortiBleed Campaign",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/russian-initial-access-broker-behind-fortibleed-campaign/",
-      "published_date": "2026-06-23T10:30:46+00:00",
-      "summary": "Using a custom sniffer, the threat actor has captured over 110 million credentials since at least February 2026. The post Russian Initial Access Broker Behind FortiBleed Campaign appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Using a custom sniffer, the threat actor has captured over 110 million credentials since at least February 2026. The post Russian Initial Access Broker Behind FortiBleed Campaign appeared first on Sec",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-9e65e74f9573",
-      "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
-      "published_date": "2026-06-23T09:26:58+05:30",
-      "summary": "OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative&nbsp;the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its \"strongest model yet for finding and helping patch software vulnerabilities,\" OpenAI said the model can \"sustain deeper analysis across large codebases\" to",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative&nbsp;the artificial intelligence (AI) company announced last",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-9d5c937ca189",
-      "title": "Canadian Electricity Provider London Hydro Discloses Data Breach",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/canadian-electricity-provider-london-hydro-discloses-data-breach/",
-      "published_date": "2026-06-23T09:25:22+00:00",
-      "summary": "Hackers stole customers’ names, addresses, email addresses, phone numbers, and account information. The post Canadian Electricity Provider London Hydro Discloses Data Breach appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Hackers stole customers’ names, addresses, email addresses, phone numbers, and account information. The post Canadian Electricity Provider London Hydro Discloses Data Breach appeared first on Security",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-9e791ed687e1",
-      "title": "Trump Signs Executive Order Accelerating Post-Quantum Cryptography Migration",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/trump-signs-executive-order-accelerating-post-quantum-cryptography-migration/",
-      "published_date": "2026-06-23T08:43:05+00:00",
-      "summary": "Federal agencies are required to transition high-value assets and high-impact systems to use PQC by the end of 2030 and 2031. The post Trump Signs Executive Order Accelerating Post-Quantum Cryptography Migration appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Federal agencies are required to transition high-value assets and high-impact systems to use PQC by the end of 2030 and 2031. The post Trump Signs Executive Order Accelerating Post-Quantum Cryptograph",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-e6a65cde37f5",
-      "title": "Xsolis Data Breach Affects 1.4 Million Individuals",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/xsolis-data-breach-affects-1-4-million-individuals/",
-      "published_date": "2026-06-23T06:20:00+00:00",
-      "summary": "Threat actors gained access to personal and protected health information that Xsolis received from its clients. The post Xsolis Data Breach Affects 1.4 Million Individuals appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Threat actors gained access to personal and protected health information that Xsolis received from its clients. The post Xsolis Data Breach Affects 1.4 Million Individuals appeared first on SecurityWe",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-565d60b36bd4",
-      "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
-      "published_date": "2026-06-22T23:30:48+05:30",
-      "summary": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code. \"Attackers compromised the vendor's build and distribution pipeline, injecting backdoor code into Pro plugin releases distributed through official licensed update channels,\" Wordfence said in an analysis",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code. \"Attacke",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-861c564ba8b2",
-      "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
-      "published_date": "2026-06-22T21:43:28+05:30",
-      "summary": "Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow attackers to stealthily read artificial intelligence (AI) conversions from other customers' applications without requiring authentication. The vulnerabilities have been collectively codenamed DifyTap by Zafran Security.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow attackers to stealthily",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
