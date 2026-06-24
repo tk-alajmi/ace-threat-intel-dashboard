@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-06-24T03:51:18.624583+00:00",
+  "last_updated": "2026-06-24T07:42:54.985505+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-a798d81987aa",
+      "title": "Hackers Exploiting Cisco Unified CM Vulnerability",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/hackers-exploiting-cisco-unified-cm-vulnerability/",
+      "published_date": "2026-06-24T05:44:15+00:00",
+      "summary": "Cisco noted that a PoC had been available for CVE-2026-20230 when it announced patches in early June. The post Hackers Exploiting Cisco Unified CM Vulnerability appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cisco noted that a PoC had been available for CVE-2026-20230 when it announced patches in early June. The post Hackers Exploiting Cisco Unified CM Vulnerability appeared first on SecurityWeek.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-0378d0685e6d",
       "title": "Anthropic’s Mythos Model Found Vulnerabilities in Classified US Government Systems, Official Says",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Named EmberAI, the new capability is built on Dragos’ massive operational technology cybersecurity dataset. The post Dragos Unveils AI for OT Security appeared first on SecurityWeek.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-539b1b41de09",
-      "title": "Tata Electronics confirms cyberattack as hackers leak data",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
-      "published_date": "2026-06-23T17:06:32-04:00",
-      "summary": "Tata Electronics has confirmed in a statement to BleepingComputer that it was the target of a cyberattack that impacted parts of its IT infrastructure. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Tata Electronics has confirmed in a statement to BleepingComputer that it was the target of a cyberattack that impacted parts of its IT infrastructure. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
