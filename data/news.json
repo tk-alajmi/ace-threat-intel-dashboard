@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-06-26T17:50:52.019537+00:00",
+  "last_updated": "2026-06-26T19:52:16.758527+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-6dd1c116d581",
+      "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
+      "published_date": "2026-06-26T23:47:46+05:30",
+      "summary": "A newly discovered cyber attack campaign has been observed delivering a previously undocumented malware family called SharkLoader that acts as a loader for deploying Cobalt Strike Beacon on compromised hosts. Kaspersky, which is tracking the activity under the moniker StrikeShark, said the campaign has targeted a diplomatic organization in Indonesia, government organizations in Taiwan,",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "A newly discovered cyber attack campaign has been observed delivering a previously undocumented malware family called SharkLoader that acts as a loader for deploying Cobalt Strike Beacon on compromise",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-6e83033fffe5",
       "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
@@ -116,6 +153,43 @@
       ]
     },
     {
+      "id": "threat-5aee53a40f1f",
+      "title": "AI Decline? Confidence in Autonomous Penetration Testing Falls",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cybersecurity-operations/ai-decline-confidence-autonomous-penetration-testing",
+      "published_date": "2026-06-26T19:11:02",
+      "summary": "Companies are still experimenting with automated AI systems to find security weaknesses, but fewer are relying on the technology.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Companies are still experimenting with automated AI systems to find security weaknesses, but fewer are relying on the technology.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-a619c16205fe",
       "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
       "source": "The Hacker News",
@@ -153,12 +227,12 @@
       ]
     },
     {
-      "id": "threat-f3304af2dfd7",
-      "title": "New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
-      "published_date": "2026-06-26T17:21:35+05:30",
-      "summary": "DirtyClone is a new Linux kernel privilege escalation in the DirtyFrag family.&nbsp;JFrog Security Research published a working exploit walkthrough&nbsp;for the flaw on June 25, the first public demonstration for this variant. Tracked as&nbsp;CVE-2026-43503&nbsp;(CVSS 8.8), it lets a local user corrupt file-backed memory through a cloned network packet and gain root. The patch landed in",
+      "id": "threat-8a89bcde574d",
+      "title": "Cisco Adds NHI to Security Stack With Astrix, WideField Acquisitions",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/identity-access-management-security/cisco-adds-nhi-security-stack-with-astrix-widefield",
+      "published_date": "2026-06-26T17:31:04",
+      "summary": "Cisco joins a growing list of security platform providers that are betting that securing the agentic workforce means turning identity into the primary control plane.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -166,7 +240,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "DirtyClone is a new Linux kernel privilege escalation in the DirtyFrag family.&nbsp;JFrog Security Research published a working exploit walkthrough&nbsp;for the flaw on June 25, the first public demon",
+        "what_happened": "Cisco joins a growing list of security platform providers that are betting that securing the agentic workforce means turning identity into the primary control plane.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -227,6 +301,43 @@
       ]
     },
     {
+      "id": "threat-48da92c254a6",
+      "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
+      "published_date": "2026-06-26T15:43:06-04:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-c56d5c91a44d",
       "title": "Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories",
       "source": "SecurityWeek",
@@ -241,117 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "AWS has patched the vulnerability and published its own advisory to inform customers about the potential impact. The post Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories appear",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-cdbd9b3a89c5",
-      "title": "More Klue Breach Victims Identified as Hackers Get Hacked",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/more-klue-breach-victims-identified-as-hackers-get-hacked/",
-      "published_date": "2026-06-26T15:01:33+00:00",
-      "summary": "Roughly two dozen companies have notified their customers of the Klue-Salesforce incident impact. The post More Klue Breach Victims Identified as Hackers Get Hacked appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Roughly two dozen companies have notified their customers of the Klue-Salesforce incident impact. The post More Klue Breach Victims Identified as Hackers Get Hacked appeared first on SecurityWeek.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-4da7fca7bf98",
-      "title": "In Other News: Chinese Mythos-Like AI, Tata Electronics Breach, Snyk Layoffs",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/in-other-news-chinese-mythos-like-ai-tata-electronics-breach-snyk-layoffs/",
-      "published_date": "2026-06-26T14:30:00+00:00",
-      "summary": "Other noteworthy stories that might have slipped under the radar: Russia used Cellebrite to hack activist’s phone, Five Eyes issue urgent AI threat warning, macOS Gaslight backdoor, Scattered Spider guilty pleas. The post In Other News: Chinese Mythos-Like AI, Tata Electronics Breach, Snyk Layoffs appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Other noteworthy stories that might have slipped under the radar: Russia used Cellebrite to hack activist’s phone, Five Eyes issue urgent AI threat warning, macOS Gaslight backdoor, Scattered Spider g",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-51f7d1af4b4e",
-      "title": "Cybersecurity firms targeted by fraudulent OpenAI organization invites",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
-      "published_date": "2026-06-26T13:49:07-04:00",
-      "summary": "Threat actors are creating OpenAI tenants that impersonate legitimate companies and inviting employees to join them, in what appears to be a ploy to trick targets into submitting sensitive company information in chats and projects. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Threat actors are creating OpenAI tenants that impersonate legitimate companies and inviting employees to join them, in what appears to be a ploy to trick targets into submitting sensitive company inf",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
