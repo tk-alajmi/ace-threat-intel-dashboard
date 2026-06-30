@@ -1,9 +1,83 @@
 {
-  "last_updated": "2026-06-30T11:13:13.212859+00:00",
+  "last_updated": "2026-06-30T14:24:24.865347+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-fa07b8e3b2ac",
+      "title": "What the Numbers Say About FIFA 2026 Cyber Risk",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html",
+      "published_date": "2026-06-30T17:00:00+05:30",
+      "summary": "The FIFA World Cup 2026 opened on June 11. By that date, according to Check Point Research, the fraud infrastructure targeting it had already been built, staged, and partially deployed. Threat actor activity was pre-planned, months out, across three sectors and at least ten languages. Check Point Exposure Management published the FIFA World Cup 2026 Cyber Threat Report this month, covering",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The FIFA World Cup 2026 opened on June 11. By that date, according to Check Point Research, the fraud infrastructure targeting it had already been built, staged, and partially deployed. Threat actor a",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-754a013eba5c",
+      "title": "Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
+      "published_date": "2026-06-30T16:48:47+05:30",
+      "summary": "An unknown threat actor has been observed exploiting a recently disclosed maximum-severity security flaw in SimpleHelp to deliver two previously unreported malware families, TaskWeaver and Djinn Stealer. The intrusion involves the exploitation of CVE-2026-48558 (CVSS score: 10.0), a critical authentication bypass vulnerability impacting the OpenID Connect (OIDC) flow that an unauthenticated",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "An unknown threat actor has been observed exploiting a recently disclosed maximum-severity security flaw in SimpleHelp to deliver two previously unreported malware families, TaskWeaver and Djinn Steal",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-f09b3fa9fe13",
       "title": "AirDrop and Quick Share Flaws Let Nearby Attackers Trigger Crashes and Bypass Checks",
@@ -79,6 +153,43 @@
       ]
     },
     {
+      "id": "threat-69ccb43191c1",
+      "title": "BlueHammer Vulnerability Exploited in Ransomware Attacks",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/bluehammer-vulnerability-exploited-in-ransomware-attacks/",
+      "published_date": "2026-06-30T13:56:07+00:00",
+      "summary": "The Microsoft Defender vulnerability CVE-2026-33825 was exploited in the wild as a zero-day before patches were released. The post BlueHammer Vulnerability Exploited in Ransomware Attacks appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The Microsoft Defender vulnerability CVE-2026-33825 was exploited in the wild as a zero-day before patches were released. The post BlueHammer Vulnerability Exploited in Ransomware Attacks appeared fir",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-2454b5a260f2",
       "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
       "source": "The Hacker News",
@@ -116,86 +227,12 @@
       ]
     },
     {
-      "id": "threat-73a79f5eaaa4",
-      "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
-      "published_date": "2026-06-30T12:45:07+05:30",
-      "summary": "Apple on Monday released security updates for iOS, macOS, and the Safari web browser to address over three dozen flaws, including four vulnerabilities in WebKit that were discovered using artificial intelligence (AI) tools like Anthropic Claude and OpenAI Codex Security. The WebKit vulnerabilities are listed below - CVE-2026-43707 - A memory corruption issue that could result in an",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Apple on Monday released security updates for iOS, macOS, and the Safari web browser to address over three dozen flaws, including four vulnerabilities in WebKit that were discovered using artificial i",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-f793ceb16082",
-      "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
-      "published_date": "2026-06-30T10:34:06+05:30",
-      "summary": "A critical security flaw impacting Oracle E-Business Suite has come under active exploitation in the wild, according to Defused Cyber. The vulnerability, tracked as CVE-2026-46817 (CVSS score: 9.8), refers to an improper privilege management and authentication flaw in Oracle Payments that could be abused to take over susceptible instances. \"Easily exploitable vulnerability allows",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A critical security flaw impacting Oracle E-Business Suite has come under active exploitation in the wild, according to Defused Cyber. The vulnerability, tracked as CVE-2026-46817 (CVSS score: 9.8), r",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-ddc0f937e9d4",
-      "title": "The AI Token Costs That Can Break Cybersecurity",
+      "id": "threat-b480242acd99",
+      "title": "Decades-Old Bash Tricks Expose AI Coding Agents to Supply Chain Attacks",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/the-ai-token-costs-that-can-break-cybersecurity/",
-      "published_date": "2026-06-30T10:00:00+00:00",
-      "summary": "As cybersecurity platforms embrace agentic AI, organizations must balance detection performance against the escalating costs of token consumption, deployment architecture, and AI credits. The post The AI Token Costs That Can Break Cybersecurity appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/decades-old-bash-tricks-expose-ai-coding-agents-to-supply-chain-attacks/",
+      "published_date": "2026-06-30T13:00:00+00:00",
+      "summary": "Decades-old Bash shell tricks can bypass safeguards in most open source AI coding agents, potentially turning malicious repositories into supply chain attack vectors. The post Decades-Old Bash Tricks Expose AI Coding Agents to Supply Chain Attacks appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -203,7 +240,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "As cybersecurity platforms embrace agentic AI, organizations must balance detection performance against the escalating costs of token consumption, deployment architecture, and AI credits. The post The",
+        "what_happened": "Decades-old Bash shell tricks can bypass safeguards in most open source AI coding agents, potentially turning malicious repositories into supply chain attack vectors. The post Decades-Old Bash Tricks ",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -227,12 +264,12 @@
       ]
     },
     {
-      "id": "threat-551234f11104",
-      "title": "Nissan Employee Data Breached in Oracle PeopleSoft Hack",
+      "id": "threat-15875d5bba79",
+      "title": "Aflac Japan Data Breach Impacts 4.38 Million",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/nissan-employee-data-breached-in-oracle-peoplesoft-hack/",
-      "published_date": "2026-06-30T09:25:50+00:00",
-      "summary": "Only a handful of the 100 organizations targeted in the PeopleSoft campaign have been confirmed. The post Nissan Employee Data Breached in Oracle PeopleSoft Hack appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/aflac-japan-data-breach-impacts-4-38-million/",
+      "published_date": "2026-06-30T12:52:33+00:00",
+      "summary": "Hackers accessed the insurance giant’s policyholder portal multiple times between June 15 and June 25. The post Aflac Japan Data Breach Impacts 4.38 Million appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -240,7 +277,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Only a handful of the 100 organizations targeted in the PeopleSoft campaign have been confirmed. The post Nissan Employee Data Breached in Oracle PeopleSoft Hack appeared first on SecurityWeek.",
+        "what_happened": "Hackers accessed the insurance giant’s policyholder portal multiple times between June 15 and June 25. The post Aflac Japan Data Breach Impacts 4.38 Million appeared first on SecurityWeek.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -264,12 +301,12 @@
       ]
     },
     {
-      "id": "threat-702484b97f40",
-      "title": "Critical SimpleHelp Vulnerability Exploited for Malware Delivery",
+      "id": "threat-10cdc8c965ce",
+      "title": "Hacker Conversations: Chris Thompson, Former Head of IBM X-Force Red, Co-Founder of RemoteThreat",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/critical-simplehelp-vulnerability-exploited-for-malware-delivery/",
-      "published_date": "2026-06-30T08:43:10+00:00",
-      "summary": "The threat actor is focused on collecting credentials, SSH keys, cryptocurrency wallets, and development tooling. The post Critical SimpleHelp Vulnerability Exploited for Malware Delivery appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/hacker-conversations-chris-thompson-former-head-of-ibm-x-force-red-co-founder-of-remotethreat/",
+      "published_date": "2026-06-30T12:00:00+00:00",
+      "summary": "Chris Thompson's journey took him from hacking game controls as a teenager to founding IBM’s X-Force Red team. The post Hacker Conversations: Chris Thompson, Former Head of IBM X-Force Red, Co-Founder of RemoteThreat appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -277,7 +314,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The threat actor is focused on collecting credentials, SSH keys, cryptocurrency wallets, and development tooling. The post Critical SimpleHelp Vulnerability Exploited for Malware Delivery appeared fir",
+        "what_happened": "Chris Thompson's journey took him from hacking game controls as a teenager to founding IBM’s X-Force Red team. The post Hacker Conversations: Chris Thompson, Former Head of IBM X-Force Red, Co-Founder",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -301,12 +338,12 @@
       ]
     },
     {
-      "id": "threat-685e6d4fab04",
-      "title": "Insurance giant Aflac discloses data breach after subsidiary hack",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/",
-      "published_date": "2026-06-30T07:12:18-04:00",
-      "summary": "American insurance giant Aflac has disclosed a new data breach after attackers breached its Japan subsidiary's systems and stole personal and bank account information. [...]",
+      "id": "threat-1dc6018e359e",
+      "title": "Supreme Court Rules Constitutional Privacy Protections Apply to Cellphone Users’ Location History",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/supreme-court-rules-constitutional-privacy-protections-apply-to-cellphone-users-location-history/",
+      "published_date": "2026-06-30T11:48:40+00:00",
+      "summary": "The ruling was made in the case of a bank robber whose identity was discovered through a geofence warrant. The post Supreme Court Rules Constitutional Privacy Protections Apply to Cellphone Users&#8217; Location History appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -314,44 +351,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "American insurance giant Aflac has disclosed a new data breach after attackers breached its Japan subsidiary's systems and stole personal and bank account information. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-857d485229f2",
-      "title": "Microsoft adds smarter bot protection to Teams meetings",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/mircosoft-adds-smarter-bot-protection-to-teams-meetings/",
-      "published_date": "2026-06-30T06:52:26-04:00",
-      "summary": "Microsoft has introduced a new Teams admin policy that allows organizers to prevent third-party bots from joining meetings without approval. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Microsoft has introduced a new Teams admin policy that allows organizers to prevent third-party bots from joining meetings without approval. [...]",
+        "what_happened": "The ruling was made in the case of a bank robber whose identity was discovered through a geofence warrant. The post Supreme Court Rules Constitutional Privacy Protections Apply to Cellphone Users&#821",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
