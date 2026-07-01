@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T19:59:21.928195+00:00",
+  "last_updated": "2026-07-01T21:43:32.494203+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
@@ -190,6 +190,80 @@
       ]
     },
     {
+      "id": "threat-0c1d7e29c8f5",
+      "title": "Crafty Phishing Campaigns Auto-Adapt to Victim's Device, OS",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os",
+      "published_date": "2026-07-01T20:31:21",
+      "summary": "Attackers fingerprint victims through user-agent data to deliver OS-specific payloads, increasing compromise rates and campaign profitability.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Attackers fingerprint victims through user-agent data to deliver OS-specific payloads, increasing compromise rates and campaign profitability.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-76e5d61d6a17",
+      "title": "And the Winner in Dominant Malware Delivery? ClickFix",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix",
+      "published_date": "2026-07-01T19:46:34",
+      "summary": "Researchers say the highly effective social engineering technique is no longer the exception for malware attacks — it's now the rule.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Researchers say the highly effective social engineering technique is no longer the exception for malware attacks — it's now the rule.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-0404f14695eb",
       "title": "Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings",
       "source": "SecurityWeek",
@@ -227,49 +301,12 @@
       ]
     },
     {
-      "id": "threat-1935df4994e8",
-      "title": "'Phantom Squatting': An Emerging AI-Driven Supply Chain Threat",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat",
-      "published_date": "2026-07-01T15:17:14",
-      "summary": "LLMs consistently hallucinate Web domains for legitimate brands that attackers can register for malicious activity in a difficult-to-detect attack vector.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "LLMs consistently hallucinate Web domains for legitimate brands that attackers can register for malicious activity in a difficult-to-detect attack vector.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-e51e5a4b7422",
-      "title": "DHS confirms hackers breached HSIN info-sharing platform",
+      "id": "threat-f9efc4155f01",
+      "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
       "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
-      "published_date": "2026-07-01T13:32:22-04:00",
-      "summary": "The Department of Homeland Security is investigating a cyberattack that compromised the Homeland Security Information Network (HSIN), a sensitive information-sharing platform used by federal, state, local, and private-sector partners. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
+      "published_date": "2026-07-01T17:37:24-04:00",
+      "summary": "The massive FortiBleed credential theft campaign has been linked to the INC and Lynx ransomware operations, suggesting the stolen Fortinet credentials were intended to fuel future network intrusions. [...]",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -277,7 +314,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The Department of Homeland Security is investigating a cyberattack that compromised the Homeland Security Information Network (HSIN), a sensitive information-sharing platform used by federal, state, l",
+        "what_happened": "The massive FortiBleed credential theft campaign has been linked to the INC and Lynx ransomware operations, suggesting the stolen Fortinet credentials were intended to fuel future network intrusions. ",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -301,49 +338,12 @@
       ]
     },
     {
-      "id": "threat-5381439c6e64",
-      "title": "Safe Events Start With Threat Intel and Digital Security",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/threat-intelligence/safe-events-threat-intel-digital-security",
-      "published_date": "2026-07-01T13:00:00",
-      "summary": "Planning ahead to defend against cyber threats is the work that keeps events uneventful.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Planning ahead to defend against cyber threats is the work that keeps events uneventful.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-c458438621b9",
-      "title": "Webinar: Why traditional email security is no longer enough",
+      "id": "threat-2807b5925c71",
+      "title": "Kubota says hackers had month-long access to network systems",
       "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
-      "published_date": "2026-07-01T12:54:22-04:00",
-      "summary": "Modern phishing, business email compromise, and account takeover attacks increasingly exploit trusted identities and legitimate business workflows, making them harder for traditional email defenses to detect. This webinar explores how behavioral AI can help organizations automate detection and response. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
+      "published_date": "2026-07-01T17:09:06-04:00",
+      "summary": "Kubota North America Corporation disclosed that hackers had access to some of its network systems for more than a month earlier this year. [...]",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -351,7 +351,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Modern phishing, business email compromise, and account takeover attacks increasingly exploit trusted identities and legitimate business workflows, making them harder for traditional email defenses to",
+        "what_happened": "Kubota North America Corporation disclosed that hackers had access to some of its network systems for more than a month earlier this year. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
