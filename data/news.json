@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-07-10T10:57:09.861490+00:00",
+  "last_updated": "2026-07-10T14:32:35.858003+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
     {
-      "id": "threat-8b55318debe0",
-      "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
+      "id": "threat-060e3dd7ff64",
+      "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
-      "published_date": "2026-07-10T14:30:05+05:30",
-      "summary": "Security firm&nbsp;Coinspect&nbsp;has disclosed a crypto wallet flaw it calls&nbsp;Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words that control the money. When that phrase is made with weak randomness, an attacker can work it out and take everything it controls. Coinspect has confirmed one coordinated sweep on May",
+      "url": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
+      "published_date": "2026-07-10T18:45:23+05:30",
+      "summary": "The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin said that while the threat cluster may appear like a low-sophistication, high-activity operation that propagates malware via counterfeit installers using SEO poisoning techniques, it belies their true organizational",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -18,7 +18,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Security firm&nbsp;Coinspect&nbsp;has disclosed a crypto wallet flaw it calls&nbsp;Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase,",
+        "what_happened": "The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin said that while the thr",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -42,12 +42,12 @@
       ]
     },
     {
-      "id": "threat-042ad4390d22",
-      "title": "Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks",
+      "id": "threat-75f08cc04028",
+      "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html",
-      "published_date": "2026-07-10T13:40:12+05:30",
-      "summary": "A 41-year-old former ransomware negotiator has been sentenced to nearly six years (i.e., 70 months) in prison in the U.S. for their role in conspiring with the now-defunct BlackCat ransomware operators to extort multiple victims and working with two other cybersecurity professionals to target additional victims in 2023. In a sentencing memorandum, federal prosecutors described Martino as a \"",
+      "url": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
+      "published_date": "2026-07-10T17:17:43+05:30",
+      "summary": "A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry&nbsp;disclosed the flaw on July 8&nbsp;and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -55,7 +55,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "A 41-year-old former ransomware negotiator has been sentenced to nearly six years (i.e., 70 months) in prison in the U.S. for their role in conspiring with the now-defunct BlackCat ransomware operator",
+        "what_happened": "A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO resear",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -79,160 +79,12 @@
       ]
     },
     {
-      "id": "threat-b4f87112c100",
-      "title": "GigaWiper Combines Multiple Malware for System-Level Sabotage",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/gigawiper-combines-multiple-malware-for-system-level-sabotage/",
-      "published_date": "2026-07-10T09:12:08+00:00",
-      "summary": "The backdoor’s destructive capabilities include a standalone wiper, ransomware encryption, and a multi-pass wiping command. The post GigaWiper Combines Multiple Malware for System-Level Sabotage appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The backdoor’s destructive capabilities include a standalone wiper, ransomware encryption, and a multi-pass wiping command. The post GigaWiper Combines Multiple Malware for System-Level Sabotage appea",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-4ca428520e5a",
-      "title": "‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/hallusquatting-turns-ai-hallucinations-into-botnet-delivery-mechanism/",
-      "published_date": "2026-07-10T08:32:33+00:00",
-      "summary": "Researchers demonstrate adversarial hallucination squatting against popular AI assistants to achieve remote code execution. The post &#8216;HalluSquatting&#8217; Turns AI Hallucinations Into Botnet Delivery Mechanism appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Researchers demonstrate adversarial hallucination squatting against popular AI assistants to achieve remote code execution. The post &#8216;HalluSquatting&#8217; Turns AI Hallucinations Into Botnet De",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-9a1b654be6ad",
-      "title": "Network of 200 GitHub Repositories Used for Malware Infection",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/network-of-200-github-repositories-used-for-malware-infection/",
-      "published_date": "2026-07-10T08:00:14+00:00",
-      "summary": "A Go module is used to load PowerShell code that fetches a resolver from public dead drops to execute Windows malware. The post Network of 200 GitHub Repositories Used for Malware Infection appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A Go module is used to load PowerShell code that fetches a resolver from public dead drops to execute Windows malware. The post Network of 200 GitHub Repositories Used for Malware Infection appeared f",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-592993e1e77a",
-      "title": "Former ransomware negotiator gets 4 years for BlackCat attacks",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
-      "published_date": "2026-07-10T04:17:52-04:00",
-      "summary": "A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-9a8f846ebca4",
-      "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
+      "id": "threat-f341a90dec17",
+      "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
-      "published_date": "2026-07-10T00:08:49+05:30",
-      "summary": "Datadog Security Labs is warning of \"several overlapping campaigns\" that are systematically enumerating corporate GitHub organizations, repositories, and user accounts through the GitHub&nbsp;API. \"Operators rely on automated scraping tooling with custom or legitimate-sounding user agents, leveraging GitHub 'ghost' accounts that are often years old, or compromised OAuth tokens and personal",
+      "url": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
+      "published_date": "2026-07-10T17:09:40+05:30",
+      "summary": "Most enterprises assume their asset inventory is close enough to accurate. The evidence suggests otherwise. According to a survey of over 600 security leaders in the 2026 Axonius Actionability Report, only 45% of organizations consolidate their asset and exposure data into a single view, and every downstream security program inherits whatever the inventory gets wrong. Lumen Technologies, a",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -240,7 +92,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Datadog Security Labs is warning of \"several overlapping campaigns\" that are systematically enumerating corporate GitHub organizations, repositories, and user accounts through the GitHub&nbsp;API. \"Op",
+        "what_happened": "Most enterprises assume their asset inventory is close enough to accurate. The evidence suggests otherwise. According to a survey of over 600 security leaders in the 2026 Axonius Actionability Report,",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -264,12 +116,12 @@
       ]
     },
     {
-      "id": "threat-aca0d945a4dc",
-      "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
+      "id": "threat-8b5ec0d6cd83",
+      "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
-      "published_date": "2026-07-09T23:38:07+05:30",
-      "summary": "Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper. What stands out is how it is built: not one tool but three older destructive programs bolted into one, offered as commands the operator can choose from. Each is a different way to break a machine: wipe the whole disk, overwrite the Windows drive, or run fake \"ransomware\" that scrambles files with a key it never saves",
+      "url": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
+      "published_date": "2026-07-10T17:00:02+05:30",
+      "summary": "A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and target lists naming more than 1.4 million websites. Far fewer were actually broken into, but the exposed files showed researchers how a mass site-hacking operation runs from the inside. The operation, now tracked as",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -277,7 +129,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper. What stands out is how it is built: not one tool but three older destructive programs bolted into one, offered as commands ",
+        "what_happened": "A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and target lists naming mo",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -301,12 +153,12 @@
       ]
     },
     {
-      "id": "threat-a2ad48549307",
-      "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
+      "id": "threat-9f67e3daf3f3",
+      "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
-      "published_date": "2026-07-09T22:19:02+05:30",
-      "summary": "GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass two-factor authentication (2FA). The Microsoft-owned subsidiary noted that the following npm install behaviors that used to run automatically before have been made opt-in&nbsp;- allowScripts defaults to off, meaning",
+      "url": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
+      "published_date": "2026-07-10T16:26:23+05:30",
+      "summary": "Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., keeping their traffic private and secure. The apps flagged with at least one problem have been installed more than 2.4 billion times. The problems are basic, not sophisticated. 29 apps let user traffic leak outside",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -314,7 +166,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass two-factor authenticatio",
+        "what_happened": "Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., keeping their traffic",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -338,12 +190,12 @@
       ]
     },
     {
-      "id": "threat-70322072575b",
-      "title": "Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure",
+      "id": "threat-3d55f71c4bbf",
+      "title": "Fresh ATM Crypto Software Bugs: Jackpot or Bust?",
       "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cyber-risk/iran-cyber-crosshairs-beyond-critical-infrastructure",
-      "published_date": "2026-07-09T20:32:00",
-      "summary": "Obscurity isn't a defense. If your company has any Internet-facing vulnerability, you're at risk from multiple threats.",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/atm-crypto-software-bugs-jackpot-bust",
+      "published_date": "2026-07-10T14:00:00",
+      "summary": "Organizations, and possibly ATMs, are at risk of compromise, thanks to holes in a Microsoft BitLocker security wrapper.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -351,7 +203,155 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Obscurity isn't a defense. If your company has any Internet-facing vulnerability, you're at risk from multiple threats.",
+        "what_happened": "Organizations, and possibly ATMs, are at risk of compromise, thanks to holes in a Microsoft BitLocker security wrapper.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-a97a81d49a42",
+      "title": "AI Coding: Do Security Risks Outweigh Productivity Gains?",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/application-security/ai-coding-security-risks-productivity-gains",
+      "published_date": "2026-07-10T13:00:00",
+      "summary": "AI coding tools cost $19-$200/month/user, but security scanning, remediation, and false positives add hidden costs. Are the productivity gains worth it?",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "AI coding tools cost $19-$200/month/user, but security scanning, remediation, and false positives add hidden costs. Are the productivity gains worth it?",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-5eb62e2fc437",
+      "title": "Third US Security Expert Sentenced to Prison for Helping Ransomware Gang",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/third-us-security-expert-sentenced-to-prison-for-helping-ransomware-gang/",
+      "published_date": "2026-07-10T12:58:39+00:00",
+      "summary": "Angelo Martino, a former ransomware negotiator, was sentenced to 70 months for helping the BlackCat/Alphv group. The post Third US Security Expert Sentenced to Prison for Helping Ransomware Gang appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Angelo Martino, a former ransomware negotiator, was sentenced to 70 months for helping the BlackCat/Alphv group. The post Third US Security Expert Sentenced to Prison for Helping Ransomware Gang appea",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-c1bf017cef87",
+      "title": "China, India-Linked Hackers Both Targeted Same Pakistani Police Force",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/china-india-linked-hackers-both-targeted-same-pakistani-police-force/",
+      "published_date": "2026-07-10T11:55:11+00:00",
+      "summary": "Both foes and allies have targeted the Balochistan Police force in Pakistan for at least two years, according to SentinelOne. The post China, India-Linked Hackers Both Targeted Same Pakistani Police Force appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Both foes and allies have targeted the Balochistan Police force in Pakistan for at least two years, according to SentinelOne. The post China, India-Linked Hackers Both Targeted Same Pakistani Police F",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-390f7192663a",
+      "title": "Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/okta-warns-of-vishing-attacks-targeting-microsoft-365-customers/",
+      "published_date": "2026-07-10T11:06:36+00:00",
+      "summary": "The attackers call victims to direct them to phishing websites mirroring Microsoft Entra ID login pages. The post Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The attackers call victims to direct them to phishing websites mirroring Microsoft Entra ID login pages. The post Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers appeared first on Secu",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
