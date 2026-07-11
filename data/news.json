@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11T19:07:57.336163+00:00",
+  "last_updated": "2026-07-11T20:52:07.577334+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
@@ -10,7 +10,7 @@
       "source": "The Hacker News",
       "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
       "published_date": "2026-07-11T23:29:26+05:30",
-      "summary": "Version&nbsp;8.14.0&nbsp;of the jscrambler npm package shipped with a malicious&nbsp;preinstall&nbsp;hook that silently drops and runs a native infostealer during installation, one build each for Windows, macOS, and Linux. Published on July 11, 2026, it needs no import and no CLI call. Installing 8.14.0 is enough to run&nbsp;it. Socket flagged the release&nbsp;six minutes after it was",
+      "summary": "The jscrambler npm package was compromised, and simply installing its&nbsp;8.14.0&nbsp;release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a&nbsp;preinstall&nbsp;hook that drops and executes a native binary, one build each for Windows, macOS, and Linux. Socket flagged the release&nbsp;six minutes after it was published. If you or one of your",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -18,7 +18,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Version&nbsp;8.14.0&nbsp;of the jscrambler npm package shipped with a malicious&nbsp;preinstall&nbsp;hook that silently drops and runs a native infostealer during installation, one build each for Wind",
+        "what_happened": "The jscrambler npm package was compromised, and simply installing its&nbsp;8.14.0&nbsp;release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a&nbsp;pre",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
