@@ -1,9 +1,83 @@
 {
-  "last_updated": "2026-07-13T14:39:38.085907+00:00",
+  "last_updated": "2026-07-13T17:56:27.072573+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-d7de13af840f",
+      "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
+      "published_date": "2026-07-13T20:35:57+05:30",
+      "summary": "Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's supposed to be the good news. The catch is that the attackers have the same tools, pointed the other way, and they don't file tickets. That's the shape of this week. Trusted code turns on the people who installed it. Old bugs from last year are still landing because the fix sat in a queue too",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's supposed to be the good news. The catch is that the attackers have the same tools, pointed the o",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-b3309ab68bb7",
+      "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
+      "published_date": "2026-07-13T19:19:48+05:30",
+      "summary": "Give an AI assistant a memory and access to your inbox, and you hand an attacker a way to rewrite what it thinks it knows about you. A single email can trick that agent into saving a false \"fact\" about the user, hide the change, and quietly steer its answers in later sessions. When it works, the person reads an ordinary-looking reply and never learns their assistant was tampered with. The",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Give an AI assistant a memory and access to your inbox, and you hand an attacker a way to rewrite what it thinks it knows about you. A single email can trick that agent into saving a false \"fact\" abou",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-12fe80ebf673",
       "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
@@ -116,12 +190,12 @@
       ]
     },
     {
-      "id": "threat-1a0331f5de5c",
-      "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
-      "published_date": "2026-07-13T16:32:33+05:30",
-      "summary": "Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. \"The script looked for the Domain Controller (DC) and mapped users, computers, and domains, before creating a directory and exporting out a number of files, and finally creating AD_Report.html to measure the success of the",
+      "id": "threat-363c2f6f257a",
+      "title": "GigaWiper Lets Threat Actors Choose Their Own Destructive Attack",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/gigawiper-threat-actors-choose-their-own-destructive-attack",
+      "published_date": "2026-07-13T16:50:54",
+      "summary": "A modular implant borrows from various malware families to combine both backdoor and wiper activities to maximize impact and minimize operational output.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -129,7 +203,44 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. \"The script looked for the Domain C",
+        "what_happened": "A modular implant borrows from various malware families to combine both backdoor and wiper activities to maximize impact and minimize operational output.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-3d6f0aee6ece",
+      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+      "source": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+      "published_date": "2026-07-13T15:03:28+00:00",
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys --",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -167,43 +278,6 @@
       ],
       "ai_summary": {
         "what_happened": "Once a notorious blackhat hacker, McGraw shares his journey from high school hacking and prison to redemption as a cybersecurity advocate. The post Hacker Conversations: Jesse McGraw (GhostExodus), Fr",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-26f3e6c3c2fc",
-      "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
-      "published_date": "2026-07-13T13:00:00+05:30",
-      "summary": "An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it:&nbsp;python3 -m http.server 8080, was still sitting in the readable&nbsp;.bash_history. From that one lapse, French security firm&nbsp;Lexfo&nbsp;lifted the operator's entire toolkit and pivoted through it to two more",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it:&nbsp;python3 -m http.server",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -278,80 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Significant cybersecurity M&#038;A deals announced by 1Password, Accenture, Cisco, F5, Rubrik, and SailPoint. The post Cybersecurity M&#038;A Roundup: 37 Deals Announced in June 2026 appeared first on",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-d22b58a863ef",
-      "title": "RabbitMQ Vulnerability Threatens Enterprise Systems",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/rabbitmq-vulnerability-threatens-enterprise-systems/",
-      "published_date": "2026-07-13T12:00:00+00:00",
-      "summary": "Unauthenticated attackers could obtain the broker's confidential OAuth client secret, allowing them to take control of the broker. The post RabbitMQ Vulnerability Threatens Enterprise Systems appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Unauthenticated attackers could obtain the broker's confidential OAuth client secret, allowing them to take control of the broker. The post RabbitMQ Vulnerability Threatens Enterprise Systems appeared",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-0ba7a6c7bddd",
-      "title": "Lidl discloses online shop breach after service provider hack",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
-      "published_date": "2026-07-13T10:19:43-04:00",
-      "summary": "German discount supermarket chain Lidl notified customers in Germany, Belgium, and the Netherlands that attackers stole their personal information in a breach at a service provider. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "German discount supermarket chain Lidl notified customers in Germany, Belgium, and the Netherlands that attackers stole their personal information in a breach at a service provider. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
