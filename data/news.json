@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-07-14T13:49:18.422271+00:00",
+  "last_updated": "2026-07-14T15:24:10.317970+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-7678a2f2c665",
+      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "published_date": "2026-07-14T19:18:07+05:30",
+      "summary": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one \"leaks the broker's confidential OAuth",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enter",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-a4c4e4c1d08f",
       "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
@@ -153,12 +190,12 @@
       ]
     },
     {
-      "id": "threat-542358801dc4",
-      "title": "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
-      "published_date": "2026-07-14T14:32:48+05:30",
-      "summary": "xAI's Grok Build coding CLI was uploading entire Git repositories, full commit history and all, to a Google Cloud Storage bucket run by xAI, not just the files a coding task needed. A researcher publishing as cereblab, testing version 0.2.93, captured one of those uploads, cloned the git bundle out of the intercepted request, and pulled back a file the agent had been told in plain terms not",
+      "id": "threat-59fe3536a22a",
+      "title": "7 Severe Vulnerabilities Patched in VMware Avi Load Balancer",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer/",
+      "published_date": "2026-07-14T13:55:41+00:00",
+      "summary": "The flaws can be exploited for authentication bypass, remote code execution, privilege escalation, and directory traversal. The post 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -166,7 +203,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "xAI's Grok Build coding CLI was uploading entire Git repositories, full commit history and all, to a Google Cloud Storage bucket run by xAI, not just the files a coding task needed. A researcher publi",
+        "what_happened": "The flaws can be exploited for authentication bypass, remote code execution, privilege escalation, and directory traversal. The post 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer appear",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Multiple state-sponsored APTs are compromising poorly secured devices across critical infrastructure sector networks. The post US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-22303871b394",
-      "title": "Valarian Raises $50 Million for Sovereign Infrastructure Control Layer",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/valarian-raises-50-million-for-sovereign-infrastructure-control-layer/",
-      "published_date": "2026-07-14T09:32:15+00:00",
-      "summary": "UK-based cybersecurity firm Valarian has raised a total of $70 million for its ACRA technology. The post Valarian Raises $50 Million for Sovereign Infrastructure Control Layer appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "UK-based cybersecurity firm Valarian has raised a total of $70 million for its ACRA technology. The post Valarian Raises $50 Million for Sovereign Infrastructure Control Layer appeared first on Securi",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
