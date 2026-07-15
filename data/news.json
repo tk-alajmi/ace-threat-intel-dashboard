@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-07-15T17:19:45.877942+00:00",
+  "last_updated": "2026-07-15T19:15:18.727880+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-61c780b568f6",
+      "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
+      "published_date": "2026-07-16T00:13:08+05:30",
+      "summary": "Cybersecurity researchers have disclosed details of a previously unreported Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows signs of being developed with assistance from a large language model (LLM), albeit with not so successful results. \"While the AI complied with their request to generate botnet code, it included a safety disclaimer that the developer failed",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cybersecurity researchers have disclosed details of a previously unreported Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows signs of being developed with assistance fro",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-4ddcd8186d49",
       "title": "OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps",
@@ -56,6 +93,43 @@
       ],
       "ai_summary": {
         "what_happened": "Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published. The vulnerabilities are listed below - CVE-2026-15718, an invalid pointe",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-a14e71309dea",
+      "title": "Guten Tag, Bonjour, Hola to Our European Cyber Defenders!",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/threat-intelligence/guten-tag-bonjour-hola-european-cyber-defenders",
+      "published_date": "2026-07-15T18:08:56",
+      "summary": "We're thrilled to unveil the latest evolution of Dark Reading's DR Global section — your go-to source for region-specific cybersecurity intelligence beyond North America.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "We're thrilled to unveil the latest evolution of Dark Reading's DR Global section — your go-to source for region-specific cybersecurity intelligence beyond North America.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -190,43 +264,6 @@
       ]
     },
     {
-      "id": "threat-3ab3bb9297e2",
-      "title": "New Webinar: Closing the Approval Gap in AI-Era Ad Tech",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html",
-      "published_date": "2026-07-15T16:36:57+05:30",
-      "summary": "A single approved marketing tag can quietly load fourth-party code your security team has never seen, granting full access to your forms, customer data, and checkout pages. This on-demand webinar reveals how this Approval Gap forms, and gives your team the blueprint to close it before an auditor, regulator, or attacker finds it first. The Reality of the Approval Gap It's a pattern every",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A single approved marketing tag can quietly load fourth-party code your security team has never seen, granting full access to your forms, customer data, and checkout pages. This on-demand webinar reve",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
       "id": "threat-65754a0df1fd",
       "title": "Claude Flaw Automatically Sends Malicious Prompts to AI Agents",
       "source": "Dark Reading",
@@ -301,12 +338,12 @@
       ]
     },
     {
-      "id": "threat-03e7704f1388",
-      "title": "CISA Urges Immediate Patching of Exploited SharePoint Vulnerabilities",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-sharepoint-vulnerabilities/",
-      "published_date": "2026-07-15T14:07:44+00:00",
-      "summary": "Three vulnerabilities are actively exploited in attacks, including two that have been targeted as zero-days. The post CISA Urges Immediate Patching of Exploited SharePoint Vulnerabilities appeared first on SecurityWeek.",
+      "id": "threat-3335795ff18c",
+      "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
+      "published_date": "2026-07-15T14:33:48-04:00",
+      "summary": "A Russian-speaking threat actor known as \"bandcampro\" used Google's open-source Gemini CLI AI tool as a hacking agent and to operate a small-scale botnet. [...]",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -314,44 +351,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Three vulnerabilities are actively exploited in attacks, including two that have been targeted as zero-days. The post CISA Urges Immediate Patching of Exploited SharePoint Vulnerabilities appeared fir",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-5793e865e138",
-      "title": "Windows Bind Link Attacks Can Hide Malware From EDR Tools",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/windows-bind-link-attacks-can-hide-malware-from-edr-tools/",
-      "published_date": "2026-07-15T13:00:00+00:00",
-      "summary": "Bitdefender researchers show how Windows bind links can create conflicting filesystem views to hide malware from endpoint security products. The post Windows Bind Link Attacks Can Hide Malware From EDR Tools appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Bitdefender researchers show how Windows bind links can create conflicting filesystem views to hide malware from endpoint security products. The post Windows Bind Link Attacks Can Hide Malware From ED",
+        "what_happened": "A Russian-speaking threat actor known as \"bandcampro\" used Google's open-source Gemini CLI AI tool as a hacking agent and to operate a small-scale botnet. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
