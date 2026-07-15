@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T19:15:18.727880+00:00",
+  "last_updated": "2026-07-15T21:02:38.063827+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
@@ -56,6 +56,43 @@
       ],
       "ai_summary": {
         "what_happened": "A malware framework called OkoBot has been running on Windows machines since April 2025, and one of its modules is built to con hardware wallet owners out of their recovery phrase. On an infected PC, ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-525551ad278c",
+      "title": "Identity Attacks Overtake Exploits as Top Ransomware Cause",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause",
+      "published_date": "2026-07-15T20:16:13",
+      "summary": "Email attacks overtook exploits as the top ransomware root cause last year. Multifactor authentication (MFA) was deployed in 97% of credential-based attacks but failed to prevent compromise.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Email attacks overtook exploits as the top ransomware root cause last year. Multifactor authentication (MFA) was deployed in 97% of credential-based attacks but failed to prevent compromise.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -264,6 +301,43 @@
       ]
     },
     {
+      "id": "threat-539ef451ea45",
+      "title": "Zoom warns of critical account takeover vulnerability",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/",
+      "published_date": "2026-07-15T16:16:02-04:00",
+      "summary": "Zoom is warning of a critical vulnerability in its desktop client and software development kit for Windows that could be exploited by an unauthenticated party to hijack accounts. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Zoom is warning of a critical vulnerability in its desktop client and software development kit for Windows that could be exploited by an unauthenticated party to hijack accounts. [...]",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-65754a0df1fd",
       "title": "Claude Flaw Automatically Sends Malicious Prompts to AI Agents",
       "source": "Dark Reading",
@@ -278,80 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "When combined with another exploit, the &quot;PromptFiction&quot; vulnerability, which has been fixed, could have enabled an end-to-end attack on a targeted system.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-724180b033bd",
-      "title": "Unpatched Cursor Vulnerability Exposes Users to Code Execution",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/",
-      "published_date": "2026-07-15T14:37:13+00:00",
-      "summary": "An attacker can create a malicious repository containing a git.exe in the project root, and Cursor executes it automatically. The post Unpatched Cursor Vulnerability Exposes Users to Code Execution appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "An attacker can create a malicious repository containing a git.exe in the project root, and Cursor executes it automatically. The post Unpatched Cursor Vulnerability Exposes Users to Code Execution ap",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-3335795ff18c",
-      "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
-      "published_date": "2026-07-15T14:33:48-04:00",
-      "summary": "A Russian-speaking threat actor known as \"bandcampro\" used Google's open-source Gemini CLI AI tool as a hacking agent and to operate a small-scale botnet. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A Russian-speaking threat actor known as \"bandcampro\" used Google's open-source Gemini CLI AI tool as a hacking agent and to operate a small-scale botnet. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
