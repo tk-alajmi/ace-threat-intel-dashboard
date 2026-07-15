@@ -1,9 +1,157 @@
 {
-  "last_updated": "2026-07-15T10:04:45.502511+00:00",
+  "last_updated": "2026-07-15T13:47:46.130867+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-cb3f0e24f8f1",
+      "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
+      "published_date": "2026-07-15T17:20:01+05:30",
+      "summary": "For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up. Enterprise workflows now live across SaaS applications, browsers, and an expanding ecosystem of generative AI tools, unsanctioned browser extensions, and autonomous agents. Employees routinely paste intellectual property into",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up. Enterprise workflows now live ac",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-a1f1a355c3bd",
+      "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
+      "published_date": "2026-07-15T16:37:07+05:30",
+      "summary": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. \"The PoC requires",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-3ab3bb9297e2",
+      "title": "New Webinar: Closing the Approval Gap in AI-Era Ad Tech",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html",
+      "published_date": "2026-07-15T16:36:57+05:30",
+      "summary": "A single approved marketing tag can quietly load fourth-party code your security team has never seen, granting full access to your forms, customer data, and checkout pages. This on-demand webinar reveals how this Approval Gap forms, and gives your team the blueprint to close it before an auditor, regulator, or attacker finds it first. The Reality of the Approval Gap It's a pattern every",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "A single approved marketing tag can quietly load fourth-party code your security team has never seen, granting full access to your forms, customer data, and checkout pages. This on-demand webinar reve",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-52e400fdedef",
+      "title": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
+      "published_date": "2026-07-15T16:25:22+05:30",
+      "summary": "Open a repository in Cursor&nbsp;on Windows and, if a file named&nbsp;git.exe&nbsp;is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that anything in the folder is about to execute. Whatever that binary does, it does as you, with your source, your SSH keys and your cloud tokens. Cursor keeps re-running it for as long as the project stays open. No prompt",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Open a repository in Cursor&nbsp;on Windows and, if a file named&nbsp;git.exe&nbsp;is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that anything in the folder ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-7f4de9cfc1c4",
       "title": "Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware",
@@ -42,49 +190,12 @@
       ]
     },
     {
-      "id": "threat-6559b67cc9f2",
-      "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
-      "published_date": "2026-07-15T11:00:21+05:30",
-      "summary": "SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command execution. The vulnerabilities are listed below - CVE-2026-15409 (CVSS score: 10.0) - A Server-side request forgery (SSRF) vulnerability that a remote unauthenticated attacker could exploit to",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command ex",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-ea69283dcc2b",
-      "title": "Progress Confirms Zero-Day Vulnerability Behind ShareFile Disruption",
+      "id": "threat-5793e865e138",
+      "title": "Windows Bind Link Attacks Can Hide Malware From EDR Tools",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/progress-confirms-zero-day-vulnerability-behind-sharefile-disruption/",
-      "published_date": "2026-07-15T09:48:29+00:00",
-      "summary": "The company has rolled out a fix and is restoring access for Storage Zones Controller customers who apply it. The post Progress Confirms Zero-Day Vulnerability Behind ShareFile Disruption appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/windows-bind-link-attacks-can-hide-malware-from-edr-tools/",
+      "published_date": "2026-07-15T13:00:00+00:00",
+      "summary": "Bitdefender researchers show how Windows bind links can create conflicting filesystem views to hide malware from endpoint security products. The post Windows Bind Link Attacks Can Hide Malware From EDR Tools appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -92,7 +203,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The company has rolled out a fix and is restoring access for Storage Zones Controller customers who apply it. The post Progress Confirms Zero-Day Vulnerability Behind ShareFile Disruption appeared fir",
+        "what_happened": "Bitdefender researchers show how Windows bind links can create conflicting filesystem views to hide malware from endpoint security products. The post Windows Bind Link Attacks Can Hide Malware From ED",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -116,49 +227,12 @@
       ]
     },
     {
-      "id": "threat-f7db12a6ed42",
-      "title": "ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Rockwell",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-rockwell/",
-      "published_date": "2026-07-15T09:19:58+00:00",
-      "summary": "The industrial giants fixed dozens of vulnerabilities across their ICS products, with advisories also released by CISA and VDE CERT. The post ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Rockwell appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The industrial giants fixed dozens of vulnerabilities across their ICS products, with advisories also released by CISA and VDE CERT. The post ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schne",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-f8c0d77a8371",
-      "title": "Nigeria Deepens Cybersecurity Efforts as Cybercriminals See More Profits",
+      "id": "threat-10d7f63a9aee",
+      "title": "2-Click Cursor Exploit Enables Dev Environment Takeover",
       "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cyber-risk/nigeria-cybersecurity-efforts-cybercriminals-profits",
-      "published_date": "2026-07-15T08:00:00",
-      "summary": "The West African country advanced rules to force organizations to disclose cyberattacks, joining other nations in a shift to mandated transparency.",
+      "url": "https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover",
+      "published_date": "2026-07-15T13:00:00",
+      "summary": "Simple age-old bugs give bad actors access to developers' secrets and source code-rich environments.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -166,7 +240,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The West African country advanced rules to force organizations to disclose cyberattacks, joining other nations in a shift to mandated transparency.",
+        "what_happened": "Simple age-old bugs give bad actors access to developers' secrets and source code-rich environments.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -190,12 +264,12 @@
       ]
     },
     {
-      "id": "threat-c02771de8ab6",
-      "title": "Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates",
+      "id": "threat-706a3eb5f89f",
+      "title": "Virtual Event Today: Cloud & Data Security Summit",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/",
-      "published_date": "2026-07-15T07:24:52+00:00",
-      "summary": "Public exploit code targeting the Firefox flaws exists, but no in-the-wild exploitation has been observed. The post Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/virtual-event-today-cloud-data-security-summit/",
+      "published_date": "2026-07-15T12:52:10+00:00",
+      "summary": "Attendees will be able to interact with leading solution providers and other end users facing similar challenges in securing a variety of cloud deployments. The post Virtual Event Today: Cloud &amp; Data Security Summit appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -203,7 +277,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Public exploit code targeting the Firefox flaws exists, but no in-the-wild exploitation has been observed. The post Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates appeared",
+        "what_happened": "Attendees will be able to interact with leading solution providers and other end users facing similar challenges in securing a variety of cloud deployments. The post Virtual Event Today: Cloud &amp; D",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -227,49 +301,12 @@
       ]
     },
     {
-      "id": "threat-a8c587927ca0",
-      "title": "CISA warns admins to patch actively exploited SharePoint flaws",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/",
-      "published_date": "2026-07-15T05:44:52-04:00",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned Tuesday that attackers are actively exploiting three vulnerabilities to hack Internet-exposed on-premises SharePoint Server instances. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned Tuesday that attackers are actively exploiting three vulnerabilities to hack Internet-exposed on-premises SharePoint Server inst",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-8ca3713d954e",
-      "title": "SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits",
+      "id": "threat-6c05c2ab9418",
+      "title": "US Charges Russian Individuals and Firms for Running Cybercrime Services",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/",
-      "published_date": "2026-07-15T05:19:42+00:00",
-      "summary": "SonicWall SMA1000 zero-day vulnerabilities CVE-2026-15409 and CVE-2026-15410 can be exploited for remote code execution. The post SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/us-charges-russian-individuals-and-firms-for-running-cybercrime-services/",
+      "published_date": "2026-07-15T11:58:05+00:00",
+      "summary": "The suspects and their companies were previously sanctioned by the United States and its allies. The post US Charges Russian Individuals and Firms for Running Cybercrime Services appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -277,7 +314,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "SonicWall SMA1000 zero-day vulnerabilities CVE-2026-15409 and CVE-2026-15410 can be exploited for remote code execution. The post SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits ap",
+        "what_happened": "The suspects and their companies were previously sanctioned by the United States and its allies. The post US Charges Russian Individuals and Firms for Running Cybercrime Services appeared first on Sec",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -301,12 +338,12 @@
       ]
     },
     {
-      "id": "threat-71aa771b0430",
-      "title": "Microsoft: Some Dell PCs shut down after recent Windows updates",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-dell-devices-shut-down-after-windows-update/",
-      "published_date": "2026-07-15T04:26:48-04:00",
-      "summary": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]",
+      "id": "threat-cf3f6e397a06",
+      "title": "Vulnerabilities Patched by Fortinet, Ivanti, ServiceNow",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/vulnerabilities-patched-by-fortinet-ivanti-servicenow/",
+      "published_date": "2026-07-15T11:02:57+00:00",
+      "summary": "A critical security defect in the ServiceNow AI platform could allow remote attackers to execute arbitrary code. The post Vulnerabilities Patched by Fortinet, Ivanti, ServiceNow appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -314,44 +351,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-478523960f4a",
-      "title": "US charges alleged operators of Russian bulletproof hosting service",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/",
-      "published_date": "2026-07-15T03:45:50-04:00",
-      "summary": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in damages to victims worldwide. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in damage",
+        "what_happened": "A critical security defect in the ServiceNow AI platform could allow remote attackers to execute arbitrary code. The post Vulnerabilities Patched by Fortinet, Ivanti, ServiceNow appeared first on Secu",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
