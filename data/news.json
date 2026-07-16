@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-07-16T10:10:34.782572+00:00",
+  "last_updated": "2026-07-16T13:58:35.565811+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
     {
-      "id": "threat-4e11d880b1f1",
-      "title": "OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol",
+      "id": "threat-31a507d65c28",
+      "title": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html",
-      "published_date": "2026-07-16T14:12:31+05:30",
-      "summary": "OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely. \"GPT‑Red is a strong red-teamer, and our previous models are highly vulnerable to its prompt injection attacks,\" the artificial intelligence (AI) company said. \"We use GPT‑Red to adversarially train",
+      "url": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
+      "published_date": "2026-07-16T18:20:13+05:30",
+      "summary": "Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026. \"The malware is full-featured, lightweight, and modular,\" Elastic Security Labs researcher Cyril François said in a technical report. \"While the number of C2 [command-and-control] domains is currently small, the daily",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -18,7 +18,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely. \"G",
+        "what_happened": "Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026. \"The malware is full-feat",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -42,12 +42,12 @@
       ]
     },
     {
-      "id": "threat-f653b8f82803",
-      "title": "Zoom Patches Critical Windows Flaw That Could Enable Account Takeover",
+      "id": "threat-a4ceb5872a05",
+      "title": "New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html",
-      "published_date": "2026-07-16T12:52:44+05:30",
-      "summary": "Zoom has released security updates for a critical security flaw impacting Zoom Workplace for Windows that could facilitate account takeover. The vulnerability, tracked as CVE-2026-53412 (CVSS score: 9.8), affects Zoom Desktop Client for Windows, Zoom VDI Client for Windows, and Zoom Meeting SDK for Windows. \"Improper Input Validation in Zoom Desktop Client for Windows, Zoom VDI Client for",
+      "url": "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
+      "published_date": "2026-07-16T18:03:42+05:30",
+      "summary": "ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and quietly exits. At the next login, Finder, the Dock, Spotlight, Terminal, Activity Monitor, and",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -55,7 +55,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Zoom has released security updates for a critical security flaw impacting Zoom Workplace for Windows that could facilitate account takeover. The vulnerability, tracked as CVE-2026-53412 (CVSS score: 9",
+        "what_happened": "ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for t",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -79,271 +79,12 @@
       ]
     },
     {
-      "id": "threat-5a84666a499f",
-      "title": "F5 Patches Multiple NGINX, BIG-IP Vulnerabilities",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/f5-patches-multiple-nginx-big-ip-vulnerabilities/",
-      "published_date": "2026-07-16T09:20:10+00:00",
-      "summary": "Attackers could exploit the bugs to modify configurations, terminate or restart processes, cross security boundaries, leak memory, and execute code. The post F5 Patches Multiple NGINX, BIG-IP Vulnerabilities appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Attackers could exploit the bugs to modify configurations, terminate or restart processes, cross security boundaries, leak memory, and execute code. The post F5 Patches Multiple NGINX, BIG-IP Vulnerab",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-2f194c6199ee",
-      "title": "China’s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/chinas-top-cybersecurity-firms-hit-by-mounting-military-procurement-bans/",
-      "published_date": "2026-07-16T08:49:27+00:00",
-      "summary": "Chinese cybersecurity firms are facing action from the country’s military, but it’s not due to product or technical failures. The post China&#8217;s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Chinese cybersecurity firms are facing action from the country’s military, but it’s not due to product or technical failures. The post China&#8217;s Top Cybersecurity Firms Hit by Mounting Military Pr",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-4ea66f5a50d9",
-      "title": "Old UEFI Shims Expose Systems to Secure Boot Bypass",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/old-uefi-shims-expose-systems-to-secure-boot-bypass/",
-      "published_date": "2026-07-16T07:59:22+00:00",
-      "summary": "Signed by Microsoft, the vulnerable UEFI shim bootloaders could be abused on any system, regardless of the OS. The post Old UEFI Shims Expose Systems to Secure Boot Bypass appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Signed by Microsoft, the vulnerable UEFI shim bootloaders could be abused on any system, regardless of the OS. The post Old UEFI Shims Expose Systems to Secure Boot Bypass appeared first on SecurityWe",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-a9c77b113dda",
-      "title": "Police Disrupt a €140M Cyber Fraud Ring in Spain",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain",
-      "published_date": "2026-07-16T07:00:00",
-      "summary": "Iberian hackers carried out a variety of cyberattacks and laundered the winnings through complex financial networks.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Iberian hackers carried out a variety of cyberattacks and laundered the winnings through complex financial networks.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-d43ba5372ef3",
-      "title": "Nightmare Eclipse Drops ‘LegacyHive’ Windows Zero-Day",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/nightmare-eclipse-drops-legacyhive-windows-zero-day/",
-      "published_date": "2026-07-16T06:48:40+00:00",
-      "summary": "The researcher stripped the proof-of-concept (PoC) exploit to prevent immediate exploitation of the vulnerability. The post Nightmare Eclipse Drops &#8216;LegacyHive&#8217; Windows Zero-Day appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The researcher stripped the proof-of-concept (PoC) exploit to prevent immediate exploitation of the vulnerability. The post Nightmare Eclipse Drops &#8216;LegacyHive&#8217; Windows Zero-Day appeared f",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-eeadb5d507a5",
-      "title": "Trend Micro, Tanium, ESET and Tenable Patch Severe Product Vulnerabilities",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/trend-micro-tanium-eset-and-tenable-patch-severe-product-vulnerabilities/",
-      "published_date": "2026-07-16T06:08:08+00:00",
-      "summary": "The cybersecurity companies patched critical and high-severity vulnerabilities in some of their products. The post Trend Micro, Tanium, ESET and Tenable Patch Severe Product Vulnerabilities appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The cybersecurity companies patched critical and high-severity vulnerabilities in some of their products. The post Trend Micro, Tanium, ESET and Tenable Patch Severe Product Vulnerabilities appeared f",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-1b709309f71f",
-      "title": "New Spirals ransomware encrypts victim network in under 24 hours",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/",
-      "published_date": "2026-07-16T06:00:00-04:00",
-      "summary": "A new ransomware actor called Spirals completed a corporate intrusion, from initial access to data theft and encryption, in less than 24 hours. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A new ransomware actor called Spirals completed a corporate intrusion, from initial access to data theft and encryption, in less than 24 hours. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-61c780b568f6",
-      "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
+      "id": "threat-c5114972f7fc",
+      "title": "20+ Hijacked Government Websites Became an Attack Channel",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
-      "published_date": "2026-07-16T00:13:08+05:30",
-      "summary": "Cybersecurity researchers have disclosed details of a previously unreported Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows signs of being developed with assistance from a large language model (LLM), albeit with not so successful results. \"While the AI complied with their request to generate botnet code, it included a safety disclaimer that the developer failed",
+      "url": "https://thehackernews.com/2026/07/20-hijacked-government-websites.html",
+      "published_date": "2026-07-16T17:28:00+05:30",
+      "summary": "More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of interactive malware analysis and threat intelligence solutions. The investigation revealed previously undocumented backdoor behavior, hidden infrastructure relationships, and multiple attack arms behind a campaign",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -351,7 +92,266 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Cybersecurity researchers have disclosed details of a previously unreported Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows signs of being developed with assistance fro",
+        "what_happened": "More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of interactive malware a",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-c41a9e5acf86",
+      "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
+      "published_date": "2026-07-16T17:02:28+05:30",
+      "summary": "Ask an AI agent to summarize the reviews on a product page, and a single planted review can make it click \"Buy Now\" instead. Ask a coding assistant to apply a maintainer's fix from a GitHub thread, and a fake comment can make it run a stranger's command on your computer. Neither trick hijacks the agent's task. Each one just corrupts the facts it trusts and lets it carry on with the job you",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Ask an AI agent to summarize the reviews on a product page, and a single planted review can make it click \"Buy Now\" instead. Ask a coding assistant to apply a maintainer's fix from a GitHub thread, an",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-07f74505ddb4",
+      "title": "Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html",
+      "published_date": "2026-07-16T16:47:23+05:30",
+      "summary": "An advanced malware previously attributed to a China-linked threat actor has resurfaced after more than four years within a Taiwan manufacturing firm, along with a previously unreported backdoor dubbed Stupig. Daxin (\"srt64.sys\"), as the kernel-mode rootkit is referred to, was first documented by Broadcom-owned Symantec in March 2022, with evidence indicating its use in targeted attacks aimed",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "An advanced malware previously attributed to a China-linked threat actor has resurfaced after more than four years within a Taiwan manufacturing firm, along with a previously unreported backdoor dubbe",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-c7cf2e116023",
+      "title": "Two Scattered Spider Hackers Sentenced to Jail in UK",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/two-scattered-spider-hackers-sentenced-to-jail-in-uk/",
+      "published_date": "2026-07-16T13:21:12+00:00",
+      "summary": "Thalha Jubair and Owen Flowers were prosecuted over a 2024 cyberattack targeting Transport for London (TfL). The post Two Scattered Spider Hackers Sentenced to Jail in UK appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Thalha Jubair and Owen Flowers were prosecuted over a 2024 cyberattack targeting Transport for London (TfL). The post Two Scattered Spider Hackers Sentenced to Jail in UK appeared first on SecurityWee",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-6cf33952a7b7",
+      "title": "AI Data Centers Are Being Built Faster Than They Can Be Secured",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/ai-data-centers-are-being-built-faster-than-they-can-be-secured/",
+      "published_date": "2026-07-16T13:00:00+00:00",
+      "summary": "AI infrastructure introduces new security risks that traditional data center designs were never built to handle. The post AI Data Centers Are Being Built Faster Than They Can Be Secured appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "AI infrastructure introduces new security risks that traditional data center designs were never built to handle. The post AI Data Centers Are Being Built Faster Than They Can Be Secured appeared first",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-0e6b1636c62a",
+      "title": "‘ClickLock Stealer’ Bypasses macOS Security With Social Engineering, Process Killing",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/clicklock-stealer-bypasses-macos-security-with-social-engineering-process-killing/",
+      "published_date": "2026-07-16T12:43:59+00:00",
+      "summary": "The new macOS malware has targeted at least 100 users to steal their passwords and cryptocurrency. The post &#8216;ClickLock Stealer&#8217; Bypasses macOS Security With Social Engineering, Process Killing appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The new macOS malware has targeted at least 100 users to steal their passwords and cryptocurrency. The post &#8216;ClickLock Stealer&#8217; Bypasses macOS Security With Social Engineering, Process Kil",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-6fae37df79e0",
+      "title": "Oak Emerges From Stealth Mode With $60 Million in Funding",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/oak-emerges-from-stealth-mode-with-60-million-in-funding/",
+      "published_date": "2026-07-16T11:23:56+00:00",
+      "summary": "The startup has built an AI-powered Identity Operating System that governs all identities across an organization’s environment. The post Oak Emerges From Stealth Mode With $60 Million in Funding appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The startup has built an AI-powered Identity Operating System that governs all identities across an organization’s environment. The post Oak Emerges From Stealth Mode With $60 Million in Funding appea",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-da68b8e68d26",
+      "title": "Splunk, Zoom Patch Critical Vulnerabilities",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/splunk-zoom-patch-critical-vulnerabilities/",
+      "published_date": "2026-07-16T10:54:34+00:00",
+      "summary": "The flaws could allow attackers to access credentials and data, take over accounts, and escalate their privileges. The post Splunk, Zoom Patch Critical Vulnerabilities appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The flaws could allow attackers to access credentials and data, take over accounts, and escalate their privileges. The post Splunk, Zoom Patch Critical Vulnerabilities appeared first on SecurityWeek.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
