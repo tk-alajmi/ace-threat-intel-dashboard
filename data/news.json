@@ -1,9 +1,120 @@
 {
-  "last_updated": "2026-07-17T17:14:49.520671+00:00",
+  "last_updated": "2026-07-17T19:14:12.919488+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-ea514a20adfd",
+      "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
+      "published_date": "2026-07-18T00:24:51+05:30",
+      "summary": "Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package campaign, codenamed ViteVenom by Checkmarx, marks an expansion of ChainVeil, which was observed using an \"unprecedented\" four-tier blockchain-based command-and-control (C2) infrastructure spanning Tron,",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package campa",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-8a29bfb721d6",
+      "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+      "published_date": "2026-07-17T22:42:23+05:30",
+      "summary": "A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys. A Shodan harvester keeps the scan queue stocked with ComfyUI, Ollama, n8n, Open WebUI, Langflow, and Gradio: the image generators, local model runners, and workflow builders that teams stand up fast and firewall late. The intel feed behind that counter",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys. A Shodan harvester keeps the scan queue stocked with Comf",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-6e23d164d1d4",
+      "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
+      "published_date": "2026-07-17T22:09:16+05:30",
+      "summary": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (aka APT-Q-27, Dragon Breath, and Miuuti Group), a Chinese cybercrime group known for its targeting of the gambling and gaming sectors using",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-3e591a90c45f",
       "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
@@ -79,80 +190,6 @@
       ]
     },
     {
-      "id": "threat-09fb35cf566a",
-      "title": "The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
-      "published_date": "2026-07-17T17:00:00+05:30",
-      "summary": "Military forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies, and accelerated acquisition pathways are transforming how capability is delivered, rewarding programs that can move from concept to operational deployment at commercial speed. Now the focus shifts to the trusted",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Military forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies, and accelerated acqu",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-7235175ad4fd",
-      "title": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
-      "published_date": "2026-07-17T16:23:31+05:30",
-      "summary": "Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov. His wife, Maria Yurova, told REN TV that border officers pulled him out of the departure hall at Yerevan's Zvartnots airport, held up a phone with a photo of him off his VKontakte page, and walked him into a side",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov. His wife, Maria Yu",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
       "id": "threat-276f6340ccda",
       "title": "In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint",
       "source": "SecurityWeek",
@@ -190,12 +227,12 @@
       ]
     },
     {
-      "id": "threat-f062e52809d1",
-      "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
-      "published_date": "2026-07-17T14:26:39+05:30",
-      "summary": "ACR Stealer, an infostealer in circulation since 2024, is walking out of enterprise networks with saved browser passwords, live session tokens, PDFs, Microsoft 365 documents, and files from synced OneDrive and SharePoint folders. It gets in because someone pasted a command into a Run box and pressed Enter. Microsoft laid out two of the delivery chains on Thursday. Its Defender Experts team, the",
+      "id": "threat-d874cd8b219a",
+      "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
+      "published_date": "2026-07-17T13:56:21-04:00",
+      "summary": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -203,44 +240,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "ACR Stealer, an infostealer in circulation since 2024, is walking out of enterprise networks with saved browser passwords, live session tokens, PDFs, Microsoft 365 documents, and files from synced One",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-ae223e0a5efe",
-      "title": "Gold Eagle Clearinghouse Targets Security Gap, But How Is Unclear",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap",
-      "published_date": "2026-07-17T13:00:00",
-      "summary": "The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.",
+        "what_happened": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -301,12 +301,12 @@
       ]
     },
     {
-      "id": "threat-8e2d3197e9f8",
-      "title": "Google Bets 'Agentic Defense' Strategy Can Outpace Attackers",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers",
-      "published_date": "2026-07-17T11:50:25",
-      "summary": "Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.",
+      "id": "threat-e5f8cef3fde1",
+      "title": "Beacon Security Raises $13 Million for Security Data Platform",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/beacon-security-raises-13-million-for-security-data-platform/",
+      "published_date": "2026-07-17T11:43:36+00:00",
+      "summary": "The startup helps organizations detect, hunt, and protect their assets across environments at machine speed. The post Beacon Security Raises $13 Million for Security Data Platform appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -314,7 +314,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.",
+        "what_happened": "The startup helps organizations detect, hunt, and protect their assets across environments at machine speed. The post Beacon Security Raises $13 Million for Security Data Platform appeared first on Se",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -338,12 +338,12 @@
       ]
     },
     {
-      "id": "threat-e5f8cef3fde1",
-      "title": "Beacon Security Raises $13 Million for Security Data Platform",
+      "id": "threat-9a095f086869",
+      "title": "Industry Reactions to Pentagon Suspending CMMC Phase 2: Feedback Friday",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/beacon-security-raises-13-million-for-security-data-platform/",
-      "published_date": "2026-07-17T11:43:36+00:00",
-      "summary": "The startup helps organizations detect, hunt, and protect their assets across environments at machine speed. The post Beacon Security Raises $13 Million for Security Data Platform appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/industry-reactions-to-pentagon-suspending-cmmc-phase-2-feedback-friday/",
+      "published_date": "2026-07-17T11:08:04+00:00",
+      "summary": "Industry professionals broadly agree that the suspension pauses third-party CMMC audits but not the underlying legal obligation to protect CUI. The post Industry Reactions to Pentagon Suspending CMMC Phase 2: Feedback Friday appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -351,7 +351,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The startup helps organizations detect, hunt, and protect their assets across environments at machine speed. The post Beacon Security Raises $13 Million for Security Data Platform appeared first on Se",
+        "what_happened": "Industry professionals broadly agree that the suspension pauses third-party CMMC audits but not the underlying legal obligation to protect CUI. The post Industry Reactions to Pentagon Suspending CMMC ",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
