@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-07-18T16:59:37.756520+00:00",
+  "last_updated": "2026-07-18T19:08:35.620010+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-aa8c60045f1c",
+      "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+      "published_date": "2026-07-18T13:22:47-04:00",
+      "summary": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. [",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-79ed24fcb9b5",
       "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also ",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-733c53bffffc",
-      "title": "The Real AI Threat Is Blind Trust",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/application-security/real-ai-threat-blind-trust",
-      "published_date": "2026-07-17T16:43:13",
-      "summary": "AI models left to both interpret and execute commands eliminate critical cybersecurity oversight.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "AI models left to both interpret and execute commands eliminate critical cybersecurity oversight.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
