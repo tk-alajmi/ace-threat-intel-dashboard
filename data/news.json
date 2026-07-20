@@ -1,9 +1,83 @@
 {
-  "last_updated": "2026-07-20T14:10:31.113612+00:00",
+  "last_updated": "2026-07-20T18:06:24.667444+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-dcf2b0a638ad",
+      "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
+      "published_date": "2026-07-20T22:59:50+05:30",
+      "summary": "A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder notes, and two campaign chains. One was already live against Windows users in Mexico, delivering an infostealer through a fake government ID-lookup site over WebDAV. What makes it more than a",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-5613c55b0b51",
+      "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
+      "published_date": "2026-07-20T20:03:43+05:30",
+      "summary": "A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the year 2050. Group-IB, which named the malware HollowGraph, says the approach moves tasking and stolen data through legitimate Microsoft Graph API traffic, so the activity looks",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar e",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-dac1e30e474d",
       "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
@@ -116,12 +190,12 @@
       ]
     },
     {
-      "id": "threat-2a1ff05c1829",
-      "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
-      "published_date": "2026-07-20T14:40:56+05:30",
-      "summary": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02. The overflow lets an attacker \"execute code in the context of the current process,\" per the",
+      "id": "threat-a8e946a9c855",
+      "title": "Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/neo-emerges-from-stealth-with-100m-to-control-and-secure-enterprise-ai-software/",
+      "published_date": "2026-07-20T14:54:03+00:00",
+      "summary": "Neo raised money across seed and Series A funding rounds from Andreessen Horowitz, Bessemer Venture Partners, and others. The post Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -129,7 +203,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend ",
+        "what_happened": "Neo raised money across seed and Series A funding rounds from Andreessen Horowitz, Bessemer Venture Partners, and others. The post Neo Emerges From Stealth With $100M to Control and Secure Enterprise ",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -153,12 +227,12 @@
       ]
     },
     {
-      "id": "threat-d3396c944c3e",
-      "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
-      "published_date": "2026-07-20T14:37:11+05:30",
-      "summary": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet. The findings come from an analysis of 200 Gemini CLI session logs between March 19 and April 21, 2026, which found the threat actor using AI, among other things, to crack passwords, set up a residential",
+      "id": "threat-1f2ba9d69fc9",
+      "title": "SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/sonicwall-zero-days-exploited-to-deliver-custom-malware-for-weeks-before-patch/",
+      "published_date": "2026-07-20T14:11:05+00:00",
+      "summary": "The zero-days CVE-2026-15409 and CVE-2026-15410 were exploited by a threat actor tracked by Volexity as UTA0533. The post SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -166,7 +240,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet. The fi",
+        "what_happened": "The zero-days CVE-2026-15409 and CVE-2026-15410 were exploited by a threat actor tracked by Volexity as UTA0533. The post SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -227,6 +301,43 @@
       ]
     },
     {
+      "id": "threat-aabea8bacca1",
+      "title": "New HollowGraph malware uses Microsoft Graph for stealthy C2 comms",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/",
+      "published_date": "2026-07-20T13:43:01-04:00",
+      "summary": "A malicious component dubbed HollowGraph uses the calendar feature in compromised Microsoft 365 mailboxes as a command-and-control channel to receive attacker commands and exfiltrate stolen data. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "A malicious component dubbed HollowGraph uses the calendar feature in compromised Microsoft 365 mailboxes as a command-and-control channel to receive attacker commands and exfiltrate stolen data. [...",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-0701f9409544",
       "title": "OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability",
       "source": "SecurityWeek",
@@ -241,117 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Attackers could send waves of malicious payloads to trigger buffer pre-allocations that are not freed, exhausting server memory. The post OpenSSL Silently Fixes &#8216;HollowByte&#8217; DoS Vulnerabil",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-c2791c70f1c8",
-      "title": "New Index Tracks Material Breaches — And Refuses to Add Up the Losses",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/new-index-tracks-material-breaches-and-refuses-to-add-up-the-losses/",
-      "published_date": "2026-07-20T11:46:50+00:00",
-      "summary": "Longtime cybersecurity executive Richard Bird built the resource for security experts, journalists, policymakers, and everyday citizens. The post New Index Tracks Material Breaches — And Refuses to Add Up the Losses appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Longtime cybersecurity executive Richard Bird built the resource for security experts, journalists, policymakers, and everyday citizens. The post New Index Tracks Material Breaches — And Refuses to Ad",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-ce4f2e9d8772",
-      "title": "Ernst & Young Data Breach Affects Personal, Financial Information",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/ernst-young-data-breach-affects-personal-financial-information/",
-      "published_date": "2026-07-20T11:27:38+00:00",
-      "summary": "Hackers stole names, addresses, Social Security numbers, credit/debit card numbers, and other information from a third-party management platform. The post Ernst &#038; Young Data Breach Affects Personal, Financial Information appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Hackers stole names, addresses, Social Security numbers, credit/debit card numbers, and other information from a third-party management platform. The post Ernst &#038; Young Data Breach Affects Person",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-ed9001f50f1f",
-      "title": "Watch on Demand: Cloud & Data Security Summit",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/virtual-event-today-cloud-data-security-summit/",
-      "published_date": "2026-07-20T10:31:25+00:00",
-      "summary": "Attendees will be able to interact with leading solution providers and other end users facing similar challenges in securing a variety of cloud deployments. The post Watch on Demand: Cloud &amp; Data Security Summit appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Attendees will be able to interact with leading solution providers and other end users facing similar challenges in securing a variety of cloud deployments. The post Watch on Demand: Cloud &amp; Data ",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
