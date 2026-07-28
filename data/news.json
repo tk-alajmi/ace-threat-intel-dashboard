@@ -1,9 +1,120 @@
 {
-  "last_updated": "2026-07-28T10:37:27.117043+00:00",
+  "last_updated": "2026-07-28T14:11:58.682485+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-e2de39d56365",
+      "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
+      "published_date": "2026-07-28T19:03:47+05:30",
+      "summary": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they reached an internet-connected node. JFrog says it has since developed and released fixes for cloud",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software rep",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-c8cd45eee2e8",
+      "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
+      "published_date": "2026-07-28T18:26:14+05:30",
+      "summary": "OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default. The critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in OpenWrt's GitHub advisory, lets an unauthenticated attacker able to reach the DHCPv6 server overwrite a stack buffer in odhcpd through a crafted DHCPv6",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default. The critical issue, tracked as CVE-2",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-a0103454193b",
+      "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
+      "published_date": "2026-07-28T17:25:20+05:30",
+      "summary": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South Asia. The intrusions involve the use of a previously undocumented Windows backdoor called NightLedger and two custom WebSocket tunnelers,",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting e",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-96a9f8037b0f",
       "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
@@ -79,49 +190,12 @@
       ]
     },
     {
-      "id": "threat-81071a925649",
-      "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
-      "published_date": "2026-07-28T11:37:22+05:30",
-      "summary": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness. The company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 95.95% on CyberGym. It also claims the configuration costs 50% less than its current best MDASH combination of GPT-5.4, GPT-5.4 mini, and GPT-5.3 Codex. Access is limited to approved",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness. The company says MDASH, using MAI-Cyber-1-Flash and GP",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-423e43338258",
-      "title": "Hush Security Raises $30 Million for AI Agent Governance",
+      "id": "threat-49a18d9af89e",
+      "title": "OT Security Startup Frenos Raises $1.52 Million",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/hush-security-raises-30-million-for-ai-agent-governance/",
-      "published_date": "2026-07-28T10:17:27+00:00",
-      "summary": "The startup will invest in expanding engineering and sales teams, accelerating ecosystem support, and expanding corporate partnerships. The post Hush Security Raises $30 Million for AI Agent Governance appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/ot-security-startup-frenos-raises-1-52-million/",
+      "published_date": "2026-07-28T13:05:25+00:00",
+      "summary": "The company will use the fresh investment to grow its customer success and AI R&#038;D teams. The post OT Security Startup Frenos Raises $1.52 Million appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -129,7 +203,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The startup will invest in expanding engineering and sales teams, accelerating ecosystem support, and expanding corporate partnerships. The post Hush Security Raises $30 Million for AI Agent Governanc",
+        "what_happened": "The company will use the fresh investment to grow its customer success and AI R&#038;D teams. The post OT Security Startup Frenos Raises $1.52 Million appeared first on SecurityWeek.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -153,12 +227,12 @@
       ]
     },
     {
-      "id": "threat-dbda233a4081",
-      "title": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
-      "published_date": "2026-07-28T10:13:53+05:30",
-      "summary": "A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16812 (CVSS score: 10.0), is a case of operating system command injection that could pave the way for arbitrary code execution. \"VeloCloud Orchestrator (VCO) on-prem has a security issue where this issue",
+      "id": "threat-c9668a8310db",
+      "title": "Former Citigroup CISO Blauner on What Makes A Great Security Leader",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cybersecurity-operations/former-citigroup-ciso-blauner-great-security-leader",
+      "published_date": "2026-07-28T12:30:00",
+      "summary": "The cybersecurity pioneer discusses the evolution of the CISO role, AI's impact on careers, and why operational resilience is the profession's next frontier.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -166,7 +240,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16812 (CVS",
+        "what_happened": "The cybersecurity pioneer discusses the evolution of the CISO role, AI's impact on careers, and why operational resilience is the profession's next frontier.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -190,12 +264,12 @@
       ]
     },
     {
-      "id": "threat-d32581d27bb0",
-      "title": "Google Adopts New Threat Actor Naming System",
+      "id": "threat-9a31128a0e1c",
+      "title": "Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/google-adopts-new-threat-actor-naming-system/",
-      "published_date": "2026-07-28T08:42:52+00:00",
-      "summary": "The new two-word naming convention uses a memorable term utilized in public reporting and a cluster-categorization word. The post Google Adopts New Threat Actor Naming System appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/microsoft-unveils-mai-cyber-1-flash-its-first-cybersecurity-ai-model/",
+      "published_date": "2026-07-28T11:11:48+00:00",
+      "summary": "The company claims MAI-Cyber-1-Flash tops Anthropic’s Mythos and OpenAI’s GPT-5.6 Sol in CyberGym testing. The post Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -203,7 +277,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The new two-word naming convention uses a memorable term utilized in public reporting and a cluster-categorization word. The post Google Adopts New Threat Actor Naming System appeared first on Securit",
+        "what_happened": "The company claims MAI-Cyber-1-Flash tops Anthropic’s Mythos and OpenAI’s GPT-5.6 Sol in CyberGym testing. The post Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model appeared first",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -227,12 +301,12 @@
       ]
     },
     {
-      "id": "threat-afe1099d1683",
-      "title": "Unpatched Fastjson Vulnerability Exploited in Attacks",
+      "id": "threat-f4a9013b88c8",
+      "title": "Hacker Conversations: Tal Kollander’s Journey From Black Hat to Hack Blocker",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/unpatched-fastjson-vulnerability-exploited-in-attacks/",
-      "published_date": "2026-07-28T07:27:55+00:00",
-      "summary": "The critical remote code execution bug can be exploited without authentication, under the library’s stock default configurations. The post Unpatched Fastjson Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/hacker-conversations-tal-kollanders-journey-from-black-hat-to-hack-blocker/",
+      "published_date": "2026-07-28T11:00:00+00:00",
+      "summary": "Tal Kollander’s history divides neatly into two halves: first as an active hacker and then as the block that stops hacks. The post Hacker Conversations: Tal Kollander’s Journey From Black Hat to Hack Blocker appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -240,7 +314,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The critical remote code execution bug can be exploited without authentication, under the library’s stock default configurations. The post Unpatched Fastjson Vulnerability Exploited in Attacks appeare",
+        "what_happened": "Tal Kollander’s history divides neatly into two halves: first as an active hacker and then as the block that stops hacks. The post Hacker Conversations: Tal Kollander’s Journey From Black Hat to Hack ",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -264,12 +338,12 @@
       ]
     },
     {
-      "id": "threat-2e385a18696e",
-      "title": "Critical Arista VeloCloud Orchestrator Vulnerability Exploited as Zero-Day",
+      "id": "threat-989a38176076",
+      "title": "Act Security Emerges from Stealth to Fight the Patch Problem",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/critical-arista-velocloud-orchestrator-vulnerability-exploited-as-zero-day/",
-      "published_date": "2026-07-28T06:40:36+00:00",
-      "summary": "Impacting on-premises deployments, the OS command injection allows attackers to access privileged internal functionality. The post Critical Arista VeloCloud Orchestrator Vulnerability Exploited as Zero-Day appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/act-security-emerges-from-stealth-to-fight-the-patch-problem/",
+      "published_date": "2026-07-28T11:00:00+00:00",
+      "summary": "Act Security tackles the spiraling patch problem caused by AI’s ability to find new vulnerabilities in existing cloud environments. The post Act Security Emerges from Stealth to Fight the Patch Problem appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -277,81 +351,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Impacting on-premises deployments, the OS command injection allows attackers to access privileged internal functionality. The post Critical Arista VeloCloud Orchestrator Vulnerability Exploited as Zer",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-96d359715e92",
-      "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
-      "published_date": "2026-07-28T05:10:03-04:00",
-      "summary": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-e0c73af9e2fd",
-      "title": "Origin Energy Data Breach Affects 900,000 Australians",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/origin-energy-data-breach-affects-900000-australians/",
-      "published_date": "2026-07-28T05:01:05+00:00",
-      "summary": "The hacker claimed to have stolen the information of 2 million Origin Energy customers after breaching its systems. The post Origin Energy Data Breach Affects 900,000 Australians appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The hacker claimed to have stolen the information of 2 million Origin Energy customers after breaching its systems. The post Origin Energy Data Breach Affects 900,000 Australians appeared first on Sec",
+        "what_happened": "Act Security tackles the spiraling patch problem caused by AI’s ability to find new vulnerabilities in existing cloud environments. The post Act Security Emerges from Stealth to Fight the Patch Proble",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
