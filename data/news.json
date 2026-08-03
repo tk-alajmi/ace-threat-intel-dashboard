@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T21:05:21.116516+00:00",
+  "last_updated": "2026-08-03T23:03:07.368089+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
@@ -116,6 +116,43 @@
       ]
     },
     {
+      "id": "threat-1ebec290f0a4",
+      "title": "Attackers Exploit N-able Patch Bypass Flaw on RMM Servers",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
+      "published_date": "2026-08-03T21:21:11",
+      "summary": "Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-433bcafe7e9f",
       "title": "New Tool Traces AI Videos Back to Their Source",
       "source": "Dark Reading",
@@ -153,12 +190,12 @@
       ]
     },
     {
-      "id": "threat-236c2ce3ad24",
-      "title": "Anthropic: AI Issues Result of Security Gaps, Not Model Issues",
+      "id": "threat-fe5b6fd8cbe6",
+      "title": "Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues",
       "source": "Dark Reading",
       "url": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps",
       "published_date": "2026-08-03T20:31:12",
-      "summary": "Last month's incidents in which Claude breached real-world systems derived from over-permissioning, especially with Internet access.",
+      "summary": "Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -166,7 +203,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Last month's incidents in which Claude breached real-world systems derived from over-permissioning, especially with Internet access.",
+        "what_happened": "Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Many companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas. The post Black Hat USA 2026 – Summary of Vendor Announcements (Part 1)",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-a939af7e8489",
-      "title": "Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm",
-      "published_date": "2026-08-03T15:42:18",
-      "summary": "Researchers from Jesta intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking and to launch further attacks",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Researchers from Jesta intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking and to launch further attacks",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
