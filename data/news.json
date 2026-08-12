@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12T20:49:02.330010+00:00",
+  "last_updated": "2026-08-12T22:42:37.345963+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
@@ -42,6 +42,43 @@
       ]
     },
     {
+      "id": "threat-9b565ee5ec14",
+      "title": "Long-running Data Theft Campaign Targeting Salesforce, ServiceNow",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/long-running-data-theft-campaign-salesforce-servicenow",
+      "published_date": "2026-08-12T21:08:54",
+      "summary": "The &quot;City-Forum&quot; campaign has been active since at least March 2025 and has targeted organizations across multiple sectors with custom tooling.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The &quot;City-Forum&quot; campaign has been active since at least March 2025 and has targeted organizations across multiple sectors with custom tooling.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
       "id": "threat-f06d2188c4a6",
       "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
       "source": "The Hacker News",
@@ -56,6 +93,43 @@
       ],
       "ai_summary": {
         "what_happened": "A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traffic and route them th",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-a77ae81f903b",
+      "title": "Android malware combo takes out loans and relays victims' credit cards",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
+      "published_date": "2026-08-12T18:22:57-04:00",
+      "summary": "A new Android NFC relay malware called WindRelay is being used alongside the SpyNote remote administration tool (RAT) to steal live card data and send it to attackers in real time. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "A new Android NFC relay malware called WindRelay is being used alongside the SpyNote remote administration tool (RAT) to steal live card data and send it to attackers in real time. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -130,6 +204,43 @@
       ],
       "ai_summary": {
         "what_happened": "Enterprise defenses are tuned to catch the attacks that make noise. This year's data shows attackers winning by making none. According to Picus Labs' new Blue Report 2026, which measured more than 338",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-8e8b12bdbf9a",
+      "title": "Hackers exploit critical Adobe Commerce flaw to hijack customer accounts",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/",
+      "published_date": "2026-08-12T16:54:59-04:00",
+      "summary": "Attempts to exploit a critical vulnerability (CVE-2026-71362) in Adobe's Commerce and Magento e-commerce platforms have been detected, potentially allowing attackers to hijack customer accounts. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Attempts to exploit a critical vulnerability (CVE-2026-71362) in Adobe's Commerce and Magento e-commerce platforms have been detected, potentially allowing attackers to hijack customer accounts. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -241,117 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "More than 737 browser extensions published on the Chrome Web Store impersonated well-known VPN and proxy services while routing users' traffic through SOCKS5 proxies operated by a single provider. [..",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-bf5d3767acd6",
-      "title": "SharePoint Vulnerability Exploited Shortly After PoC Release",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/sharepoint-vulnerability-exploited-shortly-after-poc-release/",
-      "published_date": "2026-08-12T14:47:01+00:00",
-      "summary": "The vulnerability was patched by Microsoft in July and CISA warned that it could end up being exploited in the wild. The post SharePoint Vulnerability Exploited Shortly After PoC Release appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The vulnerability was patched by Microsoft in July and CISA warned that it could end up being exploited in the wild. The post SharePoint Vulnerability Exploited Shortly After PoC Release appeared firs",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-97dc85396db6",
-      "title": "Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition",
-      "published_date": "2026-08-12T14:00:00",
-      "summary": "Attackers continue to target critical infrastructure and government-linked organizations in the country, mirroring the increased activity across Latin America.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Attackers continue to target critical infrastructure and government-linked organizations in the country, mirroring the increased activity across Latin America.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-ab8093804017",
-      "title": "Mindgard Raises $30 Million to Protect AI Systems",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/mindgard-raises-30-million-to-protect-ai-systems/",
-      "published_date": "2026-08-12T13:24:00+00:00",
-      "summary": "The cybersecurity startup will use the fresh investment to scale its product, engineering, sales, and marketing teams. The post Mindgard Raises $30 Million to Protect AI Systems appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The cybersecurity startup will use the fresh investment to scale its product, engineering, sales, and marketing teams. The post Mindgard Raises $30 Million to Protect AI Systems appeared first on Secu",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
