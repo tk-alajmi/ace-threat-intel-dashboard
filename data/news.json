@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-08-12T16:57:51.692181+00:00",
+  "last_updated": "2026-08-12T19:03:49.604786+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-5fa8f9505867",
+      "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+      "published_date": "2026-08-12T23:09:27+05:30",
+      "summary": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdo",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-f06d2188c4a6",
       "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
@@ -153,12 +190,12 @@
       ]
     },
     {
-      "id": "threat-bf5d3767acd6",
-      "title": "SharePoint Vulnerability Exploited Shortly After PoC Release",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/sharepoint-vulnerability-exploited-shortly-after-poc-release/",
-      "published_date": "2026-08-12T14:47:01+00:00",
-      "summary": "The vulnerability was patched by Microsoft in July and CISA warned that it could end up being exploited in the wild. The post SharePoint Vulnerability Exploited Shortly After PoC Release appeared first on SecurityWeek.",
+      "id": "threat-8b3578510cd5",
+      "title": "Walmart's &quot;Trusted Agent&quot; Approach to Purple Teaming",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cybersecurity-operations/walmart-trusted-agent-approach-purple-teaming",
+      "published_date": "2026-08-12T16:28:04",
+      "summary": "Walmart co-locates red and blue teams to build trust and improve security through collaborative purple teaming exercises",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -166,7 +203,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The vulnerability was patched by Microsoft in July and CISA warned that it could end up being exploited in the wild. The post SharePoint Vulnerability Exploited Shortly After PoC Release appeared firs",
+        "what_happened": "Walmart co-locates red and blue teams to build trust and improve security through collaborative purple teaming exercises",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -190,12 +227,12 @@
       ]
     },
     {
-      "id": "threat-a900a5fc991a",
-      "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-      "published_date": "2026-08-12T14:31:54+05:30",
-      "summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter server that a malicious actor with network access can exploit to execute arbitrary code. Patches for the flaw were",
+      "id": "threat-756608328c2c",
+      "title": "Hundreds of fake Chrome VPN extensions route traffic through a proxy",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
+      "published_date": "2026-08-12T14:54:57-04:00",
+      "summary": "More than 737 browser extensions published on the Chrome Web Store impersonated well-known VPN and proxy services while routing users' traffic through SOCKS5 proxies operated by a single provider. [...]",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -203,7 +240,44 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is CVE-2026-5931",
+        "what_happened": "More than 737 browser extensions published on the Chrome Web Store impersonated well-known VPN and proxy services while routing users' traffic through SOCKS5 proxies operated by a single provider. [..",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-bf5d3767acd6",
+      "title": "SharePoint Vulnerability Exploited Shortly After PoC Release",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/sharepoint-vulnerability-exploited-shortly-after-poc-release/",
+      "published_date": "2026-08-12T14:47:01+00:00",
+      "summary": "The vulnerability was patched by Microsoft in July and CISA warned that it could end up being exploited in the wild. The post SharePoint Vulnerability Exploited Shortly After PoC Release appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The vulnerability was patched by Microsoft in July and CISA warned that it could end up being exploited in the wild. The post SharePoint Vulnerability Exploited Shortly After PoC Release appeared firs",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -278,80 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "The cybersecurity startup will use the fresh investment to scale its product, engineering, sales, and marketing teams. The post Mindgard Raises $30 Million to Protect AI Systems appeared first on Secu",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-07a0fa28b7e9",
-      "title": "WhatsApp Unveils New Scam Alert Feature",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/whatsapp-unveils-new-scam-alert-feature/",
-      "published_date": "2026-08-12T13:00:00+00:00",
-      "summary": "Signal has also made a security announcement: an automatic key verification feature to complement its safety number system. The post WhatsApp Unveils New Scam Alert Feature appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Signal has also made a security announcement: an automatic key verification feature to complement its safety number system. The post WhatsApp Unveils New Scam Alert Feature appeared first on SecurityW",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-f029e2083ac5",
-      "title": "Stealthy ‘City-Forum’ Attacks Target Salesforce and ServiceNow With Custom Toolset",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/stealthy-city-forum-attacks-target-salesforce-and-servicenow-with-custom-toolset/",
-      "published_date": "2026-08-12T13:00:00+00:00",
-      "summary": "Researchers observed the novel campaign exploiting unauthenticated guest access to quietly enumerate and exfiltrate exposed data from both platforms. The post Stealthy ‘City-Forum’ Attacks Target Salesforce and ServiceNow With Custom Toolset appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Researchers observed the novel campaign exploiting unauthenticated guest access to quietly enumerate and exfiltrate exposed data from both platforms. The post Stealthy ‘City-Forum’ Attacks Target Sale",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
