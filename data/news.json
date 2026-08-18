@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-08-18T04:37:36.557938+00:00",
+  "last_updated": "2026-08-18T06:46:40.940786+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-b03361b0d89b",
+      "title": "Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh-macos-ios-security-updates/",
+      "published_date": "2026-08-18T06:46:22+00:00",
+      "summary": "The bugs could be exploited to crash Safari, corrupt memory, leak sensitive data, escape the sandbox, and exfiltrate data. The post Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The bugs could be exploited to crash Safari, corrupt memory, leak sensitive data, escape the sandbox, and exfiltrate data. The post Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Secur",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-65039af9a1fa",
       "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "The botnet adds exploitation modules, credential theft, and reverse SOCKS relays to turn compromised devices into persistent attacker infrastructure.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-cf082d24af97",
-      "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
-      "published_date": "2026-08-17T15:35:01-04:00",
-      "summary": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies after gaining access using compromised credentials. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies after gaining access using compromised credentials. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
