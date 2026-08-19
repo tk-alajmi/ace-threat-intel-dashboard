@@ -1,9 +1,83 @@
 {
-  "last_updated": "2026-08-19T18:37:55.359237+00:00",
+  "last_updated": "2026-08-19T20:30:10.250851+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-83174eff8d23",
+      "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
+      "published_date": "2026-08-20T00:32:40+05:30",
+      "summary": "Cybersecurity researchers have disclosed details of a&nbsp;remote Spectre attack&nbsp;against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021. The end-to-end experiment used an attacker Worker and a victim Worker controlled by the researchers,",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cybersecurity researchers have disclosed details of a&nbsp;remote Spectre attack&nbsp;against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environme",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-420aece00b77",
+      "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
+      "published_date": "2026-08-19T23:36:44+05:30",
+      "summary": "OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the scope of its monitoring to avert another Hugging Face-like incident. \"As models become more capable, the risks associated with developing and testing them internally also grow,\" the AI company",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-a1f8883875dd",
       "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
@@ -153,12 +227,12 @@
       ]
     },
     {
-      "id": "threat-9abfa725e8a7",
-      "title": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
-      "published_date": "2026-08-19T16:55:28+05:30",
-      "summary": "Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, store stolen documents, screenshots, and activity logs created to track the status of the activity. \"The operation doesn't rely on a single piece of malware, but on a whole toolkit of criminal software",
+      "id": "threat-6835b2b119cf",
+      "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
+      "published_date": "2026-08-19T16:07:12-04:00",
+      "summary": "U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -166,44 +240,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, store stole",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-13dad4f1a190",
-      "title": "Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
-      "published_date": "2026-08-19T16:31:48+05:30",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited i",
+        "what_happened": "U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "CodeSecCon is the premier virtual event bringing together developers and cybersecurity professionals to revolutionize the way applications are built, secured, and maintained. The post Virtual Event To",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-4bc92d9adaa6",
-      "title": "Prevalent AI Raises $22 Million to Expand Data Fabric Platform",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/prevalent-ai-raises-22-million-to-expand-data-fabric-platform/",
-      "published_date": "2026-08-19T12:00:00+00:00",
-      "summary": "The previously bootstrapped company helps organizations securely and reliably operate AI agents at scale. The post Prevalent AI Raises $22 Million to Expand Data Fabric Platform appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The previously bootstrapped company helps organizations securely and reliably operate AI agents at scale. The post Prevalent AI Raises $22 Million to Expand Data Fabric Platform appeared first on Secu",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
