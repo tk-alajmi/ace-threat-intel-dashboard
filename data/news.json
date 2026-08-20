@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-08-20T12:53:05.110788+00:00",
+  "last_updated": "2026-08-20T14:37:53.267767+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
     {
-      "id": "threat-e9a9b4bcb26d",
-      "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
+      "id": "threat-9002cd8d5078",
+      "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
-      "published_date": "2026-08-20T16:35:11+05:30",
-      "summary": "Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacker to issue arbitrary commands to the software's spacecraft and instrument command bus. The chain, tracked as GHSA-p9r8-2q67-fp86 and rated 9.4 on the CVSS v3.1 scoring system, impacts AIT-GUI",
+      "url": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
+      "published_date": "2026-08-20T19:18:24+05:30",
+      "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (\"GHSA-864f-rcv7-6rh4\"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -18,7 +18,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacke",
+        "what_happened": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -42,12 +42,12 @@
       ]
     },
     {
-      "id": "threat-edbf6e95ef79",
-      "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
+      "id": "threat-2c3b2a91424b",
+      "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
-      "published_date": "2026-08-20T16:08:28+05:30",
-      "summary": "Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with \"significant enhancements,\" including a set of 167 remote commands and expands its targeting footprint globally. Zimperium zLabs, in a Wednesday report, said the Android malware also features a PIN harvesting workflow targeting more than 140 banking and cryptocurrency applications.",
+      "url": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
+      "published_date": "2026-08-20T19:05:13+05:30",
+      "summary": "Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability. According to the cloud computing and virtualization technology company, the issues affect customer-managed NetScaler ADC and NetScaler Gateway, including certain FIPS and NDcPP builds, as well as SecurAccess",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -55,7 +55,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with \"significant enhancements,\" including a set of 167 remote commands and expands its targeting",
+        "what_happened": "Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability. According to the",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -79,12 +79,12 @@
       ]
     },
     {
-      "id": "threat-81e9e00833c6",
-      "title": "40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets",
+      "id": "threat-78fd323c8afd",
+      "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html",
-      "published_date": "2026-08-20T14:12:03+05:30",
-      "summary": "A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products. According to the Socket Threat Research team, the extensions are part of a broader set of 77 browser add-ons that share source code and infrastructure overlaps. The campaign, dubbed Offside Wallet Theft Factory, is believed to",
+      "url": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
+      "published_date": "2026-08-20T18:54:28+05:30",
+      "summary": "A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska). The vulnerability in question is CVE-2026-73570 (CVSS score: 8.9), which refers to a case of command injection that can lead to remote code execution. \"A remote code execution vulnerability exists in Zimbra",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -92,7 +92,192 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products. According to the Socket Threat R",
+        "what_happened": "A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska). The vulnerabili",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-743ece16bb24",
+      "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
+      "published_date": "2026-08-20T17:31:24+05:30",
+      "summary": "Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a point-of-sale (POS) terminal reads over near-field communication (NFC), without breaking any of the card's cryptography. The attack, which the researchers named \"Zombie Card,\" requires physical",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a poi",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-ab0af84fada3",
+      "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
+      "published_date": "2026-08-20T17:15:00+05:30",
+      "summary": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it.&nbsp; The incident began when a Meta employee posted a technical question on an internal forum. An engineer used an approved AI agent to analyze it, but the agent posted its response publicly without approval. The employee",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it.&nbsp; The incident began wh",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-ae3fec53a085",
+      "title": "Surveillance – Everything You Wanted to Know, But Were Afraid to Ask",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/surveillance-everything-you-wanted-to-know-but-were-afraid-to-ask/",
+      "published_date": "2026-08-20T14:30:00+00:00",
+      "summary": "We all know they’re watching us. But we don’t know who they are, nor why nor how they are doing it. The post Surveillance – Everything You Wanted to Know, But Were Afraid to Ask appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "We all know they’re watching us. But we don’t know who they are, nor why nor how they are doing it. The post Surveillance – Everything You Wanted to Know, But Were Afraid to Ask appeared first on Secu",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-8ed5d1d03321",
+      "title": "'Grandoreiro' Malware Resurfaces With Mexico Campaign",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign",
+      "published_date": "2026-08-20T13:30:00",
+      "summary": "The banking Trojan, post-law enforcement takedown, is sprucing itself up with features that make detection and analysis harder.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The banking Trojan, post-law enforcement takedown, is sprucing itself up with features that make detection and analysis harder.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-ed80be1c9b96",
+      "title": "Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/",
+      "published_date": "2026-08-20T13:16:35+00:00",
+      "summary": "Operation CameraSwarm targeted Dahua cameras across multiple countries, focusing on Russian and CIS telecom netblocks. The post Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Operation CameraSwarm targeted Dahua cameras across multiple countries, focusing on Russian and CIS telecom netblocks. The post Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia appeared firs",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -167,191 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information. The post MLflow Vulnerability Exploited for Cloud Credential Theft appeared f",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-e6ad503779fd",
-      "title": "Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/",
-      "published_date": "2026-08-20T11:46:04+00:00",
-      "summary": "The flaws could lead to remote code execution, authentication bypasses, and path traversal attacks. The post Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The flaws could lead to remote code execution, authentication bypasses, and path traversal attacks. The post Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities appeared first on Securit",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-3d2de49a57ad",
-      "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
-      "published_date": "2026-08-20T11:34:34+05:30",
-      "summary": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted upload of a file with a dangerous type. \"The flaw lives in the Forms module's File",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, track",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-daea56171a4e",
-      "title": "AI-Assisted Tool Helped Secure Satellite Communication System After 2022 Russian Hacking",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/ai-assisted-tool-helped-secure-satellite-communication-system-after-2022-russian-hacking/",
-      "published_date": "2026-08-20T11:08:00+00:00",
-      "summary": "Atalanta's Argo product is now being used to prove the resilience of Viasat’s satellite communications network. The post AI-Assisted Tool Helped Secure Satellite Communication System After 2022 Russian Hacking appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Atalanta's Argo product is now being used to prove the resilience of Viasat’s satellite communications network. The post AI-Assisted Tool Helped Secure Satellite Communication System After 2022 Russia",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-b6b42978eede",
-      "title": "OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/openai-overhauls-model-security-with-sandboxing-30-minute-alerts-and-training-pauses/",
-      "published_date": "2026-08-20T10:36:14+00:00",
-      "summary": "The action taken by OpenAI comes in light of the Hugging Face incident and the discovery of the Astra model’s advanced capabilities. The post OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The action taken by OpenAI comes in light of the Hugging Face incident and the discovery of the Astra model’s advanced capabilities. The post OpenAI Overhauls Model Security With Sandboxing, 30-Minute",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-928042e7dc9e",
-      "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
-      "published_date": "2026-08-20T08:14:38-04:00",
-      "summary": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
