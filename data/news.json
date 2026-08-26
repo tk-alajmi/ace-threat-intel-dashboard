@@ -1,9 +1,46 @@
 {
-  "last_updated": "2026-08-26T04:41:33.839303+00:00",
+  "last_updated": "2026-08-26T06:53:00.067024+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-66bac59cf305",
+      "title": "CISA Warns of Exploited Gitea Vulnerability",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/",
+      "published_date": "2026-08-26T05:17:28+00:00",
+      "summary": "CVE-2026-60004 is a remote code execution vulnerability patched by Gitea developers in late July with the release of version 1.27.1. The post CISA Warns of Exploited Gitea Vulnerability appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "CVE-2026-60004 is a remote code execution vulnerability patched by Gitea developers in late July with the release of version 1.27.1. The post CISA Warns of Exploited Gitea Vulnerability appeared first",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-42a9663507e1",
       "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows and",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-fd1fe299ae90",
-      "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
-      "published_date": "2026-08-25T16:25:26-04:00",
-      "summary": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple devices and disable the Activation Lock feature. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple devices and disable the Activation Lock feature. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
