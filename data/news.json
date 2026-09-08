@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-09-08T08:41:55.902375+00:00",
+  "last_updated": "2026-09-08T14:13:54.700158+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
     {
-      "id": "threat-23bf7196d6a6",
-      "title": "Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing",
+      "id": "threat-1c928b90c4ad",
+      "title": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
-      "published_date": "2026-09-08T12:30:43+05:30",
-      "summary": "Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with third-parties. Grindr, which is the largest LGBTQ+ dating app, was sued in April 2024, accusing it of violating U.K. privacy laws by sharing sensitive data for commercial purposes such as advertising.",
+      "url": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
+      "published_date": "2026-09-08T17:24:29+05:30",
+      "summary": "Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and&nbsp;demonstrated it spreading&nbsp;among three test phones. The person being called does not have to answer or touch their phone for it to work, but the caller must already be one of their WeChat contacts. Calif reported the flaw to Tencent in July and says the company has since",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -18,7 +18,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with thir",
+        "what_happened": "Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and&nbsp;demonstrated it spreading&nbsp;among three test phones. The person being called ",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -42,12 +42,308 @@
       ]
     },
     {
-      "id": "threat-4eadd36c1578",
-      "title": "220 million traveler records exposed in Vietnam-linked APIS leak",
+      "id": "threat-30936853101a",
+      "title": "What It Took to Reach 1 Billion Build Manifests",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html",
+      "published_date": "2026-09-08T17:19:02+05:30",
+      "summary": "In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in our catalog. Those are the headline numbers, but I want to share what's actually behind them. The number itself is less interesting than the system that produced it, and why we had to fundamentally",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in o",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-206ef0243cab",
+      "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
+      "published_date": "2026-09-08T16:52:07+05:30",
+      "summary": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says. FreeIPA is the system that determines who may log in across a Linux domain and maintains all identities in a 389 Directory Server database accessed via LDAP. The attack needs a second flaw in that database software. The",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says. FreeIPA is the system tha",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-e4dda5ed341d",
+      "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+      "published_date": "2026-09-08T14:43:47+05:30",
+      "summary": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability, now tracked as CVE-2026-75650 (CVSS score: 10.0), has been codenamed StyleSmuggler by Sansec, which discovered zero-day exploitation starting September 4, 2026. \"This update resolves a critical",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability, no",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-831730b1a6aa",
+      "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
+      "published_date": "2026-09-08T14:13:51+05:30",
+      "summary": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams. The campaign, discovered by the DFIR Report in March 2026, has been codenamed BengalSEO. It has operated out of the Indian state of Rajasthan since at least 2015, driven by two IT service providers named WeConnect",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams. The campaign, disc",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-cecca11e3eec",
+      "title": "Party’s Over for Crypto Scammers Who Went on a Spending Spree After a $240 Million Bitcoin Theft",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/partys-over-for-crypto-scammers-who-went-on-a-spending-spree-after-a-240-million-bitcoin-theft/",
+      "published_date": "2026-09-08T13:00:00+00:00",
+      "summary": "The scammers purchased fleets of sports cars, flew on private jets, hired security guards and rented mansions in Miami and the Hamptons. The post Party’s Over for Crypto Scammers Who Went on a Spending Spree After a $240 Million Bitcoin Theft appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The scammers purchased fleets of sports cars, flew on private jets, hired security guards and rented mansions in Miami and the Hamptons. The post Party’s Over for Crypto Scammers Who Went on a Spendin",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-a1e5a6714cda",
+      "title": "MikroTik Patches Critical Flaws Chained to Hack Routers",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/mikrotik-patches-critical-flaws-chained-to-hack-routers/",
+      "published_date": "2026-09-08T11:15:00+00:00",
+      "summary": "Dubbed MikroTrick, the bugs allow attackers to bypass authentication, overwrite configuration files, and take over devices. The post MikroTik Patches Critical Flaws Chained to Hack Routers appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Dubbed MikroTrick, the bugs allow attackers to bypass authentication, overwrite configuration files, and take over devices. The post MikroTik Patches Critical Flaws Chained to Hack Routers appeared fi",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-b293c3793eef",
+      "title": "Mathspace Data Breach Exposes Over 1 Million People",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/",
+      "published_date": "2026-09-08T10:47:36+00:00",
+      "summary": "Hackers stole the information of students, teachers, staff, and parents/guardians from a self-hosted Metabase instance. The post Mathspace Data Breach Exposes Over 1 Million People appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Hackers stole the information of students, teachers, staff, and parents/guardians from a self-hosted Metabase instance. The post Mathspace Data Breach Exposes Over 1 Million People appeared first on S",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-1329d9492c62",
+      "title": "N-able Patches Critical Zero-Day in N-central",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/",
+      "published_date": "2026-09-08T10:37:58+00:00",
+      "summary": "Administrators are advised to check their deployments for newly created user accounts they don’t recognize. The post N-able Patches Critical Zero-Day in N-central appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Administrators are advised to check their deployments for newly created user accounts they don’t recognize. The post N-able Patches Critical Zero-Day in N-central appeared first on SecurityWeek.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-2cce1ad5ab7b",
+      "title": "Adobe fixes critical Magento zero-day exploited to backdoor servers",
       "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
-      "published_date": "2026-09-08T03:35:50-04:00",
-      "summary": "Exclusive: An exposed Advance Passenger Information System (APIS) database held 220 million passenger and crew records containing names, passport numbers, dates of birth, nationalities, and flight details spanning 2017 to 2026. Researchers accessed the Vietnam-linked system through a cloud-based path using default credentials. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
+      "published_date": "2026-09-08T09:34:47-04:00",
+      "summary": "Adobe has released an emergency fix for CVE-2026-75650, an actively exploited max-severity zero-day vulnerability dubbed StyleSmuggler, that impacts multiple versions of Magento and Adobe Commerce. [...]",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -55,303 +351,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Exclusive: An exposed Advance Passenger Information System (APIS) database held 220 million passenger and crew records containing names, passport numbers, dates of birth, nationalities, and flight det",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-59c476cd91f9",
-      "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
-      "published_date": "2026-09-07T23:42:09+05:30",
-      "summary": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. \"Requiring prior administrative or code execution access, its installer injects the extension directly into Chrome/Edge profiles, bypassing Web Store checks and user prompts by forging Chromium's own Secure Preferences",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. \"Requiring prior admin",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-f1e519bc3710",
-      "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
-      "published_date": "2026-09-07T21:21:56+05:30",
-      "summary": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and residential-proxy sign-ins. The activity, which mainly singles out directors, vice presidents, and other executive staff",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information techno",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-0e648c905b8d",
-      "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
-      "published_date": "2026-09-07T20:06:07+05:30",
-      "summary": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail, but an annoying one if that was a precaution you were counting on. Elsewhere, a trusted software source delivered code that stole credentials, and a protocol designed for secure network management",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail, bu",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-8dda2667c92b",
-      "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
-      "published_date": "2026-09-07T17:15:00+05:30",
-      "summary": "If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Index, Intruder analyzed misconfiguration data from 3,000 organizations across AWS, Azure, and Google Cloud and found that risk profiles across providers have almost nothing in common. Here’s what the data looks like. How risk differs across cloud providers",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Index, Intruder analyzed misconfiguration data from 3,000 organi",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-f80a88f43c3b",
-      "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
-      "published_date": "2026-09-07T12:50:29-04:00",
-      "summary": "A zero-day vulnerability dubbed \"StyleSmuggler\" affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A zero-day vulnerability dubbed \"StyleSmuggler\" affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-e4f137e0eb04",
-      "title": "Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits/",
-      "published_date": "2026-09-07T12:15:57+00:00",
-      "summary": "The proof-of-concept (PoC) exploits lead to privilege escalation, spawning a shell with System privileges. The post Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The proof-of-concept (PoC) exploits lead to privilege escalation, spawning a shell with System privileges. The post Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits appeared first ",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-d27050841919",
-      "title": "North Korean Hackers Deploy New Linux Espionage Toolkit",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/north-korean-hackers-deploy-new-linux-espionage-toolkit/",
-      "published_date": "2026-09-07T12:12:08+00:00",
-      "summary": "The stealthy toolkit embeds a backdoor in HAProxy and targets automotive and media organizations in South Korea for long-term surveillance. The post North Korean Hackers Deploy New Linux Espionage Toolkit appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The stealthy toolkit embeds a backdoor in HAProxy and targets automotive and media organizations in South Korea for long-term surveillance. The post North Korean Hackers Deploy New Linux Espionage Too",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-1e67c4a2974b",
-      "title": "OpenAI Agents Hijack Another Victim Website",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/openai-agents-hijack-another-victim-website/",
-      "published_date": "2026-09-07T12:03:04+00:00",
-      "summary": "OpenAI agents made 15,000–18,000 autonomous edits to a German wiki over three months, evading moderation and echoing tactics seen in the Hugging Face breach. The post OpenAI Agents Hijack Another Victim Website appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "OpenAI agents made 15,000–18,000 autonomous edits to a German wiki over three months, evading moderation and echoing tactics seen in the Hugging Face breach. The post OpenAI Agents Hijack Another Vict",
+        "what_happened": "Adobe has released an emergency fix for CVE-2026-75650, an actively exploited max-severity zero-day vulnerability dubbed StyleSmuggler, that impacts multiple versions of Magento and Adobe Commerce. [.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
