@@ -1,9 +1,120 @@
 {
-  "last_updated": "2026-09-12T08:28:24.893817+00:00",
+  "last_updated": "2026-09-12T13:24:22.448038+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-2eae92ae4ab7",
+      "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+      "published_date": "2026-09-12T15:54:44+05:30",
+      "summary": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents. Not attacks against AI, but the ordinary, everyday footprint of an organization using it, from developers running coding agents and non-technical staff signing consumer AI tools into corporate",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-30235048b920",
+      "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+      "published_date": "2026-09-12T14:37:56+05:30",
+      "summary": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx. On May 12, Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, disclosed details of a coordinated cyber attack that targeted the package manager for the",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Vo",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-f2aa00e97bfa",
+      "title": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
+      "published_date": "2026-09-12T11:10:00+00:00",
+      "summary": "Multiple espionage-motivated threat actors have adopted BlueMoon in opportunistic, rushed deployments. The post BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Multiple espionage-motivated threat actors have adopted BlueMoon in opportunistic, rushed deployments. The post BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days appeared first on SecurityW",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-1ae5d8bfdaac",
       "title": "Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says",
@@ -153,43 +264,6 @@
       ]
     },
     {
-      "id": "threat-327f0ea3d08d",
-      "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-      "published_date": "2026-09-11T19:40:20+05:30",
-      "summary": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve. The operation has been attributed to a cyber espionage group it calls GTG-20006 (where \"GTG\" stands for Generative Threat Group), which aligns with broader reporting linking the cluster to Midnight",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve. ",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
       "id": "threat-4deeeab748cc",
       "title": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
       "source": "Dark Reading",
@@ -278,80 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Fred Heiding of Menlo Park Intelligence talks with the Dark Reading News Desk about his research on frontier models, and their ability to influence human behavior and create emotional dependency.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-a1dc09d47443",
-      "title": "Phishing Research Challenges Conventional Security Awareness Testing",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/phishing-research-challenges-conventional-security-awareness-testing/",
-      "published_date": "2026-09-11T17:23:36+00:00",
-      "summary": "Analysis of 2.47 million simulated attacks shows why organizations should measure credential leaks and reporting, not just clicks. The post Phishing Research Challenges Conventional Security Awareness Testing appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Analysis of 2.47 million simulated attacks shows why organizations should measure credential leaks and reporting, not just clicks. The post Phishing Research Challenges Conventional Security Awareness",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-b9b0cb2f1149",
-      "title": "AI Governance Can't Wait",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cyber-risk/ai-governance-cannot-wait",
-      "published_date": "2026-09-11T17:10:56",
-      "summary": "Adversaries can manipulate AI defensive reasoning to silently compromise target networks.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Adversaries can manipulate AI defensive reasoning to silently compromise target networks.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
