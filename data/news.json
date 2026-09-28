@@ -1,53 +1,16 @@
 {
-  "last_updated": "2026-09-28T04:21:51.469185+00:00",
+  "last_updated": "2026-09-28T13:14:43.953641+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
     {
-      "id": "threat-4699cd4d385b",
-      "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
-      "published_date": "2026-09-27T19:40:39-04:00",
-      "summary": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-e7ad90574867",
-      "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+      "id": "threat-7a599cd3e0c1",
+      "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-      "published_date": "2026-09-27T13:17:57+05:30",
-      "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration. The bulletin came a day after security firm watchTowr",
+      "url": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
+      "published_date": "2026-09-28T17:28:00+05:30",
+      "summary": "AI agents are moving into production faster than security teams can govern them. They are connecting to apps, handling data, calling APIs, and acting across business systems—often without the same controls applied to human users. According to Okta’s Global CISO Insights 2026 report, only 47% of CISOs are confident they can identify every AI agent in their environment. Even among those who feel",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -55,7 +18,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for bot",
+        "what_happened": "AI agents are moving into production faster than security teams can govern them. They are connecting to apps, handling data, calling APIs, and acting across business systems—often without the same con",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -79,12 +42,12 @@
       ]
     },
     {
-      "id": "threat-16682c19027f",
-      "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
-      "published_date": "2026-09-27T12:02:37-04:00",
-      "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. [...]",
+      "id": "threat-b192790d2760",
+      "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+      "published_date": "2026-09-28T17:16:00+05:30",
+      "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent. \"The implant installs the framework unchanged, then overwrites its SOUL.md persona file,\" ThreatDown said. \"The 39-line prompt directs it to execute tasks received through",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -92,7 +55,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security u",
+        "what_happened": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework ",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -116,12 +79,12 @@
       ]
     },
     {
-      "id": "threat-b770dcb8dd9d",
-      "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
-      "published_date": "2026-09-27T10:13:31-04:00",
-      "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host. [...]",
+      "id": "threat-f7f91ca407f5",
+      "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+      "published_date": "2026-09-28T14:38:21+05:30",
+      "summary": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat actor's tradecraft. The attack took place in early June 2026 over a period of about 18 hours. \"The destructive operations",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -129,7 +92,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host.",
+        "what_happened": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the act",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -153,12 +116,12 @@
       ]
     },
     {
-      "id": "threat-207fb1d6c98b",
-      "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
-      "published_date": "2026-09-27T09:38:40-04:00",
-      "summary": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]",
+      "id": "threat-d2ed96b73e6d",
+      "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+      "published_date": "2026-09-28T12:51:49+05:30",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerabilities are listed below - CVE-2026-88771 (CVSS score: 9.5) - An improper input validation vulnerability that could allow an unauthenticated attacker to",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -166,7 +129,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]",
+        "what_happened": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following rep",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -190,12 +153,12 @@
       ]
     },
     {
-      "id": "threat-295f8e98a7b9",
-      "title": "Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks",
+      "id": "threat-0daba8f064b8",
+      "title": "Prison Sentence for Former US Soldier Who Hacked AT&T and Verizon",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
-      "published_date": "2026-09-27T09:23:09+00:00",
-      "summary": "CISA added CVE-2026-65660 to its KEV catalog, giving federal agencies a patching deadline of September 28. The post Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/prison-sentence-for-former-us-soldier-who-hacked-att-and-verizon/",
+      "published_date": "2026-09-28T12:36:16+00:00",
+      "summary": "Cameron John Wagenius was sentenced to 70 months in prison for stealing information from the wireless carriers. The post Prison Sentence for Former US Soldier Who Hacked AT&#038;T and Verizon appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -203,7 +166,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "CISA added CVE-2026-65660 to its KEV catalog, giving federal agencies a patching deadline of September 28. The post Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks appeared first on ",
+        "what_happened": "Cameron John Wagenius was sentenced to 70 months in prison for stealing information from the wireless carriers. The post Prison Sentence for Former US Soldier Who Hacked AT&#038;T and Verizon appeared",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -227,49 +190,12 @@
       ]
     },
     {
-      "id": "threat-5c75a65c7560",
-      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-      "published_date": "2026-09-26T23:52:52+05:30",
-      "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting Ukrainian-speaking users. \"The attack chain begins with a fake CAPTCHA page and",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-cadf05a133a5",
-      "title": "China and US Agree to Establish AI Safety Channel and Continue Trade and Military Talks",
+      "id": "threat-0a5a61280e79",
+      "title": "DC Health Agency Exposes 400,000 Beneficiary Records",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/",
-      "published_date": "2026-09-26T18:09:28+00:00",
-      "summary": "The US and China agreed to set up a communication mechanism for artificial intelligence-related incidents. The post China and US Agree to Establish AI Safety Channel and Continue Trade and Military Talks appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/dc-health-agency-exposes-400000-beneficiary-records/",
+      "published_date": "2026-09-28T11:29:29+00:00",
+      "summary": "The Medicaid IDs and other information of Medicaid and DC Healthcare Alliance beneficiaries were exposed. The post DC Health Agency Exposes 400,000 Beneficiary Records appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -277,7 +203,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The US and China agreed to set up a communication mechanism for artificial intelligence-related incidents. The post China and US Agree to Establish AI Safety Channel and Continue Trade and Military Ta",
+        "what_happened": "The Medicaid IDs and other information of Medicaid and DC Healthcare Alliance beneficiaries were exposed. The post DC Health Agency Exposes 400,000 Beneficiary Records appeared first on SecurityWeek.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -301,12 +227,12 @@
       ]
     },
     {
-      "id": "threat-cfdfc944810e",
-      "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-      "published_date": "2026-09-26T17:16:40+05:30",
-      "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could result in unauthenticated remote code execution. The vulnerability was first exploited as a zero-day",
+      "id": "threat-bf7e5b4e9347",
+      "title": "Google Warns of ShinyHunters’ Fresh Oracle PeopleSoft Campaign",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/",
+      "published_date": "2026-09-28T10:56:46+00:00",
+      "summary": "The extortion group has modified its exploit in new attacks targeting the PeopleSoft vulnerability CVE-2026-35273. The post Google Warns of ShinyHunters&#8217; Fresh Oracle PeopleSoft Campaign appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -314,7 +240,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involv",
+        "what_happened": "The extortion group has modified its exploit in new attacks targeting the PeopleSoft vulnerability CVE-2026-35273. The post Google Warns of ShinyHunters&#8217; Fresh Oracle PeopleSoft Campaign appeare",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -338,12 +264,12 @@
       ]
     },
     {
-      "id": "threat-6d3e06e1d063",
-      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
-      "published_date": "2026-09-26T16:00:00+05:30",
-      "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents, including a widely discussed intrusion at Hugging Face during an evaluation of OpenAI agents, has spurred organizations to",
+      "id": "threat-ef29b8ef5cf8",
+      "title": "New Mexico Jury Finds Facebook Liable for Deceiving Users About Privacy Protections",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/new-mexico-jury-finds-facebook-liable-for-deceiving-users-about-privacy-protections/",
+      "published_date": "2026-09-28T10:40:01+00:00",
+      "summary": "A New Mexico jury has found Facebook liable for deceiving users about privacy protections on the platform. The post New Mexico Jury Finds Facebook Liable for Deceiving Users About Privacy Protections appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -351,7 +277,81 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents a",
+        "what_happened": "A New Mexico jury has found Facebook liable for deceiving users about privacy protections on the platform. The post New Mexico Jury Finds Facebook Liable for Deceiving Users About Privacy Protections ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-fd5cad96cb98",
+      "title": "Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog/",
+      "published_date": "2026-09-28T10:27:01+00:00",
+      "summary": "The platform combines open source software and a reference system design to keep AI agents within set boundaries. The post Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The platform combines open source software and a reference system design to keep AI agents within set boundaries. The post Nvidia Unveils AI Agent Safety Platform With Hardware-Based Watchdog appeared",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-938d817df67f",
+      "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
+      "published_date": "2026-09-28T05:25:29-04:00",
+      "summary": "Cryptocurrency exchange Bitget has resumed Bitcoin withdrawals suspended after suspected North Korean hackers breached its systems last week and stole over $350 million. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cryptocurrency exchange Bitget has resumed Bitcoin withdrawals suspended after suspected North Korean hackers breached its systems last week and stole over $350 million. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
