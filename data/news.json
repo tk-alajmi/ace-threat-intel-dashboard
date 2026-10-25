@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25T13:01:10.258203+00:00",
+  "last_updated": "2026-10-25T17:28:29.112184+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
@@ -19,6 +19,43 @@
       ],
       "ai_summary": {
         "what_happened": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"B",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-a4def68dabe1",
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "published_date": "2026-10-25T11:49:38-04:00",
+      "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -315,43 +352,6 @@
       ],
       "ai_summary": {
         "what_happened": "Fixing the critical PHP flaws is not as simple as clicking &quot;Update.&quot; Here's how to assess your risk, and what you can do to protect yourself.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-de3906cf2090",
-      "title": "AI Tools Are Generating Massive Attacks for Little Cost",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
-      "published_date": "2026-10-23T17:26:59",
-      "summary": "One campaign targets 105 sites using open-weight models; in another, public models gained full domain control for $12. Cyber-defense will have to change.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "One campaign targets 105 sites using open-weight models; in another, public models gained full domain control for $12. Cyber-defense will have to change.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
