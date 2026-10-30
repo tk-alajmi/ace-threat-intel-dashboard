@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-10-30T04:53:40.760551+00:00",
+  "last_updated": "2026-10-30T12:21:43.458659+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
     {
-      "id": "threat-5bf38081b34c",
-      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+      "id": "threat-51d9602c3ec6",
+      "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-      "published_date": "2026-10-30T00:41:58+05:30",
-      "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from familiar apps, websites, and AI tools. Some are using AI to speed things up. Others are leaving their",
+      "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+      "published_date": "2026-10-30T14:25:47+05:30",
+      "summary": "Cybersecurity researchers have disclosed that the official Anthropic Claude Code extension was compromised on the Open VSX registry to install a persistent SSH backdoor on infected hosts. The issue has since been traced to the compromise of the Cursor Marketplace, prompting the AI coding platform Cursor to briefly take down the service to remove the malware. \"We identified a security incident",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -18,7 +18,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. Th",
+        "what_happened": "Cybersecurity researchers have disclosed that the official Anthropic Claude Code extension was compromised on the Open VSX registry to install a persistent SSH backdoor on infected hosts. The issue ha",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -42,12 +42,12 @@
       ]
     },
     {
-      "id": "threat-ea4440dfedc7",
-      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+      "id": "threat-b5a0194404a5",
+      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-      "published_date": "2026-10-29T21:27:05+05:30",
-      "summary": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said&nbsp;on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",
+      "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "published_date": "2026-10-30T13:15:30+05:30",
+      "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. \"This module enables you to sell goods and services to customers through an included shopping cart",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -55,7 +55,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 ",
+        "what_happened": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of miss",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -79,12 +79,271 @@
       ]
     },
     {
-      "id": "threat-fcfe3b2deb6e",
-      "title": "Anthropic-Themed Phishing Emails Bypass Top Security Tools",
+      "id": "threat-be7591fcd600",
+      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+      "published_date": "2026-10-30T12:57:05+05:30",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-a9239e35b4d3",
+      "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+      "published_date": "2026-10-30T12:04:13+00:00",
+      "summary": "Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution. The post Fresh WordPress Vulnerability in Attackers&#8217; Crosshairs appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution. The post Fresh WordPress Vulnerability in Attackers&#8217; Crosshairs appeared ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-a7f45724d1f9",
+      "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
+      "published_date": "2026-10-30T11:07:11+00:00",
+      "summary": "Drupal says a highly critical Commerce Core access bypass is exploited in the wild and urges store owners to audit their orders. The post Drupal Commerce Core Vulnerability Exploited Against Online Stores appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Drupal says a highly critical Commerce Core access bypass is exploited in the wild and urges store owners to audit their orders. The post Drupal Commerce Core Vulnerability Exploited Against Online St",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-1ba5b394acd8",
+      "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+      "published_date": "2026-10-30T09:44:59+05:30",
+      "summary": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far.&nbsp; Tether and Circle said they have frozen more than 1.567 billion USDT and 800 million USDC related to the incident, respectively. The",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 bil",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-5566546f3c9c",
+      "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+      "published_date": "2026-10-30T09:41:36+00:00",
+      "summary": "Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds. The post $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds. The post $2 Million+ Drained From Polymarket Traders in New Supply Chain ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-fa017f951b32",
+      "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+      "published_date": "2026-10-30T09:32:27+00:00",
+      "summary": "Tracked as CVE-2026-97229, the bug allows unauthenticated attackers to execute arbitrary code on the server. The post Max-Severity GitLab Vulnerability Exploited Against Alpine Linux appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Tracked as CVE-2026-97229, the bug allows unauthenticated attackers to execute arbitrary code on the server. The post Max-Severity GitLab Vulnerability Exploited Against Alpine Linux appeared first on",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-b64f0b498c11",
+      "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
+      "published_date": "2026-10-30T08:44:49+00:00",
+      "summary": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system. The post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians&#8217; Machines appeared first on SecurityWeek.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system. The post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians&#8217; M",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-9f2d4e3afa66",
+      "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
       "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
-      "published_date": "2026-10-29T21:21:56",
-      "summary": "Obvious phishing emails with numerous red flags are somehow getting past some of the industry-leading secure email gateway (SEG) products.",
+      "url": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
+      "published_date": "2026-10-30T08:00:00",
+      "summary": "The &quot;FrostyNeighbor&quot; advanced persistent threat (APT) launched a destructive attack in Ukraine and is raising concerns about deeper alignment with Russian cyber objectives.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -92,266 +351,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Obvious phishing emails with numerous red flags are somehow getting past some of the industry-leading secure email gateway (SEG) products.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-e547fdfc68e4",
-      "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-      "published_date": "2026-10-29T20:50:29+05:30",
-      "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campa",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-8686ee157d64",
-      "title": "Rethinking Cybersecurity Awareness in the AI Era",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
-      "published_date": "2026-10-29T20:15:37",
-      "summary": "This installment of the Reporters' Notebook video series discusses some of the trends and topics from Cybersecurity Awareness Month, from using AI for better training to educating next-generation workforces on modern risks and emerging threats.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "This installment of the Reporters' Notebook video series discusses some of the trends and topics from Cybersecurity Awareness Month, from using AI for better training to educating next-generation work",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-13e4c8b14002",
-      "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
-      "published_date": "2026-10-29T19:35:52-04:00",
-      "summary": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-c646a00c1e29",
-      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-      "published_date": "2026-10-29T19:12:40+05:30",
-      "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agent",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-c036a6fd7f69",
-      "title": "Binance probes potential $5.8 billion crypto-theft hack",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
-      "published_date": "2026-10-29T18:45:23-04:00",
-      "summary": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-649683f0d941",
-      "title": "Claude Model Builds Exploits Across Major Browsers &amp; OSes",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
-      "published_date": "2026-10-29T18:15:59",
-      "summary": "An unreleased version of the AI model has found and chained multiple vulnerabilities in Chrome, Safari, Android, Windows, and Linux, Anthropic says.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "An unreleased version of the AI model has found and chained multiple vulnerabilities in Chrome, Safari, Android, Windows, and Linux, Anthropic says.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-c9cb55baaa75",
-      "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-      "published_date": "2026-10-29T18:09:24-04:00",
-      "summary": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub is positioned to trick AI coding agents into installing a NetSupport RAT. [...]",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana ",
+        "what_happened": "The &quot;FrostyNeighbor&quot; advanced persistent threat (APT) launched a destructive attack in Ukraine and is raising concerns about deeper alignment with Russian cyber objectives.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
