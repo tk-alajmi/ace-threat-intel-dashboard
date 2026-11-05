@@ -1,9 +1,194 @@
 {
-  "last_updated": "2026-11-05T14:14:53.656118+00:00",
+  "last_updated": "2026-11-05T21:49:02.165577+00:00",
   "source": "ACE Threat Intelligence Dashboard",
   "version": "1.0.0",
   "total_threats": 10,
   "threats": [
+    {
+      "id": "threat-7e57e597e3b0",
+      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+      "published_date": "2026-11-05T22:12:46+05:30",
+      "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server,",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-d17ad1d8c5cf",
+      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+      "published_date": "2026-11-05T22:12:32+05:30",
+      "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from prompt injections. \"The flaw could enable silent chat data theft, phishing,",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artif",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-1eb1912b5e34",
+      "title": "What We Missed: Knicks Phishing Test Goes Out of Bounds",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds",
+      "published_date": "2026-11-05T21:00:47",
+      "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from an ill-conceived phishing simulation to a hacktivist attack on a US government agency.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from an ill-conceived phishing simulation to a hacktivist attack on a US government agency.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-2c947b7b4d33",
+      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+      "published_date": "2026-11-05T20:11:10+05:30",
+      "summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster, some important systems are still taking months, sometimes over a year, to get patched. Not exactly a",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file ",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
+    {
+      "id": "threat-fa4b5b2d6ff9",
+      "title": "APT29's Watering Holes Target Thousands of Mobile Users",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
+      "published_date": "2026-11-05T20:05:39",
+      "summary": "After compromising websites, the Russian state-sponsored threat group is fingerprinting victims, then harvesting information from the interesting ones.",
+      "severity": "Medium",
+      "threat_type": "Other",
+      "tags": [
+        "Security",
+        "Cybersecurity"
+      ],
+      "ai_summary": {
+        "what_happened": "After compromising websites, the Russian state-sponsored threat group is fingerprinting victims, then harvesting information from the interesting ones.",
+        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
+        "recommended_action": "Monitor for updates and assess relevance to your organization.",
+        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
+        "technical_analysis": "Technical details are available in the source article."
+      },
+      "iocs": {
+        "ips": [],
+        "domains": [],
+        "hashes": []
+      },
+      "threat_actor": "Unknown",
+      "mitre_attack": [],
+      "business_impact": [
+        "Operational"
+      ],
+      "risk_rating": "Medium",
+      "confidence": "Low",
+      "framework_mapping": "NIST CSF: DE.CM-1",
+      "detection_suggestions": [
+        "Review source article for specific indicators"
+      ]
+    },
     {
       "id": "threat-85fd037c7512",
       "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
@@ -79,123 +264,12 @@
       ]
     },
     {
-      "id": "threat-65d7a1c253a0",
-      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
-      "published_date": "2026-11-05T15:36:19+05:30",
-      "summary": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption. Below, we examine five",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enter",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-3dd95e918f90",
-      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
-      "published_date": "2026-11-05T14:43:28+05:30",
-      "summary": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to \"Anyone with the link.\" When users choose this option,",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenar",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-50f85964fc29",
-      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
-      "published_date": "2026-11-05T14:12:03+05:30",
-      "summary": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country. Describing the threat as active and ongoing, the activity involves the use of publicly-available AI-driven offensive security tools",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Fin",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-96b3ff1124f4",
-      "title": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns",
+      "id": "threat-cf4e74caea33",
+      "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
       "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
-      "published_date": "2026-11-05T13:22:12+00:00",
-      "summary": "More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit. The post Bank Phishing Sites Show Fake &#8216;Suspended&#8217; Pages to Evade Takedowns appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+      "published_date": "2026-11-05T17:32:37+00:00",
+      "summary": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million. The post AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research appeared first on SecurityWeek.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -203,7 +277,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit. The post Bank Phishing Sites Show Fake &#8216;Suspended&#8217; Pages to Evade Takedowns appe",
+        "what_happened": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million. The post AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Res",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -227,12 +301,12 @@
       ]
     },
     {
-      "id": "threat-c95b06f30f2a",
-      "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
-      "published_date": "2026-11-05T12:58:32+00:00",
-      "summary": "The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked. The post Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised appeared first on SecurityWeek.",
+      "id": "threat-3f9f90128829",
+      "title": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
+      "published_date": "2026-11-05T16:48:36",
+      "summary": "The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations.",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -240,7 +314,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked. The post Cyberattack Hits French B",
+        "what_happened": "The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations.",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
@@ -264,12 +338,12 @@
       ]
     },
     {
-      "id": "threat-5132483b1804",
-      "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
-      "published_date": "2026-11-05T12:33:49+00:00",
-      "summary": "Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws. The post Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws appeared first on SecurityWeek.",
+      "id": "threat-66740d5633b7",
+      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+      "published_date": "2026-11-05T16:30:30-05:00",
+      "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]",
       "severity": "Medium",
       "threat_type": "Other",
       "tags": [
@@ -277,81 +351,7 @@
         "Cybersecurity"
       ],
       "ai_summary": {
-        "what_happened": "Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws. The post Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws appeared first on SecurityWeek.",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-b598e7941f90",
-      "title": "The Agent Smith Dilemma: Governing Agentic Identities",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
-      "published_date": "2026-11-05T11:15:00+00:00",
-      "summary": "Every autonomous AI agent deployed across your enterprise today is a new proxy identity operating inside your perimeter. The post The Agent Smith Dilemma: Governing Agentic Identities appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Every autonomous AI agent deployed across your enterprise today is a new proxy identity operating inside your perimeter. The post The Agent Smith Dilemma: Governing Agentic Identities appeared first o",
-        "why_it_matters": "This security event may impact organizations. Review the source for full details.",
-        "recommended_action": "Monitor for updates and assess relevance to your organization.",
-        "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
-        "technical_analysis": "Technical details are available in the source article."
-      },
-      "iocs": {
-        "ips": [],
-        "domains": [],
-        "hashes": []
-      },
-      "threat_actor": "Unknown",
-      "mitre_attack": [],
-      "business_impact": [
-        "Operational"
-      ],
-      "risk_rating": "Medium",
-      "confidence": "Low",
-      "framework_mapping": "NIST CSF: DE.CM-1",
-      "detection_suggestions": [
-        "Review source article for specific indicators"
-      ]
-    },
-    {
-      "id": "threat-e2663443e866",
-      "title": "CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
-      "published_date": "2026-11-05T11:00:00+00:00",
-      "summary": "Ryan Davis went from hacking his school’s network to running security at New Charter Technologies. What worries him now is shadow AI. The post CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality appeared first on SecurityWeek.",
-      "severity": "Medium",
-      "threat_type": "Other",
-      "tags": [
-        "Security",
-        "Cybersecurity"
-      ],
-      "ai_summary": {
-        "what_happened": "Ryan Davis went from hacking his school’s network to running security at New Charter Technologies. What worries him now is shadow AI. The post CISO Conversations: Ryan Davis – The Unknown Is Where Sec",
+        "what_happened": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google accoun",
         "why_it_matters": "This security event may impact organizations. Review the source for full details.",
         "recommended_action": "Monitor for updates and assess relevance to your organization.",
         "executive_summary": "A cybersecurity event has been reported. Review for potential impact.",
